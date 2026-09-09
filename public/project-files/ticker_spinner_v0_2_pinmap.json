@@ -1,0 +1,10 @@
+{
+  "tip_board": {
+    "1": "+5V",
+    "2": "GND",
+    "3": "DIN from main board",
+    "4": "DOUT / return-test"
+  },
+  "architecture": "Three independently phase-addressed 12-pixel tip chains",
+  "warning": "Draft allocation only; verify logic levels, connector order and footprints before fabrication."
+}

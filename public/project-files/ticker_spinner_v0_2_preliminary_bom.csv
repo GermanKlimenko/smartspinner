@@ -1,0 +1,9 @@
+References,Qty total,Part class,Function,Status
+D1-D45,45,Addressable RGB 2020,Top POV pixels,Footprint/protocol TBD
+TD1-TD12,36,WS2812B-0909 compatible,12 per tip board × 3,Verify exact manufacturer footprint
+U1,1,nRF52840 module,BLE + timing,Module selection TBD; antenna keep-out required
+U2,1,1S LiPo charger/protection,Battery management,Topology TBD
+U3,1,"5 V boost, ≥1.5 A pulsed",LED supply,Current limit and thermal test required
+H1,1,Digital Hall sensor,One index pulse/revolution,3.3 V type TBD
+JTIP-A/B/C,3,4-pad board interface,5V/GND/DIN/DOUT,Solder tabs or 0.5 mm FPC TBD
+Cbulk,3,47-100 µF low-profile,One per arm,Size TBD

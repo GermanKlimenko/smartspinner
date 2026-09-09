@@ -1,0 +1,112 @@
+{
+  "ticker_spinner_v0_1_bottom.stl": {
+    "watertight": true,
+    "body_count": 1,
+    "bounds_mm": [
+      [
+        -28.75,
+        -44.305,
+        0.0
+      ],
+      [
+        49.999,
+        44.305,
+        6.5
+      ]
+    ],
+    "extents_mm": [
+      78.749,
+      88.611,
+      6.5
+    ],
+    "volume_mm3": 7397.21
+  },
+  "ticker_spinner_v0_1_diffusers.stl": {
+    "watertight": true,
+    "body_count": 3,
+    "bounds_mm": [
+      [
+        -23.7,
+        -40.098,
+        0.0
+      ],
+      [
+        46.1,
+        40.098,
+        1.25
+      ]
+    ],
+    "extents_mm": [
+      69.8,
+      80.196,
+      1.25
+    ],
+    "volume_mm3": 311.43
+  },
+  "ticker_spinner_v0_1_pcb_envelope.stl": {
+    "watertight": true,
+    "body_count": 1,
+    "bounds_mm": [
+      [
+        -26.75,
+        -42.306,
+        -0.0
+      ],
+      [
+        47.999,
+        42.306,
+        1.0
+      ]
+    ],
+    "extents_mm": [
+      74.749,
+      84.611,
+      1.0
+    ],
+    "volume_mm3": 1632.61
+  },
+  "ticker_spinner_v0_1_tip_led_board_envelope.stl": {
+    "watertight": true,
+    "body_count": 1,
+    "bounds_mm": [
+      [
+        -3.5,
+        -4.8,
+        0.0
+      ],
+      [
+        3.5,
+        4.8,
+        0.8
+      ]
+    ],
+    "extents_mm": [
+      7.0,
+      9.6,
+      0.8
+    ],
+    "volume_mm3": 53.76
+  },
+  "ticker_spinner_v0_1_top.stl": {
+    "watertight": true,
+    "body_count": 1,
+    "bounds_mm": [
+      [
+        -28.75,
+        -44.305,
+        -0.0
+      ],
+      [
+        49.999,
+        44.305,
+        6.5
+      ]
+    ],
+    "extents_mm": [
+      78.749,
+      88.611,
+      6.5
+    ],
+    "volume_mm3": 6463.31
+  }
+}
