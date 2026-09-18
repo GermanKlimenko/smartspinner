@@ -50,6 +50,7 @@ const fileGroups = [
     text: 'Чертёж, описание параметров и генератор всей геометрии v0.2.',
     files: [
       ['Инженерный чертёж · PDF', 'ticker_spinner_v0_2_engineering_drawing.pdf'],
+      ['Ответ на техническую критику · PDF', 'ticker_spinner_critique_assessment.pdf'],
       ['Описание проекта · MD', 'README_Ticker_Spinner_v0_2.md'], ['Генератор модели · Python', 'generate_ticker_spinner_v0_2.py'],
       ['Отчёт проверки · JSON', 'ticker_spinner_v0_2_validation.json'],
     ],
@@ -181,6 +182,21 @@ export default function Home() {
           ].map(([number, title, text, status]) => <article key={number}><span className="timeline-number">{number}</span><div><small>{status}</small><h3>{title}</h3><p>{text}</p></div></article>)}
         </div>
         <div className="manufacturing-card"><div className="manufacturing-icon"><PackageCheck /></div><div><p className="kicker">Первая партия</p><h3>Заказывать лучше уже собранные платы</h3><p>Мелкие 2020 и особенно 0909 LED разумнее устанавливать на заводской SMT‑линии. Самостоятельно остаются аккумуляторы, корпус, вертикальные платы, прошивка и балансировка.</p></div><div className="delivery-estimate"><span>Ориентир с доставкой</span><strong>30–45</strong><small>календарных дней</small></div></div>
+      </section>
+
+      <section className="section critique-section" id="critique">
+        <div className="critique-card">
+          <div className="critique-icon"><ShieldAlert /></div>
+          <div>
+            <p className="kicker">Независимая проверка идеи</p>
+            <h2>Разбор критики проекта</h2>
+            <p>Отдельный инженерный документ разбирает главные сомнения: дрожание руки, фазовую синхронизацию, центральную слепую зону, реальные обороты, прочность торцевых плат и отличие презентационной визуализации от ожидаемого физического результата.</p>
+          </div>
+          <div className="critique-actions">
+            <a className="button button-primary" href="./project-files/ticker_spinner_critique_assessment.pdf" target="_blank" rel="noreferrer"><FileCode2 size={18} /> Читать PDF</a>
+            <a className="button button-ghost" href="./project-files/ticker_spinner_critique_assessment.pdf" download><Download size={18} /> Скачать</a>
+          </div>
+        </div>
       </section>
 
       <section className="section downloads" id="downloads">
