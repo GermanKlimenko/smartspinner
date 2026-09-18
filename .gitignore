@@ -38,3 +38,6 @@ next-env.d.ts
 /work/
 /output/
 /tmp/
+/.venv/
+/public/outputs/
+__pycache__/
