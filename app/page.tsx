@@ -22,6 +22,14 @@ const drawings = [
 
 const fileGroups = [
   {
+    icon: PackageCheck, title: 'Пакет для запроса производителям',
+    text: 'Готовый комплект для инженерной оценки и расчёта 10 электронных комплектов: RFQ-бриф, письма на русском и английском, форма ответа, электроника и механика.',
+    files: [
+      ['Полный RFQ-пакет · ZIP', 'SmartSpinner_v0_4_RFQ_Send_Package.zip'],
+      ['Краткий RFQ-бриф · PDF', 'SmartSpinner_v0_4_RFQ_Brief_EN.pdf'],
+    ], featured: true,
+  },
+  {
     icon: Cpu, title: 'Электроника v0.4 · ERC',
     text: 'KiCad-платы, обзорные Gerber, BOM, CPL, электрическая архитектура, расчёт питания и план первого включения. Пакет предназначен для RFQ и завершения DFM, а не для немедленного запуска в производство.',
     files: [
@@ -34,7 +42,7 @@ const fileGroups = [
       ['CPL основной платы · CSV', 'electronics-v0.4/assembly/smartspinner_main_v0_4_cpl.csv'],
       ['CPL торцевой платы · CSV', 'electronics-v0.4/assembly/smartspinner_tip_v0_4_cpl.csv'],
       ['Статус DRC · JSON', 'electronics-v0.4/smartspinner_v0_4_release_status.json'],
-    ], featured: true,
+    ],
   },
   {
     icon: FileArchive, title: 'Полный комплект v0.3',

@@ -23,10 +23,11 @@ The current design is an engineering release and is **not approved for fabricati
 
 1. `SmartSpinner_v0_4_RFQ_Brief_EN.pdf`
 2. `01_RFQ_EMAIL_EN.txt`
-3. `02_SUPPLIER_RESPONSE_TEMPLATE.csv`
-4. `03_OPEN_ITEMS_AND_ACCEPTANCE.md`
-5. `SmartSpinner_v0_4_electronics_ERC.zip`
-6. `ticker_spinner_v0_3_complete_package.zip`
+3. `01_RFQ_EMAIL_RU.txt`
+4. `02_SUPPLIER_RESPONSE_TEMPLATE.csv`
+5. `03_OPEN_ITEMS_AND_ACCEPTANCE.md`
+6. `SmartSpinner_v0_4_electronics_ERC.zip`
+7. `ticker_spinner_v0_3_complete_package.zip`
 
 ## Public references
 
@@ -36,4 +37,3 @@ The current design is an engineering release and is **not approved for fabricati
 ## Owner
 
 German Klimenko
-
