@@ -1,0 +1,20 @@
+{
+  "release": "v0.4 engineering package - NOT FOR FABRICATION",
+  "kicad_cli": "10.0.6",
+  "main_drc": {
+    "silk_edge_clearance": 2,
+    "text_height": 2,
+    "silk_over_copper": 23,
+    "silk_overlap": 7,
+    "nonmirrored_text_on_back_layer": 16,
+    "unconnected_items": 68
+  },
+  "tip_drc": {
+    "text_height": 1,
+    "silk_overlap": 1,
+    "silk_over_copper": 4,
+    "nonmirrored_text_on_back_layer": 1,
+    "unconnected_items": 4
+  },
+  "fabrication_gate": "Both boards must reach zero copper errors and zero unconnected items; cosmetic silkscreen warnings must be reviewed."
+}

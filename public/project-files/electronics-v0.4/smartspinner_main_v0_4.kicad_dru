@@ -1,0 +1,9 @@
+(version 1)
+(rule "Fine pitch LED fabrication limits"
+  (constraint clearance (min 0.08mm))
+  (constraint track_width (min 0.10mm))
+  (constraint via_diameter (min 0.22mm))
+  (constraint annular_width (min 0.05mm))
+  (constraint hole_clearance (min 0.15mm))
+  (constraint edge_clearance (min 0.15mm))
+  (constraint hole_size (min 0.10mm)))

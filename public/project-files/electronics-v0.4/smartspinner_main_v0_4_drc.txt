@@ -1,0 +1,472 @@
+** Drc report for smartspinner_main_v0_4.kicad_pcb **
+** Created on 2026-09-21T21:01:24 **
+** Report includes: Errors, Warnings **
+
+** Found 50 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: ограничения настроек платы; warning
+    @(131.2360 mm, 89.3970 mm): Сегмент на Edge.Cuts
+    @(131.0000 mm, 95.5000 mm): Надпись на плате 'RF KEEP-OUT ALL LAYERS' на b.silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: ограничения настроек платы; warning
+    @(117.0490 mm, 77.7810 mm): Сегмент на Edge.Cuts
+    @(100.0000 mm, 77.0000 mm): Надпись на плате 'SMARTSPINNER v0.4 ERC - 4x20 TOP + 4x12 TIP' на b.silkscreen
+[text_height]: Высота текста вне допустимого диапазона (высота текста шелкографии из настроек ограничений платы мин. высота 0.8000 mm; текущая 0.6500 mm)
+    Rule: высота текста шелкографии из настроек ограничений платы; warning
+    @(131.0000 mm, 95.5000 mm): Надпись на плате 'RF KEEP-OUT ALL LAYERS' на b.silkscreen
+[text_height]: Высота текста вне допустимого диапазона (высота текста шелкографии из настроек ограничений платы мин. высота 0.8000 mm; текущая 0.7500 mm)
+    Rule: высота текста шелкографии из настроек ограничений платы; warning
+    @(100.0000 mm, 123.0000 mm): Надпись на плате 'DFM + FIRST ARTICLE REQUIRED' на b.silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8210 mm, 86.7790 mm): Прямоугольник от H45 на f.silkscreen
+    @(112.0210 mm, 87.9790 mm): NPTH конт. пл. у H45
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(86.7790 mm, 86.7790 mm): Прямоугольник от H135 на f.silkscreen
+    @(87.9790 mm, 87.9790 mm): NPTH конт. пл. у H135
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(86.7790 mm, 110.8210 mm): Прямоугольник от H225 на f.silkscreen
+    @(87.9790 mm, 112.0210 mm): NPTH конт. пл. у H225
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.8210 mm, 110.8210 mm): Прямоугольник от H315 на f.silkscreen
+    @(112.0210 mm, 112.0210 mm): NPTH конт. пл. у H315
+[silk_overlap]: Silkscreen clearance
+    Rule: ограничения настроек платы; warning
+    @(83.5000 mm, 101.5000 mm): Прямоугольник от U8 на b.silkscreen
+    @(84.0000 mm, 104.1000 mm): Поле обозначения U3
+[silk_overlap]: Silkscreen clearance
+    Rule: ограничения настроек платы; warning
+    @(80.5000 mm, 103.1000 mm): Прямоугольник от JBAT1 на b.silkscreen
+    @(84.0000 mm, 104.1000 mm): Поле обозначения U3
+[silk_overlap]: Silkscreen clearance
+    Rule: ограничения настроек платы; warning
+    @(83.0000 mm, 105.0000 mm): Прямоугольник от U3 на b.silkscreen
+    @(80.5000 mm, 103.1000 mm): Прямоугольник от JBAT1 на b.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: ограничения настроек платы; warning
+    @(83.5000 mm, 101.5000 mm): Прямоугольник от U8 на b.silkscreen
+    @(80.5000 mm, 103.1000 mm): Прямоугольник от JBAT1 на b.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: ограничения настроек платы; warning
+    @(83.5000 mm, 101.5000 mm): Прямоугольник от U8 на b.silkscreen
+    @(82.0000 mm, 102.2000 mm): Поле обозначения JBAT1
+[silk_overlap]: Silkscreen clearance
+    Rule: ограничения настроек платы; warning
+    @(102.0000 mm, 115.0000 mm): Прямоугольник от U6 на b.silkscreen
+    @(101.5000 mm, 117.1000 mm): Прямоугольник от JDBG1 на b.silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: ограничения настроек платы; warning
+    @(102.0000 mm, 115.0000 mm): Прямоугольник от U6 на b.silkscreen
+    @(104.0000 mm, 116.2000 mm): Поле обозначения JDBG1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(121.0000 mm, 100.4000 mm): Конт. пл. 4 [TOP_B_DIN] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(123.0000 mm, 100.4000 mm): Конт. пл. 5 [TOP_C_DIN] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(125.0000 mm, 100.4000 mm): Конт. пл. 6 [TOP_D_DIN] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(127.0000 mm, 100.4000 mm): Конт. пл. 7 [TIP_A_DIN] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(129.0000 mm, 100.4000 mm): Конт. пл. 8 [TIP_B_DIN] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(115.0000 mm, 100.4000 mm): Конт. пл. 1 [GND] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(117.0000 mm, 100.4000 mm): Конт. пл. 2 [+3V3] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(119.0000 mm, 100.4000 mm): Конт. пл. 3 [TOP_A_DIN] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(115.0000 mm, 90.6000 mm): Конт. пл. 9 [TIP_C_DIN] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(117.0000 mm, 90.6000 mm): Конт. пл. 10 [TIP_D_DIN] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(119.0000 mm, 90.6000 mm): Конт. пл. 11 [HALL] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(121.0000 mm, 90.6000 mm): Конт. пл. 12 [SDA] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(123.0000 mm, 90.6000 mm): Конт. пл. 13 [SCL] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(125.0000 mm, 90.6000 mm): Конт. пл. 14 [SWDIO] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.2500 mm, 100.7500 mm): Прямоугольник от U1 на b.silkscreen
+    @(127.0000 mm, 90.6000 mm): Конт. пл. 15 [SWCLK] от U1 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(82.0000 mm, 102.2000 mm): Поле обозначения JBAT1
+    @(83.8500 mm, 102.8500 mm): Конт. пл. 3 [+5V_LED] от U8 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.0000 mm, 116.2000 mm): Поле обозначения JDBG1
+    @(102.3500 mm, 115.5500 mm): Конт. пл. 1 [+3V3] от U6 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.0000 mm, 116.2000 mm): Поле обозначения JDBG1
+    @(102.3500 mm, 116.3500 mm): Конт. пл. 3 [HALL] от U6 на B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.0000 mm, 116.2000 mm): Поле обозначения JDBG1
+    @(103.6500 mm, 115.5500 mm): Конт. пл. 2 [GND] от U6 на B.Cu
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(113.3500 mm, 95.5000 mm): Поле обозначения U1
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(84.0000 mm, 88.9000 mm): Поле обозначения U2
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(84.0000 mm, 112.9000 mm): Поле обозначения U9
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(84.0000 mm, 104.1000 mm): Поле обозначения U3
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(108.0000 mm, 111.6000 mm): Поле обозначения U4
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(116.0000 mm, 103.6000 mm): Поле обозначения U5
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(103.0000 mm, 114.1000 mm): Поле обозначения U6
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(95.0000 mm, 84.6500 mm): Поле обозначения U7
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(85.0000 mm, 100.6000 mm): Поле обозначения U8
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(82.0000 mm, 102.2000 mm): Поле обозначения JBAT1
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(123.0000 mm, 105.2000 mm): Поле обозначения JUSB1
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(104.0000 mm, 116.2000 mm): Поле обозначения JDBG1
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(136.0000 mm, 91.8500 mm): Поле обозначения C1
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(96.1500 mm, 64.0000 mm): Поле обозначения C2
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(64.0000 mm, 108.1500 mm): Поле обозначения C3
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(103.8500 mm, 136.0000 mm): Поле обозначения C4
+
+** Found 68 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.5000 mm, 99.3000 mm): Конт. пл. 2 [GND] от JTIPC на F.Cu
+    @(55.9200 mm, 96.5200 mm): Дорожка [GND] на F.Cu, длина 0.6200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.9200 mm, 96.5200 mm): Дорожка [GND] на F.Cu, длина 0.6200 mm
+    @(63.2000 mm, 106.0000 mm): Конт. пл. 2 [GND] от C3 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.6500 mm, 105.5500 mm): Конт. пл. 2 [GND] от U3 на B.Cu
+    @(82.6250 mm, 104.0000 mm): Конт. пл. 2 [GND] от JBAT1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.6500 mm, 105.5500 mm): Конт. пл. 2 [GND] от U3 на B.Cu
+    @(86.1500 mm, 114.3500 mm): Конт. пл. 2 [GND] от U9 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.1500 mm, 90.3500 mm): Конт. пл. 2 [GND] от U2 на B.Cu
+    @(86.3200 mm, 95.9000 mm): Дорожка [GND] на F.Cu, длина 1.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.1500 mm, 102.0500 mm): Конт. пл. 2 [GND] от U8 на B.Cu
+    @(84.6500 mm, 105.5500 mm): Конт. пл. 2 [GND] от U3 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.1500 mm, 102.0500 mm): Конт. пл. 2 [GND] от U8 на B.Cu
+    @(86.3200 mm, 96.5200 mm): Дорожка [GND] на F.Cu, длина 0.6200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.1500 mm, 114.3500 mm): Конт. пл. 2 [GND] от U9 на B.Cu
+    @(97.4800 mm, 114.3200 mm): Дорожка [GND] на F.Cu, длина 0.6200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.1500 mm, 86.1000 mm): Конт. пл. 2 [GND] от U7 на B.Cu
+    @(101.9000 mm, 85.6800 mm): Дорожка [GND] на F.Cu, длина 1.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.1500 mm, 86.1000 mm): Конт. пл. 2 [GND] от U7 на B.Cu
+    @(86.1500 mm, 90.3500 mm): Конт. пл. 2 [GND] от U2 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(98.1000 mm, 133.5200 mm): Дорожка [GND] на F.Cu, длина 1.6000 mm
+    @(106.0000 mm, 135.2000 mm): Конт. пл. 2 [GND] от C4 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.3000 mm, 54.5000 mm): Конт. пл. 2 [GND] от JTIPB на F.Cu
+    @(101.9000 mm, 58.4800 mm): Дорожка [GND] на F.Cu, длина 1.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.7000 mm, 145.5000 mm): Конт. пл. 2 [GND] от JTIPD на F.Cu
+    @(98.1000 mm, 141.5200 mm): Дорожка [GND] на F.Cu, длина 1.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.9000 mm, 66.4800 mm): Дорожка [GND] на F.Cu, длина 1.6000 mm
+    @(94.0000 mm, 64.8000 mm): Конт. пл. 2 [GND] от C2 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.3750 mm, 118.0000 mm): Конт. пл. 2 [GND] от JDBG1 на B.Cu
+    @(103.6500 mm, 115.5500 mm): Конт. пл. 2 [GND] от U6 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.3750 mm, 118.0000 mm): Конт. пл. 2 [GND] от JDBG1 на B.Cu
+    @(97.4800 mm, 117.5200 mm): Дорожка [GND] на F.Cu, длина 0.6200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.1500 mm, 113.0500 mm): Конт. пл. 2 [GND] от U4 на B.Cu
+    @(103.6500 mm, 115.5500 mm): Конт. пл. 2 [GND] от U6 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.1500 mm, 113.0500 mm): Конт. пл. 2 [GND] от U4 на B.Cu
+    @(113.6800 mm, 104.1000 mm): Дорожка [GND] на F.Cu, длина 1.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.0000 mm, 100.4000 mm): Конт. пл. 1 [GND] от U1 на B.Cu
+    @(115.2800 mm, 103.4800 mm): Дорожка [GND] на F.Cu, длина 0.6200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.1500 mm, 105.0500 mm): Конт. пл. 2 [GND] от U5 на B.Cu
+    @(116.8800 mm, 104.1000 mm): Дорожка [GND] на F.Cu, длина 1.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.6250 mm, 107.0000 mm): Конт. пл. 2 [GND] от JUSB1 на B.Cu
+    @(123.2800 mm, 104.1000 mm): Дорожка [GND] на F.Cu, длина 1.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.0800 mm, 103.4800 mm): Дорожка [GND] на F.Cu, длина 0.6200 mm
+    @(136.8000 mm, 94.0000 mm): Конт. пл. 2 [GND] от C1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.0800 mm, 103.4800 mm): Дорожка [GND] на F.Cu, длина 0.6200 mm
+    @(145.5000 mm, 100.7000 mm): Конт. пл. 2 [GND] от JTIPA на F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(58.4800 mm, 98.1000 mm): Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm
+    @(54.5000 mm, 97.9000 mm): Конт. пл. 1 [+5V_LED] от JTIPC на F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.4800 mm, 98.1000 mm): Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm
+    @(64.8000 mm, 106.0000 mm): Конт. пл. 1 [+5V_LED] от C3 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.8500 mm, 102.8500 mm): Конт. пл. 3 [+5V_LED] от U8 на B.Cu
+    @(83.3500 mm, 106.3500 mm): Конт. пл. 3 [+5V_LED] от U3 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0800 mm, 98.1000 mm): Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm
+    @(83.8500 mm, 102.8500 mm): Конт. пл. 3 [+5V_LED] от U8 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(95.9000 mm, 113.6800 mm): Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm
+    @(83.3500 mm, 106.3500 mm): Конт. пл. 3 [+5V_LED] от U3 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.5200 mm, 144.0800 mm): Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm
+    @(102.1000 mm, 145.5000 mm): Конт. пл. 1 [+5V_LED] от JTIPD на F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.9000 mm, 54.5000 mm): Конт. пл. 1 [+5V_LED] от JTIPB на F.Cu
+    @(103.4800 mm, 55.9200 mm): Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.4800 mm, 63.9200 mm): Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm
+    @(94.0000 mm, 63.2000 mm): Конт. пл. 1 [+5V_LED] от C2 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.4800 mm, 86.3200 mm): Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm
+    @(87.2800 mm, 97.4800 mm): Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.0000 mm, 136.8000 mm): Конт. пл. 1 [+5V_LED] от C4 на B.Cu
+    @(96.5200 mm, 136.0800 mm): Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.7200 mm, 101.9000 mm): Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm
+    @(104.1000 mm, 86.3200 mm): Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.2000 mm, 94.0000 mm): Конт. пл. 1 [+5V_LED] от C1 на B.Cu
+    @(135.1200 mm, 101.9000 mm): Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.5000 mm, 102.1000 mm): Конт. пл. 1 [+5V_LED] от JTIPA на F.Cu
+    @(143.1200 mm, 102.5200 mm): Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(81.8500 mm, 90.3500 mm): Конт. пл. 1 [+3V3] от U2 на B.Cu
+    @(81.8500 mm, 114.3500 mm): Конт. пл. 1 [+3V3] от U9 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.8500 mm, 86.1000 mm): Конт. пл. 1 [+3V3] от U7 на B.Cu
+    @(81.8500 mm, 90.3500 mm): Конт. пл. 1 [+3V3] от U2 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.1250 mm, 118.0000 mm): Конт. пл. 1 [+3V3] от JDBG1 на B.Cu
+    @(102.3500 mm, 115.5500 mm): Конт. пл. 1 [+3V3] от U6 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.3500 mm, 115.5500 mm): Конт. пл. 1 [+3V3] от U6 на B.Cu
+    @(81.8500 mm, 114.3500 mm): Конт. пл. 1 [+3V3] от U9 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.8500 mm, 113.8500 mm): Конт. пл. 3 [+3V3] от U4 на B.Cu
+    @(102.3500 mm, 115.5500 mm): Конт. пл. 1 [+3V3] от U6 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.8500 mm, 113.8500 mm): Конт. пл. 3 [+3V3] от U4 на B.Cu
+    @(117.0000 mm, 100.4000 mm): Конт. пл. 2 [+3V3] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(81.3750 mm, 104.0000 mm): Конт. пл. 1 [VBAT] от JBAT1 на B.Cu
+    @(83.3500 mm, 105.5500 mm): Конт. пл. 1 [VBAT] от U3 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.3500 mm, 105.5500 mm): Конт. пл. 1 [VBAT] от U3 на B.Cu
+    @(106.8500 mm, 113.0500 mm): Конт. пл. 1 [VBAT] от U4 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.8500 mm, 102.0500 mm): Конт. пл. 1 [VBAT] от U8 на B.Cu
+    @(81.3750 mm, 104.0000 mm): Конт. пл. 1 [VBAT] от JBAT1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.8500 mm, 113.0500 mm): Конт. пл. 1 [VBAT] от U4 на B.Cu
+    @(114.8500 mm, 105.8500 mm): Конт. пл. 3 [VBAT] от U5 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.8500 mm, 105.0500 mm): Конт. пл. 1 [USB_5V] от U5 на B.Cu
+    @(122.3750 mm, 107.0000 mm): Конт. пл. 1 [USB_5V] от JUSB1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.3500 mm, 116.3500 mm): Конт. пл. 3 [HALL] от U6 на B.Cu
+    @(119.0000 mm, 90.6000 mm): Конт. пл. 11 [HALL] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.8500 mm, 86.9000 mm): Конт. пл. 3 [SDA] от U7 на B.Cu
+    @(121.0000 mm, 90.6000 mm): Конт. пл. 12 [SDA] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.1500 mm, 86.9000 mm): Конт. пл. 4 [SCL] от U7 на B.Cu
+    @(123.0000 mm, 90.6000 mm): Конт. пл. 13 [SCL] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.6250 mm, 118.0000 mm): Конт. пл. 3 [SWDIO] от JDBG1 на B.Cu
+    @(125.0000 mm, 90.6000 mm): Конт. пл. 14 [SWDIO] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.8750 mm, 118.0000 mm): Конт. пл. 4 [SWCLK] от JDBG1 на B.Cu
+    @(127.0000 mm, 90.6000 mm): Конт. пл. 15 [SWCLK] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(81.8500 mm, 91.1500 mm): Конт. пл. 3 [TOP_A_DIN] от U2 на B.Cu
+    @(112.7200 mm, 103.4800 mm): Конт. пл. 4 [TOP_A_DIN] от D1 на F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.7200 mm, 103.4800 mm): Конт. пл. 4 [TOP_A_DIN] от D1 на F.Cu
+    @(119.0000 mm, 100.4000 mm): Конт. пл. 3 [TOP_A_DIN] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.0000 mm, 100.4000 mm): Конт. пл. 7 [TIP_A_DIN] от U1 на B.Cu
+    @(81.8500 mm, 115.1500 mm): Конт. пл. 3 [TIP_A_DIN] от U9 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.5000 mm, 99.3000 mm): Конт. пл. 3 [TIP_A_DIN] от JTIPA на F.Cu
+    @(127.0000 mm, 100.4000 mm): Конт. пл. 7 [TIP_A_DIN] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5200 mm, 86.3200 mm): Конт. пл. 4 [TOP_B_DIN] от D21 на F.Cu
+    @(86.1500 mm, 91.1500 mm): Конт. пл. 4 [TOP_B_DIN] от U2 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.0000 mm, 100.4000 mm): Конт. пл. 4 [TOP_B_DIN] от U1 на B.Cu
+    @(102.5200 mm, 86.3200 mm): Конт. пл. 4 [TOP_B_DIN] от D21 на F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.1500 mm, 115.1500 mm): Конт. пл. 4 [TIP_B_DIN] от U9 на B.Cu
+    @(129.0000 mm, 100.4000 mm): Конт. пл. 8 [TIP_B_DIN] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.0000 mm, 100.4000 mm): Конт. пл. 8 [TIP_B_DIN] от U1 на B.Cu
+    @(100.7000 mm, 54.5000 mm): Конт. пл. 3 [TIP_B_DIN] от JTIPB на F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(81.8500 mm, 91.9500 mm): Конт. пл. 5 [TOP_C_DIN] от U2 на B.Cu
+    @(87.2800 mm, 96.5200 mm): Конт. пл. 4 [TOP_C_DIN] от D41 на F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.2800 mm, 96.5200 mm): Конт. пл. 4 [TOP_C_DIN] от D41 на F.Cu
+    @(123.0000 mm, 100.4000 mm): Конт. пл. 5 [TOP_C_DIN] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.5000 mm, 100.7000 mm): Конт. пл. 3 [TIP_C_DIN] от JTIPC на F.Cu
+    @(81.8500 mm, 115.9500 mm): Конт. пл. 5 [TIP_C_DIN] от U9 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(81.8500 mm, 115.9500 mm): Конт. пл. 5 [TIP_C_DIN] от U9 на B.Cu
+    @(115.0000 mm, 90.6000 mm): Конт. пл. 9 [TIP_C_DIN] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.1500 mm, 91.9500 mm): Конт. пл. 6 [TOP_D_DIN] от U2 на B.Cu
+    @(97.4800 mm, 113.6800 mm): Конт. пл. 4 [TOP_D_DIN] от D61 на F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.4800 mm, 113.6800 mm): Конт. пл. 4 [TOP_D_DIN] от D61 на F.Cu
+    @(125.0000 mm, 100.4000 mm): Конт. пл. 6 [TOP_D_DIN] от U1 на B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.1500 mm, 115.9500 mm): Конт. пл. 6 [TIP_D_DIN] от U9 на B.Cu
+    @(99.3000 mm, 145.5000 mm): Конт. пл. 3 [TIP_D_DIN] от JTIPD на F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.0000 mm, 90.6000 mm): Конт. пл. 10 [TIP_D_DIN] от U1 на B.Cu
+    @(86.1500 mm, 115.9500 mm): Конт. пл. 6 [TIP_D_DIN] от U9 на B.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

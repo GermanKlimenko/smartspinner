@@ -1,0 +1,31 @@
+{
+  "architecture": "protected 1S LiPo, 3.3V logic LDO, switched 5V LED boost",
+  "led_count": {
+    "top": 80,
+    "tip": 48,
+    "total": 128
+  },
+  "limits": {
+    "led_nominal_per_pixel_mA": 5,
+    "boost_continuous_target_A": 1.5,
+    "firmware_global_brightness_percent": 35
+  },
+  "estimated_modes": [
+    {
+      "mode": "BLE standby, LEDs off",
+      "input_current_mA": 8,
+      "runtime_500mAh_h": 50
+    },
+    {
+      "mode": "typical POV content at 20-25% average light",
+      "input_current_mA": 220,
+      "runtime_500mAh_h": 2.0
+    },
+    {
+      "mode": "bright demo, firmware capped",
+      "input_current_mA": 650,
+      "runtime_500mAh_h": 0.65
+    }
+  ],
+  "warning": "Runtime estimates include 85% usable battery energy and are not measurements. Full-white unrestricted frames are prohibited in firmware."
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "board": "smartspinner_main_v0_4.kicad_pcb",
+    "exports": [
+      {
+        "command": "pcb drc --output",
+        "returncode": 0,
+        "stdout": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 50 \u043d\u0430\u0440\u0443\u0448\u0435\u043d\u0438\u0439\n\u041d\u0430\u0439\u0434\u0435\u043d\u043e 68 \u043d\u0435\u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u043d\u044b\u0445 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u043e\u0432\n\u041e\u0442\u0447\u0435\u0442 DRC \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d \u0432 /Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/smartspinner_main_v0_4_drc.txt\n",
+        "stderr": ""
+      },
+      {
+        "command": "pcb export gerbers",
+        "returncode": 0,
+        "stdout": "\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_main_v0_4-Margin.gbr'.\n\u041d\u0430\u0447\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_main_v0_4-f_courtyard.gbr'.\n\u041d\u0430\u0447\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_main_v0_4-b_courtyard.gbr'.\n\u041d\u0430\u0447\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_main_v0_4-F_Fab.gbr'.\n\u041d\u0430\u0447\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_main_v0_4-B_Fab.gbr'.\n",
+        "stderr": ""
+      },
+      {
+        "command": "pcb export drill",
+        "returncode": 0,
+        "stdout": "\u0421\u043e\u0437\u0434\u0430\u043d \u0444\u0430\u0439\u043b '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_main_v0_4.drl'\n\u0413\u043e\u0442\u043e\u0432\u043e.\n",
+        "stderr": ""
+      },
+      {
+        "command": "pcb export pos",
+        "returncode": 0,
+        "stdout": "\u0414\u0430\u043d\u043d\u044b\u0435 \u043e \u0440\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u0438 \u0437\u0430\u043f\u0438\u0441\u0430\u043d\u044b \u0432 /Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/assembly/smartspinner_main_v0_4_cpl.csv.\n",
+        "stderr": ""
+      },
+      {
+        "command": "pcb export svg",
+        "returncode": 0,
+        "stdout": "\u001b[33;1m\u042d\u0442\u0430 \u043a\u043e\u043c\u0430\u043d\u0434\u0430 \u0443\u0441\u0442\u0430\u0440\u0435\u043b\u0430 \u0441 \u0432\u0435\u0440\u0441\u0438\u0438 KiCad 9.0, \u0432 \u0431\u0443\u0434\u0443\u0449\u0435\u043c \u0435\u0435 \u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u0441\u044f.\u001b[0m\n\u001b[33;1m\u041d\u043e\u0432\u043e\u0435 \u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0431\u0443\u0434\u0435\u0442 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c --mode-multi\u001b[0m\n\u041d\u0430\u0447\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/smartspinner_main_v0_4_top.svg'.\n\u0413\u043e\u0442\u043e\u0432\u043e.\n",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "board": "smartspinner_tip_v0_4.kicad_pcb",
+    "exports": [
+      {
+        "command": "pcb drc --output",
+        "returncode": 0,
+        "stdout": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 7 \u043d\u0430\u0440\u0443\u0448\u0435\u043d\u0438\u0439\n\u041d\u0430\u0439\u0434\u0435\u043d\u043e 4 \u043d\u0435\u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u043d\u044b\u0445 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u043e\u0432\n\u041e\u0442\u0447\u0435\u0442 DRC \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d \u0432 /Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/smartspinner_tip_v0_4_drc.txt\n",
+        "stderr": ""
+      },
+      {
+        "command": "pcb export gerbers",
+        "returncode": 0,
+        "stdout": ".\n\u041d\u0430\u0447\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_tip_v0_4-Margin.gbr'.\n\u041d\u0430\u0447\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_tip_v0_4-f_courtyard.gbr'.\n\u041d\u0430\u0447\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_tip_v0_4-b_courtyard.gbr'.\n\u041d\u0430\u0447\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_tip_v0_4-F_Fab.gbr'.\n\u041d\u0430\u0447\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_tip_v0_4-B_Fab.gbr'.\n",
+        "stderr": ""
+      },
+      {
+        "command": "pcb export drill",
+        "returncode": 0,
+        "stdout": "\u0421\u043e\u0437\u0434\u0430\u043d \u0444\u0430\u0439\u043b '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/gerber/smartspinner_tip_v0_4.drl'\n\u0413\u043e\u0442\u043e\u0432\u043e.\n",
+        "stderr": ""
+      },
+      {
+        "command": "pcb export pos",
+        "returncode": 0,
+        "stdout": "\u0414\u0430\u043d\u043d\u044b\u0435 \u043e \u0440\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u0438 \u0437\u0430\u043f\u0438\u0441\u0430\u043d\u044b \u0432 /Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/assembly/smartspinner_tip_v0_4_cpl.csv.\n",
+        "stderr": ""
+      },
+      {
+        "command": "pcb export svg",
+        "returncode": 0,
+        "stdout": "\u001b[33;1m\u042d\u0442\u0430 \u043a\u043e\u043c\u0430\u043d\u0434\u0430 \u0443\u0441\u0442\u0430\u0440\u0435\u043b\u0430 \u0441 \u0432\u0435\u0440\u0441\u0438\u0438 KiCad 9.0, \u0432 \u0431\u0443\u0434\u0443\u0449\u0435\u043c \u0435\u0435 \u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u0441\u044f.\u001b[0m\n\u001b[33;1m\u041d\u043e\u0432\u043e\u0435 \u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0431\u0443\u0434\u0435\u0442 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c --mode-multi\u001b[0m\n\u041d\u0430\u0447\u0435\u0440\u0447\u0435\u043d\u043e \u0432 '/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/smartspinner_tip_v0_4_top.svg'.\n\u0413\u043e\u0442\u043e\u0432\u043e.\n",
+        "stderr": ""
+      }
+    ]
+  }
+]

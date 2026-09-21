@@ -1,0 +1,9 @@
+﻿Net,Source,Loads,Note
+VBAT,Protected 1S LiPo pair in opposite bays,"U3 boost, U4 LDO, U5 charger, U8 switch",3.0-4.2V
++3V3,TPS7A2033 output,"nRF52840, BMI270, Hall, 74AHCT125 inputs",Logic rail
++5V_LED,TPS61023 through TPS22918,80 top LEDs + 48 tip LEDs,Firmware-limited; 1.5A hardware target
+TOP_A_DIN..TOP_D_DIN,74AHCT125 U2 outputs,Four independent 20-pixel top chains,800kbit/s; about 0.60ms per update
+TIP_A_DIN..TIP_D_DIN,74AHCT125 U9 outputs,Four independent 12-pixel tip chains,800kbit/s; about 0.36ms per update
+HALL,DRV5033,nRF GPIO interrupt,One pulse/revolution
+SDA/SCL,nRF52840,BMI270,I2C fast mode
+SWDIO/SWCLK,Pogo pads,nRF52840,Programming/debug

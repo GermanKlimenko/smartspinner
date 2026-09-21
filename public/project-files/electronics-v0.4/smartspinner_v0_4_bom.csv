@@ -1,0 +1,19 @@
+﻿Designators,Qty,Manufacturer,MPN,Description,Package,LCSC/Source,Board,Engineering note
+U1,1,Raytac,MDBT50Q-1MV2,nRF52840 BLE module,10.5x15.5 module,TBD by assembler,Main,Preferred; antenna keep-out mandatory
+"U2,U9",2,Nexperia,"74AHCT125PW,118",Quad 3.3V to 5V level shifter,TSSOP-14,C1802447,Main,Eight independent streams: four top plus four tip
+U3,1,Texas Instruments,TPS61023DRLR,5V boost converter,SOT-563-6,C919601,Main,Thermal/current validation required
+U4,1,Texas Instruments,TPS7A2033PDBVR,3.3V LDO 300mA,SOT-23-5,C2864625,Main,Low quiescent current
+U5,1,Microchip,MCP73831-2ACI/OT,1-cell Li-ion charger,SOT-23-5,C424093,Main,Set 150mA; protected cell only
+U6,1,Texas Instruments,DRV5033AJQLPGM,Omnipolar Hall switch,X2SON-4,TBD by assembler,Main,Fast index sensor; verify exact package stock
+U7,1,Bosch,BMI270,6-axis IMU,LGA-14 2.5x3.0,C2839047,Main,SPI/I2C; placed near axis
+U8,1,Texas Instruments,TPS22918DBVR,5V rail load switch,SOT-23-6,C141833,Main,Controlled LED power-up
+D1-D80,80,OPSCO,SK6805-EC15,Addressable RGB 5mA,1.5x1.5mm 4-pad,C2890035,Main,20 per arm; four independent chains
+TD1-TD12,48,OPSCO,SK6805-EC10-000,Addressable RGB 5mA,1.1x1.1mm 4-pad,C22394946,Tip x4,12 per tip board; quantity is for four boards
+C1-C4,4,Samsung or equivalent,CL32A107MQVNNNE,100uF 6.3V X5R,1210,C15008,Main,One bulk capacitor per arm
+L1,1,Sunlord or equivalent,SWPA3015S2R2MT,2.2uH shielded inductor,3.0x3.0mm,C167549,Main,TPS61023 power stage
+RPROG,1,Yageo or equivalent,RC0402FR-0710KL,10k 1%,0402,C25744,Main,MCP73831 approx 100mA; tune after cell choice
+JTIPA-JTIPD,4,PCB feature,N/A,Four solder tabs,Custom,N/A,Main,Rigid solder plus enclosure guide
+J1,4,PCB feature,N/A,Four solder tabs,Custom,N/A,Tip x4,Mate to main board
+JBAT1,1,PCB feature,N/A,Protected LiPo solder pads,Custom,N/A,Main,Do not hot-plug while spinning
+JUSB1,1,PCB feature,N/A,External charge dock pads,Custom,N/A,Main,No onboard USB connector in v0.4
+JDBG1,1,Tag-Connect,TC2030-NL footprint,SWD programming pads,6-pad,N/A,Main,Pogo fixture; no fitted connector
