@@ -22,9 +22,24 @@ const drawings = [
 
 const fileGroups = [
   {
+    icon: Cpu, title: 'Электроника v0.4 · ERC',
+    text: 'KiCad-платы, обзорные Gerber, BOM, CPL, электрическая архитектура, расчёт питания и план первого включения. Пакет предназначен для RFQ и завершения DFM, а не для немедленного запуска в производство.',
+    files: [
+      ['Полный электро-пакет · ZIP', 'SmartSpinner_v0_4_electronics_ERC.zip'],
+      ['Электрическая архитектура · PDF', 'electronics-v0.4/smartspinner_v0_4_schematic.pdf'],
+      ['Чертёж изготовления · PDF', 'electronics-v0.4/smartspinner_v0_4_fabrication_drawing.pdf'],
+      ['Основная плата · KiCad', 'electronics-v0.4/smartspinner_main_v0_4.kicad_pcb'],
+      ['Торцевая плата · KiCad', 'electronics-v0.4/smartspinner_tip_v0_4.kicad_pcb'],
+      ['BOM · CSV', 'electronics-v0.4/smartspinner_v0_4_bom.csv'],
+      ['CPL основной платы · CSV', 'electronics-v0.4/assembly/smartspinner_main_v0_4_cpl.csv'],
+      ['CPL торцевой платы · CSV', 'electronics-v0.4/assembly/smartspinner_tip_v0_4_cpl.csv'],
+      ['Статус DRC · JSON', 'electronics-v0.4/smartspinner_v0_4_release_status.json'],
+    ], featured: true,
+  },
+  {
     icon: FileArchive, title: 'Полный комплект v0.3',
     text: 'Четырёхлучевая механика, контуры плат, чертежи, визуализации, исходники и проверки одним архивом.',
-    files: [['Скачать ZIP · 16 МБ', 'ticker_spinner_v0_3_complete_package.zip']], featured: true,
+    files: [['Скачать ZIP · 16 МБ', 'ticker_spinner_v0_3_complete_package.zip']],
   },
   {
     icon: Box, title: 'Корпус для печати',
@@ -85,11 +100,11 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-glow" />
         <div className="hero-copy">
-          <div className="eyebrow"><span /> Четырёхлучевой прототип · v0.3</div>
+          <div className="eyebrow"><span /> Механика v0.3 · электроника v0.4 ERC</div>
           <h1>Умный спиннер<br /><em>для трейдера</em></h1>
           <p className="hero-lead">Карманный POV‑дисплей, который превращает вращение в экран: котировки, проценты, сигналы и логотипы возникают прямо в воздухе.</p>
           <div className="hero-actions">
-            <a className="button button-primary" href="./project-files/ticker_spinner_v0_3_complete_package.zip" download><Download size={18} /> Скачать проект v0.3</a>
+            <a className="button button-primary" href="./project-files/SmartSpinner_v0_4_electronics_ERC.zip" download><Download size={18} /> Скачать электронику v0.4</a>
             <a className="button button-ghost" href="#concept">Изучить конструкцию <ArrowDown size={18} /></a>
           </div>
           <div className="hero-note"><span className="pulse" /> Параметрическая модель готова для первой 3D‑печати</div>
@@ -147,7 +162,7 @@ export default function Home() {
             <article><span>02</span><div><h3>4 × 12 RGB 0909</h3><p>Сменные вертикальные платы для кругового цветного тикера.</p></div></article>
             <article><span>03</span><div><h3>nRF52840 + BLE</h3><p>Получение данных со смартфона, точный тайминг и управление кадром.</p></div></article>
             <article><span>04</span><div><h3>Hall + IMU</h3><p>Индекс оборота и компенсация неравномерной скорости вращения рукой.</p></div></article>
-            <article><span>05</span><div><h3>Питание 3,3 / 5 В</h3><p>Четыре согласованных сектора питания, ограничение яркости и контроль пикового тока.</p></div></article>
+            <article><span>05</span><div><h3>8 параллельных LED‑каналов</h3><p>Четыре цепи 4×20 для верхнего изображения и четыре независимые цепи 4×12 для торцевого тикера.</p></div></article>
           </div>
         </div>
         <div className="signal-flow">
@@ -176,8 +191,8 @@ export default function Home() {
         <div className="section-heading compact"><div><span className="section-number">04</span><p className="kicker">Маршрут к прототипу</p></div><h2>От файла до вращения</h2><p>Первая версия строится ради быстрой проверки эргономики, света и баланса. Серийные решения пока намеренно не фиксируем.</p></div>
         <div className="timeline">
           {[
-            ['01', 'Финальная схема', 'Выбрать точные LED, nRF52, Hall, зарядник и топологию аккумулятора.', 'Следующий шаг'],
-            ['02', 'Разводка PCB', 'Трассировка питания и данных, антенна, тест‑пойнты, DRC и проверка баланса.', 'План'],
+            ['01', 'Электро-пакет v0.4', 'Зафиксированы компоненты, восемь LED‑каналов, KiCad, BOM, CPL, Gerber и проверка DRC.', 'Готов для RFQ'],
+            ['02', 'Закрытие DRC и DFM', 'Довести центральные соединения до нуля ошибок, проверить footprints, питание и антенну.', 'Следующий шаг'],
             ['03', 'PCBA · 5 штук', 'Завод изготавливает платы, закупает компоненты и выполняет SMT‑монтаж.', 'План'],
             ['04', '3D‑печать', 'PETG‑корпус, посадочный coupon 608 и прозрачные рассеиватели.', 'Файлы готовы'],
             ['05', 'Сборка и тест', 'Прошивка, статическая и динамическая балансировка в защитном кожухе.', 'План'],
@@ -203,7 +218,7 @@ export default function Home() {
       </section>
 
       <section className="section downloads" id="downloads">
-        <div className="section-heading compact"><div><span className="section-number">05</span><p className="kicker">Архив проекта</p></div><h2>Всё, что уже готово</h2><p>Файлы v0.3 можно скачать отдельно или одним архивом. Исходная параметрическая модель позволяет менять размеры и пересобирать комплект.</p></div>
+        <div className="section-heading compact"><div><span className="section-number">05</span><p className="kicker">Архив проекта</p></div><h2>Всё, что уже готово</h2><p>Механика v0.3 и электроника v0.4 доступны отдельно. Электро-пакет содержит открытые DRC‑соединения и предназначен для RFQ/DFM, а не для немедленного изготовления.</p></div>
         <div className="download-grid">
           {fileGroups.map((group) => { const Icon = group.icon; return <article className={group.featured ? 'download-card featured' : 'download-card'} key={group.title}><div className="download-card-head"><Icon /><span>{group.featured ? 'Рекомендуется' : `${group.files.length} файлов`}</span></div><h3>{group.title}</h3><p>{group.text}</p><div className="file-list">{group.files.map(([label, file]) => <DownloadLink key={file} label={label} file={file} />)}</div></article>; })}
         </div>
@@ -211,11 +226,11 @@ export default function Home() {
       </section>
 
       <section className="section status-section">
-        <div className="status-card"><div><p className="kicker">Текущий статус</p><h2>Механика готова.<br />Электроника — <em>макет.</em></h2></div><div className="status-columns"><div><h3><Check /> Уже сделано</h3><ul><li>параметрический корпус v0.3 на 4 луча</li><li>STL и STEP всех деталей</li><li>рассеиватели и защищённые окна LED</li><li>контуры основной и торцевой PCB</li><li>размерный чертёж на 5 листах</li><li>партнёрские визуализации и PDF</li><li>автоматическая проверка STL</li></ul></div><div><h3><Zap /> До заказа PCBA</h3><ul><li>утвердить конкретные компоненты</li><li>создать электрическую схему</li><li>выполнить финальную трассировку</li><li>рассчитать питание и нагрев</li><li>подготовить Gerber, BOM и CPL</li><li>проверить антенну и прошивку</li><li>провести DFM‑контроль</li></ul></div></div></div>
-        <div className="safety-note"><ShieldAlert /><p><strong>Инженерная оговорка.</strong> v0.3 — проверяемая основа для прототипирования, но ещё не готовая производственная электроника. Первые динамические испытания проводить на ограниченных оборотах и только в защитном кожухе.</p></div>
+        <div className="status-card"><div><p className="kicker">Текущий статус</p><h2>Механика готова.<br />Электроника — <em>ERC.</em></h2></div><div className="status-columns"><div><h3><Check /> Уже сделано</h3><ul><li>параметрический корпус v0.3 на 4 луча</li><li>STL и STEP всех деталей</li><li>80 верхних и 48 торцевых LED</li><li>восемь независимых каналов данных</li><li>KiCad, Gerber, drill, BOM и CPL</li><li>электрическая архитектура и производственный чертёж PDF</li><li>расчёт питания и план первого запуска</li></ul></div><div><h3><Zap /> До заказа PCBA</h3><ul><li>закрыть все open nets из DRC</li><li>сверить land patterns с точными MPN</li><li>завершить пассивы boost/зарядки</li><li>проверить RF keep‑out на всех слоях</li><li>повторно выпустить Gerber после DRC=0</li><li>провести DFM у изготовителя</li><li>собрать сначала один first article</li></ul></div></div></div>
+        <div className="safety-note"><ShieldAlert /><p><strong>Инженерная оговорка.</strong> Файлы v0.4 годятся для оценки и завершения DFM, но текущие Gerber нельзя отправлять напрямую в производство: в комплект включён честный DRC‑отчёт с незакрытыми соединениями. Первые динамические испытания — только в защитном кожухе.</p></div>
       </section>
 
-      <footer><a className="brand" href="#top"><span className="brand-mark"><CircleDot size={22} /></span><span>SMART<span>SPINNER</span></span></a><p>Умный спиннер для трейдера · четырёхлучевой проект v0.3</p><a href="https://github.com/GermanKlimenko/smartspinner" target="_blank" rel="noreferrer"><Code2 size={18} /> Исходники на GitHub</a></footer>
+      <footer><a className="brand" href="#top"><span className="brand-mark"><CircleDot size={22} /></span><span>SMART<span>SPINNER</span></span></a><p>Умный спиннер для трейдера · механика v0.3 · электроника v0.4 ERC</p><a href="https://github.com/GermanKlimenko/smartspinner" target="_blank" rel="noreferrer"><Code2 size={18} /> Исходники на GitHub</a></footer>
     </main>
   );
 }
