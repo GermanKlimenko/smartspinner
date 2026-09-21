@@ -1,0 +1,35 @@
+Subject: PCB engineering completion and turnkey PCBA RFQ - SmartSpinner v0.4 - 10 sets
+
+Hello [COMPANY] Engineering Team,
+
+My name is German Klimenko. I am developing SmartSpinner, a 100 mm four-arm persistence-of-vision display with Bluetooth connectivity.
+
+Please provide a quotation for two separately priced stages:
+
+1. Engineering completion of the supplied KiCad design: schematic and layout review, closing all open DRC connections, exact-footprint and pin-1 verification, power-stage completion, RF keep-out review, sourcing review and DFM.
+2. After my written approval of the corrected design, fabrication and turnkey assembly of one first article followed by 10 complete electronic sets.
+
+One set contains one four-arm main PCB with 80 top RGB pixels and four identical tip PCBs with 12 RGB pixels each. The design uses eight LED data streams, an nRF52840 BLE module, BMI270 IMU, Hall index sensor, protected 1S LiPo input, 3.3 V logic and a switched 5 V LED rail.
+
+The attached package includes a concise RFQ brief, KiCad PCB sources, review-only Gerbers and drill files, BOM, CPL, electrical architecture, fabrication drawing, power budget, DRC reports, first-article test procedure and the mechanical STEP/STL/DXF package.
+
+Important: the current Gerbers are not authorized for fabrication. The layout contains documented open connections. Please quote the engineering work required to return updated editable KiCad files, final Gerbers and a zero-error DRC report before manufacturing.
+
+Please complete the attached supplier response template and quote:
+
+- engineering cost, lead time and included revision rounds;
+- fabrication of 10 main boards and 40 tip boards;
+- components, approved alternates and any minimum-order exposure;
+- SMT assembly, stencil/tooling, AOI and X-ray if recommended;
+- one first article before releasing the remaining quantity;
+- optional nRF52 programming and functional testing;
+- shipping to Moscow, Russia, with no LiPo batteries included.
+
+Please also identify any manufacturability, sourcing, RF, thermal or mechanical risks you find.
+
+Project website: https://germanklimenko.github.io/smartspinner/
+Repository: https://github.com/GermanKlimenko/smartspinner
+
+Best regards,
+German Klimenko
+

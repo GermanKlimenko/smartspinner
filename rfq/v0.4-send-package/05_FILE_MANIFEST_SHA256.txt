@@ -1,0 +1,15 @@
+SmartSpinner v0.4 supplier RFQ package
+Prepared: 2026-09-21
+
+SHA-256 checksums of technical attachments:
+
+336853f3e8d4223902f1611366c28af393526694023fbf8819d59f662ffcfc22  SmartSpinner_v0_4_RFQ_Brief_EN.pdf
+7f235089ed7b2c121abf805a5b16cb961d3758a1e741e2d5b0758e1c89efc9a8  SmartSpinner_v0_4_electronics_ERC.zip
+47b3b293456ca702be5cf392fc3ccd01ca69ae9127065ba18119e08ebfeadf40  ticker_spinner_v0_3_complete_package.zip
+
+Verified public downloads:
+
+https://germanklimenko.github.io/smartspinner/project-files/SmartSpinner_v0_4_electronics_ERC.zip
+https://germanklimenko.github.io/smartspinner/project-files/ticker_spinner_v0_3_complete_package.zip
+
+Both URLs returned HTTP 200 during package preparation.
