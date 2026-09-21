@@ -3,13 +3,13 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Умный спиннер для трейдера',
-  description: 'Инженерный проект карманного POV-дисплея: корпус, PCB, 81 RGB-пиксель, BLE и полный комплект файлов v0.2.',
+  description: 'Четырёхлучевой карманный POV-дисплей: 128 RGB-пикселей, BLE, корпус и полный инженерный комплект v0.3.',
   openGraph: {
     title: 'Умный спиннер для трейдера',
-    description: 'Карманный POV-дисплей для котировок, сигналов и графики. Инженерный проект v0.2.',
-    images: [{ url: './og.png', width: 1536, height: 1024, alt: 'Плата умного спиннера' }],
+    description: 'Четыре луча, 80 верхних и 48 торцевых RGB-пикселей. Инженерный проект v0.3.',
+    images: [{ url: './project-files/ticker_spinner_v0_3_partner_handheld.png', width: 1536, height: 1024, alt: 'Четырёхлучевой умный спиннер v0.3' }],
   },
-  twitter: { card: 'summary_large_image', title: 'Умный спиннер для трейдера', description: 'Карманный POV-дисплей для котировок, сигналов и графики.', images: ['./og.png'] },
+  twitter: { card: 'summary_large_image', title: 'Умный спиннер для трейдера', description: 'Четырёхлучевой POV-дисплей v0.3 для котировок, сигналов и графики.', images: ['./project-files/ticker_spinner_v0_3_partner_handheld.png'] },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

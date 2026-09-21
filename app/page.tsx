@@ -13,46 +13,48 @@ const nav = [
 ];
 
 const drawings = [
-  { src: './assets/drawings/sheet-1.png', title: 'Общий вид и сечение', caption: 'Габарит Ø100 мм, толщина сборки 16 мм и расположение платы.' },
-  { src: './assets/drawings/sheet-2.png', title: 'Нижняя часть корпуса', caption: 'Посадка подшипника, карманы питания и три стойки M2.' },
-  { src: './assets/drawings/sheet-3.png', title: 'Верхняя крышка', caption: 'Световые окна, рассеиватели и доступ к крепежу.' },
-  { src: './assets/drawings/sheet-4.png', title: 'Плата и внутренняя компоновка', caption: 'Зоны электроники, аккумуляторов и балансировки.' },
-  { src: './assets/drawings/sheet-5.png', title: 'Торцевая плата — 12 пикселей', caption: 'Вертикальная колонка для цилиндрической бегущей строки.' },
+  { src: './assets/drawings/sheet-1.png', title: 'Общий вид и сечение v0.3', caption: 'Четыре луча, габарит Ø100 × 16 мм, подшипник 608 и компоновка сборки.' },
+  { src: './assets/drawings/sheet-2.png', title: 'Нижняя часть корпуса', caption: 'Четыре симметричных кармана питания и четыре стойки M2 через 90°.' },
+  { src: './assets/drawings/sheet-3.png', title: 'Верхняя крышка', caption: 'Четыре световых окна, сменные рассеиватели и защита торцевых плат.' },
+  { src: './assets/drawings/sheet-4.png', title: 'Четырёхлучевая PCB', caption: '80 верхних LED, центральная электроника и симметричные зоны балансировки.' },
+  { src: './assets/drawings/sheet-5.png', title: 'Торцевая плата — 12 пикселей', caption: 'Четыре сменные вертикальные колонки для цилиндрической бегущей строки.' },
 ];
 
 const fileGroups = [
   {
-    icon: FileArchive, title: 'Полный комплект v0.2',
-    text: 'Вся актуальная механика, PCB-макеты, чертежи, исходники и проверки одним архивом.',
-    files: [['Скачать ZIP · 1,6 МБ', 'Ticker_Spinner_v0_2_package.zip']], featured: true,
+    icon: FileArchive, title: 'Полный комплект v0.3',
+    text: 'Четырёхлучевая механика, контуры плат, чертежи, визуализации, исходники и проверки одним архивом.',
+    files: [['Скачать ZIP · 16 МБ', 'ticker_spinner_v0_3_complete_package.zip']], featured: true,
   },
   {
     icon: Box, title: 'Корпус для печати',
     text: 'Верх, низ и рассеиватели в производственных и редактируемых форматах.',
     files: [
-      ['Верх · STL', 'ticker_spinner_v0_2_top.stl'], ['Низ · STL', 'ticker_spinner_v0_2_bottom.stl'],
-      ['Рассеиватели · STL', 'ticker_spinner_v0_2_diffusers.stl'], ['Сборка · STEP', 'ticker_spinner_v0_2_assembly.step'],
-      ['Верх · STEP', 'ticker_spinner_v0_2_top.step'], ['Низ · STEP', 'ticker_spinner_v0_2_bottom.step'],
+      ['Верх · STL', 'ticker_spinner_v0_3_top.stl'], ['Низ · STL', 'ticker_spinner_v0_3_bottom.stl'],
+      ['Рассеиватели · STL', 'ticker_spinner_v0_3_diffusers.stl'], ['Сборка · STEP', 'ticker_spinner_v0_3_assembly.step'],
+      ['Верх · STEP', 'ticker_spinner_v0_3_top.step'], ['Низ · STEP', 'ticker_spinner_v0_3_bottom.step'],
+      ['Крышка подшипника · STL', 'ticker_spinner_v0_3_finger_cap_top.stl'],
     ],
   },
   {
     icon: Cpu, title: 'Печатные платы',
-    text: 'Контуры DXF и редактируемые макеты KiCad основной и торцевой плат.',
+    text: 'Механические контуры и объёмные envelopes основной и торцевой плат для финальной разводки.',
     files: [
-      ['Основная плата · KiCad', 'ticker_spinner_v0_2_main_board_mockup.kicad_pcb'],
-      ['Торцевая плата · KiCad', 'ticker_spinner_v0_2_tip_board_mockup.kicad_pcb'],
-      ['Контур PCB · DXF', 'ticker_spinner_v0_2_pcb_outline.dxf'], ['Торцевая PCB · DXF', 'ticker_spinner_v0_2_tip_led_board.dxf'],
-      ['Предварительный BOM · CSV', 'ticker_spinner_v0_2_preliminary_bom.csv'], ['Назначение сигналов · JSON', 'ticker_spinner_v0_2_pinmap.json'],
+      ['Контур основной PCB · DXF', 'ticker_spinner_v0_3_pcb_outline.dxf'],
+      ['Контур торцевой PCB · DXF', 'ticker_spinner_v0_3_tip_led_board.dxf'],
+      ['Envelope основной PCB · STEP', 'ticker_spinner_v0_3_pcb_envelope.step'],
+      ['Envelope торцевой PCB · STEP', 'ticker_spinner_v0_3_tip_led_board_envelope.step'],
     ],
   },
   {
     icon: FileCode2, title: 'Документация и исходники',
-    text: 'Чертёж, описание параметров и генератор всей геометрии v0.2.',
+    text: 'Чертежи, партнёрский материал, описание параметров и генератор всей геометрии v0.3.',
     files: [
-      ['Инженерный чертёж · PDF', 'ticker_spinner_v0_2_engineering_drawing.pdf'],
+      ['Инженерный чертёж · PDF', 'ticker_spinner_v0_3_engineering_drawing.pdf'],
+      ['Презентация для партнёров · PDF', 'ticker_spinner_v0_3_partner_brief.pdf'],
       ['Ответ на техническую критику · PDF', 'ticker_spinner_critique_assessment.pdf'],
-      ['Описание проекта · MD', 'README_Ticker_Spinner_v0_2.md'], ['Генератор модели · Python', 'generate_ticker_spinner_v0_2.py'],
-      ['Отчёт проверки · JSON', 'ticker_spinner_v0_2_validation.json'],
+      ['Описание проекта · MD', 'README_Ticker_Spinner_v0_3.md'], ['Генератор модели · Python', 'generate_ticker_spinner_v0_3.py'],
+      ['Отчёт проверки · JSON', 'ticker_spinner_v0_3_validation.json'],
     ],
   },
 ];
@@ -83,18 +85,18 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-glow" />
         <div className="hero-copy">
-          <div className="eyebrow"><span /> Инженерный прототип · v0.2</div>
+          <div className="eyebrow"><span /> Четырёхлучевой прототип · v0.3</div>
           <h1>Умный спиннер<br /><em>для трейдера</em></h1>
           <p className="hero-lead">Карманный POV‑дисплей, который превращает вращение в экран: котировки, проценты, сигналы и логотипы возникают прямо в воздухе.</p>
           <div className="hero-actions">
-            <a className="button button-primary" href="./project-files/Ticker_Spinner_v0_2_package.zip" download><Download size={18} /> Скачать проект v0.2</a>
+            <a className="button button-primary" href="./project-files/ticker_spinner_v0_3_complete_package.zip" download><Download size={18} /> Скачать проект v0.3</a>
             <a className="button button-ghost" href="#concept">Изучить конструкцию <ArrowDown size={18} /></a>
           </div>
           <div className="hero-note"><span className="pulse" /> Параметрическая модель готова для первой 3D‑печати</div>
         </div>
         <div className="hero-visual">
-          <div className="hero-image-frame"><img src="./assets/pcb-render.png" alt="Трёхлучевая плата умного спиннера и торцевая плата на 12 светодиодов" /></div>
-          <div className="float-card float-card-top"><span>RGB PIXELS</span><strong>81</strong><small>45 сверху + 36 на торцах</small></div>
+          <div className="hero-image-frame"><img src="./project-files/ticker_spinner_v0_3_partner_handheld.png" alt="Четырёхлучевой умный спиннер v0.3 в руке" /></div>
+          <div className="float-card float-card-top"><span>RGB PIXELS</span><strong>128</strong><small>80 сверху + 48 на торцах</small></div>
           <div className="float-card float-card-bottom"><span>FORM FACTOR</span><strong>Ø100</strong><small>миллиметров</small></div>
         </div>
       </section>
@@ -102,7 +104,7 @@ export default function Home() {
       <section className="metrics" aria-label="Основные параметры">
         <div><Ruler /><strong>100 мм</strong><span>внешний диаметр</span></div>
         <div><Layers3 /><strong>16 мм</strong><span>толщина сборки</span></div>
-        <div><Sparkles /><strong>12 × 3</strong><span>торцевых пикселей</span></div>
+        <div><Sparkles /><strong>20 × 4</strong><span>верхних пикселей</span></div>
         <div><Bluetooth /><strong>nRF52</strong><span>BLE и управление</span></div>
       </section>
 
@@ -116,7 +118,7 @@ export default function Home() {
           <div className="pov-stage" aria-label="Схематичная демонстрация цилиндрического POV-тикера">
             <div className="orbit orbit-one"><span>SBER&nbsp; 317.42&nbsp; ▲1.73%</span></div>
             <div className="orbit orbit-two"><span>GAZP&nbsp; 168.90&nbsp; ▼0.28%</span></div>
-            <div className="spinner-demo"><div className="demo-arm arm-a"><i /></div><div className="demo-arm arm-b"><i /></div><div className="demo-arm arm-c"><i /></div><div className="demo-bearing" /></div>
+            <div className="spinner-demo"><div className="demo-arm arm-a"><i /></div><div className="demo-arm arm-b"><i /></div><div className="demo-arm arm-c"><i /></div><div className="demo-arm arm-d"><i /></div><div className="demo-bearing" /></div>
             <div className="scan-line" />
           </div>
           <div className="pov-copy">
@@ -135,21 +137,21 @@ export default function Home() {
       <section className="section dark-section" id="electronics">
         <div className="section-heading light">
           <div><span className="section-number">02</span><p className="kicker">Электроника</p></div>
-          <h2>Одна основная плата.<br /><em>Три световых луча.</em></h2>
-          <p>Тяжёлые элементы собраны ближе к оси, а повторяющиеся узлы расположены с симметрией 120°. Так электроника помогает балансу, а не борется с ним.</p>
+          <h2>Одна основная плата.<br /><em>Четыре световых луча.</em></h2>
+          <p>Тяжёлые элементы собраны ближе к оси, а повторяющиеся узлы расположены с симметрией 90°. Четыре одинаковых сектора упрощают статическую и динамическую балансировку.</p>
         </div>
         <div className="pcb-showcase">
-          <figure className="pcb-image"><img src="./assets/pcb-layout.png" alt="Инженерный макет размещения компонентов основной и торцевой платы" /><figcaption>Размещение v0.2 — основа для финальной схемы и трассировки</figcaption></figure>
+          <figure className="pcb-image"><img src="./project-files/ticker_spinner_v0_3_partner_dock.png" alt="Четырёхлучевой спиннер v0.3 в рабочем режиме на демонстрационной опоре" /><figcaption>Рабочая визуализация v0.3 — четыре луча и защищённые торцевые LED-колонки</figcaption></figure>
           <div className="component-list">
-            <article><span>01</span><div><h3>45 × RGB 2020</h3><p>По 15 адресных верхних LED на каждом луче. Шаг 2,20 мм.</p></div></article>
-            <article><span>02</span><div><h3>3 × 12 RGB 0909</h3><p>Сменные вертикальные платы 7 × 13,6 мм для кругового тикера.</p></div></article>
+            <article><span>01</span><div><h3>80 × RGB 1313/2020</h3><p>По 20 адресных верхних LED на каждом из четырёх лучей.</p></div></article>
+            <article><span>02</span><div><h3>4 × 12 RGB 0909</h3><p>Сменные вертикальные платы для кругового цветного тикера.</p></div></article>
             <article><span>03</span><div><h3>nRF52840 + BLE</h3><p>Получение данных со смартфона, точный тайминг и управление кадром.</p></div></article>
-            <article><span>04</span><div><h3>Hall index</h3><p>Один точный импульс на оборот для привязки изображения к углу.</p></div></article>
-            <article><span>05</span><div><h3>Питание 3,3 / 5 В</h3><p>Зарядка LiPo и повышающий преобразователь с импульсным запасом ≥1,5 А.</p></div></article>
+            <article><span>04</span><div><h3>Hall + IMU</h3><p>Индекс оборота и компенсация неравномерной скорости вращения рукой.</p></div></article>
+            <article><span>05</span><div><h3>Питание 3,3 / 5 В</h3><p>Четыре согласованных сектора питания, ограничение яркости и контроль пикового тока.</p></div></article>
           </div>
         </div>
         <div className="signal-flow">
-          <div><Radio /><span>Котировки</span><small>телефон / API</small></div><ArrowRight /><div><Bluetooth /><span>BLE</span><small>пакет данных</small></div><ArrowRight /><div><Cpu /><span>nRF52</span><small>рендер кадра</small></div><ArrowRight /><div><Gauge /><span>Hall</span><small>угол вращения</small></div><ArrowRight /><div className="flow-accent"><Sparkles /><span>81 RGB</span><small>воздушный экран</small></div>
+          <div><Radio /><span>Котировки</span><small>телефон / API</small></div><ArrowRight /><div><Bluetooth /><span>BLE</span><small>пакет данных</small></div><ArrowRight /><div><Cpu /><span>nRF52</span><small>рендер кадра</small></div><ArrowRight /><div><Gauge /><span>Hall + IMU</span><small>угол вращения</small></div><ArrowRight /><div className="flow-accent"><Sparkles /><span>128 RGB</span><small>воздушный экран</small></div>
         </div>
       </section>
 
@@ -165,8 +167,8 @@ export default function Home() {
           <div className="drawing-dots" aria-label="Выбор чертежа">{drawings.map((drawing, index) => <button key={drawing.title} className={index === activeDrawing ? 'active' : ''} onClick={() => setActiveDrawing(index)} aria-label={drawing.title} />)}</div>
         </div>
         <div className="spec-layout">
-          <div className="spec-intro"><h3>Зафиксированная геометрия v0.2</h3><p>Не абстрактный концепт, а печатаемый механический envelope с проверенными замкнутыми STL‑телами.</p><a href="./project-files/ticker_spinner_v0_2_engineering_drawing.pdf" target="_blank">Открыть полный PDF <ArrowRight size={17} /></a></div>
-          <dl className="spec-table"><div><dt>Габарит</dt><dd>Ø100 × 16 мм</dd></div><div><dt>Подшипник</dt><dd>608 · 22 × 7 × 8 мм</dd></div><div><dt>Посадка корпуса</dt><dd>Ø21,85 мм · тестовый coupon</dd></div><div><dt>Основная PCB</dt><dd>до Ø96 мм · толщина ~1,0 мм</dd></div><div><dt>Крепёж</dt><dd>3 × M2 · через 120°</dd></div><div><dt>Материал прототипа</dt><dd>PETG · слой 0,20 мм</dd></div></dl>
+          <div className="spec-intro"><h3>Зафиксированная геометрия v0.3</h3><p>Не абстрактный концепт, а печатаемый четырёхлучевой envelope с проверенными замкнутыми STL‑телами.</p><a href="./project-files/ticker_spinner_v0_3_engineering_drawing.pdf" target="_blank">Открыть полный PDF <ArrowRight size={17} /></a></div>
+          <dl className="spec-table"><div><dt>Габарит</dt><dd>Ø100 × 16 мм</dd></div><div><dt>Подшипник</dt><dd>608 · 22 × 7 × 8 мм</dd></div><div><dt>Посадка корпуса</dt><dd>Ø21,85 мм · тестовый coupon</dd></div><div><dt>Основная PCB</dt><dd>до Ø96 мм · 4 луча</dd></div><div><dt>Крепёж</dt><dd>4 × M2 · через 90°</dd></div><div><dt>Материал прототипа</dt><dd>PETG · слой 0,20 мм</dd></div></dl>
         </div>
       </section>
 
@@ -181,6 +183,7 @@ export default function Home() {
             ['05', 'Сборка и тест', 'Прошивка, статическая и динамическая балансировка в защитном кожухе.', 'План'],
           ].map(([number, title, text, status]) => <article key={number}><span className="timeline-number">{number}</span><div><small>{status}</small><h3>{title}</h3><p>{text}</p></div></article>)}
         </div>
+        <figure className="partner-visual"><img src="./project-files/ticker_spinner_v0_3_partner_color.png" alt="Цветные изображения и котировки, формируемые четырёхлучевым POV-спиннером" /><figcaption>Концепт рабочего режима: верхние LED формируют изображение на плоскости вращения, торцевые — цветную строку по цилиндру.</figcaption></figure>
         <div className="manufacturing-card"><div className="manufacturing-icon"><PackageCheck /></div><div><p className="kicker">Первая партия</p><h3>Заказывать лучше уже собранные платы</h3><p>Мелкие 2020 и особенно 0909 LED разумнее устанавливать на заводской SMT‑линии. Самостоятельно остаются аккумуляторы, корпус, вертикальные платы, прошивка и балансировка.</p></div><div className="delivery-estimate"><span>Ориентир с доставкой</span><strong>30–45</strong><small>календарных дней</small></div></div>
       </section>
 
@@ -200,19 +203,19 @@ export default function Home() {
       </section>
 
       <section className="section downloads" id="downloads">
-        <div className="section-heading compact"><div><span className="section-number">05</span><p className="kicker">Архив проекта</p></div><h2>Всё, что уже готово</h2><p>Файлы v0.2 можно скачать отдельно или одним архивом. Исходная параметрическая модель позволяет менять размеры и пересобирать комплект.</p></div>
+        <div className="section-heading compact"><div><span className="section-number">05</span><p className="kicker">Архив проекта</p></div><h2>Всё, что уже готово</h2><p>Файлы v0.3 можно скачать отдельно или одним архивом. Исходная параметрическая модель позволяет менять размеры и пересобирать комплект.</p></div>
         <div className="download-grid">
           {fileGroups.map((group) => { const Icon = group.icon; return <article className={group.featured ? 'download-card featured' : 'download-card'} key={group.title}><div className="download-card-head"><Icon /><span>{group.featured ? 'Рекомендуется' : `${group.files.length} файлов`}</span></div><h3>{group.title}</h3><p>{group.text}</p><div className="file-list">{group.files.map(([label, file]) => <DownloadLink key={file} label={label} file={file} />)}</div></article>; })}
         </div>
-        <div className="legacy-link"><span>Нужна предыдущая итерация?</span><a href="./project-files/Ticker_Spinner_v0_1_package.zip" download>Скачать архив v0.1 <Download size={16} /></a></div>
+        <div className="legacy-link"><span>Нужна предыдущая трёхлучевая итерация?</span><a href="./project-files/Ticker_Spinner_v0_2_package.zip" download>Скачать архив v0.2 <Download size={16} /></a></div>
       </section>
 
       <section className="section status-section">
-        <div className="status-card"><div><p className="kicker">Текущий статус</p><h2>Механика готова.<br />Электроника — <em>макет.</em></h2></div><div className="status-columns"><div><h3><Check /> Уже сделано</h3><ul><li>параметрический корпус v0.2</li><li>STL и STEP верхней/нижней частей</li><li>рассеиватели и окна LED</li><li>контуры обеих PCB</li><li>макеты плат KiCad</li><li>размерный чертёж</li><li>автоматическая проверка STL</li></ul></div><div><h3><Zap /> До заказа PCBA</h3><ul><li>утвердить конкретные компоненты</li><li>создать электрическую схему</li><li>выполнить финальную трассировку</li><li>рассчитать питание и нагрев</li><li>подготовить Gerber, BOM и CPL</li><li>проверить антенну и прошивку</li><li>провести DFM‑контроль</li></ul></div></div></div>
-        <div className="safety-note"><ShieldAlert /><p><strong>Инженерная оговорка.</strong> v0.2 — проверяемая основа для прототипирования, но ещё не готовая производственная электроника. Первые динамические испытания проводить на ограниченных оборотах и только в защитном кожухе.</p></div>
+        <div className="status-card"><div><p className="kicker">Текущий статус</p><h2>Механика готова.<br />Электроника — <em>макет.</em></h2></div><div className="status-columns"><div><h3><Check /> Уже сделано</h3><ul><li>параметрический корпус v0.3 на 4 луча</li><li>STL и STEP всех деталей</li><li>рассеиватели и защищённые окна LED</li><li>контуры основной и торцевой PCB</li><li>размерный чертёж на 5 листах</li><li>партнёрские визуализации и PDF</li><li>автоматическая проверка STL</li></ul></div><div><h3><Zap /> До заказа PCBA</h3><ul><li>утвердить конкретные компоненты</li><li>создать электрическую схему</li><li>выполнить финальную трассировку</li><li>рассчитать питание и нагрев</li><li>подготовить Gerber, BOM и CPL</li><li>проверить антенну и прошивку</li><li>провести DFM‑контроль</li></ul></div></div></div>
+        <div className="safety-note"><ShieldAlert /><p><strong>Инженерная оговорка.</strong> v0.3 — проверяемая основа для прототипирования, но ещё не готовая производственная электроника. Первые динамические испытания проводить на ограниченных оборотах и только в защитном кожухе.</p></div>
       </section>
 
-      <footer><a className="brand" href="#top"><span className="brand-mark"><CircleDot size={22} /></span><span>SMART<span>SPINNER</span></span></a><p>Умный спиннер для трейдера · инженерный проект v0.2</p><a href="https://github.com/GermanKlimenko/smartspinner" target="_blank" rel="noreferrer"><Code2 size={18} /> Исходники на GitHub</a></footer>
+      <footer><a className="brand" href="#top"><span className="brand-mark"><CircleDot size={22} /></span><span>SMART<span>SPINNER</span></span></a><p>Умный спиннер для трейдера · четырёхлучевой проект v0.3</p><a href="https://github.com/GermanKlimenko/smartspinner" target="_blank" rel="noreferrer"><Code2 size={18} /> Исходники на GitHub</a></footer>
     </main>
   );
 }
