@@ -1,0 +1,279 @@
+ERC report (2026-09-22T15:17:02, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(16.42 mm, 155.00 mm): Symbol L2 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(16.92 mm, 170.00 mm): Symbol R4 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(16.92 mm, 184.00 mm): Symbol R5 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(21.42 mm, 66.73 mm): Symbol J2 Вывод 1 [BAT+, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(22.42 mm, 40.73 mm): Symbol J1 Вывод 1 [CHG_5V, Пассивный, Линия]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(29.00 mm, 155.00 mm): Символ L2 [L2_10uH_DCCH]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(29.00 mm, 170.00 mm): Символ R4 [R4_1M_1%]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(29.00 mm, 184.00 mm): Символ R5 [R5_330k_1%]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(35.00 mm, 42.00 mm): Символ J1 [J1_CHARGE_PADS]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(35.00 mm, 68.00 mm): Символ J2 [J2_PROTECTED_LIPO]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(52.92 mm, 243.57 mm): Symbol U2 Вывод 14 [VCC, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(53.42 mm, 149.76 mm): Symbol U1 Вывод 28 [VDD, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(59.92 mm, 39.46 mm): Symbol U5 Вывод 4 [VDD, Пассивный, Линия]
+[footprint_link_issues]: Текущая конфигурация не включает библиотеку посадочных мест 'Package_SO'
+    ; warning
+    @(72.00 mm, 255.00 mm): Символ U2 [U2_74AHCT125PW_TOP]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(72.00 mm, 255.00 mm): Символ U2 [U2_74AHCT125PW_TOP]
+[footprint_link_issues]: Текущая конфигурация не включает библиотеку посадочных мест 'RF_Module'
+    ; warning
+    @(75.00 mm, 165.00 mm): Символ U1 [U1_MDBT50Q-1MV2_nRF52840]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(75.00 mm, 165.00 mm): Символ U1 [U1_MDBT50Q-1MV2_nRF52840]
+[footprint_link_issues]: Текущая конфигурация не включает библиотеку посадочных мест 'Package_TO_SOT_SMD'
+    ; warning
+    @(77.00 mm, 42.00 mm): Символ U5 [U5_MCP73831-2ACI_OT]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(77.00 mm, 42.00 mm): Символ U5 [U5_MCP73831-2ACI_OT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(99.92 mm, 28.00 mm): Symbol R1 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(99.92 mm, 42.00 mm): Symbol C1 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(99.92 mm, 56.00 mm): Symbol C2 Вывод 1 [1, Пассивный, Линия]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(112.00 mm, 28.00 mm): Символ R1 [R1_10k_PROG]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(112.00 mm, 42.00 mm): Символ C1 [C1_4.7uF_CHG_IN]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(112.00 mm, 56.00 mm): Символ C2 [C2_4.7uF_BAT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(118.42 mm, 139.92 mm): Symbol J3 Вывод 1 [3V3, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(118.92 mm, 173.73 mm): Symbol U6 Вывод 1 [VCC, Пассивный, Линия]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(133.00 mm, 145.00 mm): Символ J3 [J3_SWD_TAG_CONNECT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(133.92 mm, 80.19 mm): Symbol U3 Вывод 3 [VIN, Пассивный, Линия]
+[footprint_link_issues]: Текущая конфигурация не включает библиотеку посадочных мест 'Package_TO_SOT_SMD'
+    ; warning
+    @(135.00 mm, 175.00 mm): Символ U6 [U6_DRV5033AJQLPGM]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(135.00 mm, 175.00 mm): Символ U6 [U6_DRV5033AJQLPGM]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(135.92 mm, 243.57 mm): Symbol U9 Вывод 14 [VCC, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(138.92 mm, 37.46 mm): Symbol U4 Вывод 1 [IN, Пассивный, Линия]
+[footprint_link_issues]: Текущая конфигурация не включает библиотеку посадочных мест 'Package_SON'
+    ; warning
+    @(150.00 mm, 84.00 mm): Символ U3 [U3_TPS61023DRLR]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(150.00 mm, 84.00 mm): Символ U3 [U3_TPS61023DRLR]
+[footprint_link_issues]: Текущая конфигурация не включает библиотеку посадочных мест 'Package_TO_SOT_SMD'
+    ; warning
+    @(155.00 mm, 40.00 mm): Символ U4 [U4_TPS7A2033PDBVR]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(155.00 mm, 40.00 mm): Символ U4 [U4_TPS7A2033PDBVR]
+[footprint_link_issues]: Текущая конфигурация не включает библиотеку посадочных мест 'Package_SO'
+    ; warning
+    @(155.00 mm, 255.00 mm): Символ U9 [U9_74AHCT125PW_TIP]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(155.00 mm, 255.00 mm): Символ U9 [U9_74AHCT125PW_TIP]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(160.92 mm, 174.00 mm): Symbol R6 Вывод 1 [1, Пассивный, Линия]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(175.00 mm, 174.00 mm): Символ R6 [R6_10k_HALL_PULLUP]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(177.92 mm, 28.00 mm): Symbol C3 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(177.92 mm, 48.00 mm): Symbol C4 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(177.92 mm, 72.00 mm): Symbol L1 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(177.92 mm, 84.00 mm): Symbol R2 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(177.92 mm, 96.00 mm): Symbol R3 Вывод 1 [1, Пассивный, Линия]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(190.00 mm, 28.00 mm): Символ C3 [C3_1uF_LDO_IN]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(190.00 mm, 48.00 mm): Символ C4 [C4_1uF_LDO_OUT]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(190.00 mm, 72.00 mm): Символ L1 [L1_2.2uH]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(190.00 mm, 84.00 mm): Символ R2 [R2_910k_1%]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(190.00 mm, 96.00 mm): Символ R3 [R3_100k_1%]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(204.42 mm, 227.46 mm): Symbol D1-D20 Вывод 1 [DIN, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(204.42 mm, 257.46 mm): Symbol D41-D60 Вывод 1 [DIN, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(204.42 mm, 285.46 mm): Symbol TD1-TD12 Вывод 1 [DIN, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(204.42 mm, 315.46 mm): Symbol TD25-TD36 Вывод 1 [DIN, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(205.42 mm, 157.65 mm): Symbol U7 Вывод 5 [VDDIO, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(211.92 mm, 72.00 mm): Symbol C5 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(211.92 mm, 84.00 mm): Symbol C6 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(211.92 mm, 96.00 mm): Symbol C7 Вывод 1 [1, Пассивный, Линия]
+[footprint_link_issues]: Текущая конфигурация не включает библиотеку посадочных мест 'Package_LGA'
+    ; warning
+    @(223.00 mm, 164.00 mm): Символ U7 [U7_BMI270]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(223.00 mm, 164.00 mm): Символ U7 [U7_BMI270]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(224.00 mm, 72.00 mm): Символ C5 [C5_10uF_BOOST_IN]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(224.00 mm, 84.00 mm): Символ C6 [C6_22uF_BOOST_OUT]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(224.00 mm, 96.00 mm): Символ C7 [C7_22uF_BOOST_OUT]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(225.00 mm, 230.00 mm): Символ D1-D20 [D1-D20_20x_SK6805-EC15_TOP_A]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(225.00 mm, 260.00 mm): Символ D41-D60 [D41-D60_20x_SK6805-EC15_TOP_C]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(225.00 mm, 288.00 mm): Символ TD1-TD12 [TD1-TD12_12x_SK6805-EC10_TIP_A]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(225.00 mm, 318.00 mm): Символ TD25-TD36 [TD25-TD36_12x_SK6805-EC10_TIP_C]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(251.92 mm, 81.46 mm): Symbol U8 Вывод 1 [VIN, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(253.92 mm, 145.00 mm): Symbol R7 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(253.92 mm, 159.00 mm): Symbol R8 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(253.92 mm, 177.00 mm): Symbol C9 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(253.92 mm, 191.00 mm): Symbol C10 Вывод 1 [1, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(266.42 mm, 227.46 mm): Symbol D21-D40 Вывод 1 [DIN, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(266.42 mm, 257.46 mm): Symbol D61-D80 Вывод 1 [DIN, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(266.42 mm, 285.46 mm): Symbol TD13-TD24 Вывод 1 [DIN, Пассивный, Линия]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(266.42 mm, 315.46 mm): Symbol TD37-TD48 Вывод 1 [DIN, Пассивный, Линия]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(267.00 mm, 145.00 mm): Символ R7 [R7_4.7k_I2C]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(267.00 mm, 159.00 mm): Символ R8 [R8_4.7k_I2C]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(267.00 mm, 177.00 mm): Символ C9 [C9_100nF_VDDIO]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(267.00 mm, 191.00 mm): Символ C10 [C10_100nF_VDD]
+[footprint_link_issues]: Текущая конфигурация не включает библиотеку посадочных мест 'Package_TO_SOT_SMD'
+    ; warning
+    @(268.00 mm, 84.00 mm): Символ U8 [U8_TPS22918DBVR]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(268.00 mm, 84.00 mm): Символ U8 [U8_TPS22918DBVR]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(287.00 mm, 230.00 mm): Символ D21-D40 [D21-D40_20x_SK6805-EC15_TOP_B]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(287.00 mm, 260.00 mm): Символ D61-D80 [D61-D80_20x_SK6805-EC15_TOP_D]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(287.00 mm, 288.00 mm): Символ TD13-TD24 [TD13-TD24_12x_SK6805-EC10_TIP_B]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(287.00 mm, 318.00 mm): Символ TD37-TD48 [TD37-TD48_12x_SK6805-EC10_TIP_D]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(288.92 mm, 84.00 mm): Symbol C8 Вывод 1 [1, Пассивный, Линия]
+[lib_symbol_issues]: Текущая конфигурация не содержит библиотеку символов 'SmartSpinner'
+    ; warning
+    @(302.00 mm, 84.00 mm): Символ C8 [C8_1nF_SOFT_START]
+
+ ** ERC messages: 89  Errors 0  Warnings 89
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

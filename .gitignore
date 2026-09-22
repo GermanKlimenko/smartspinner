@@ -37,7 +37,7 @@ next-env.d.ts
 /outputs/
 /work/
 /output/
-/tmp/
 /.venv/
 /public/outputs/
+/tmp/
 __pycache__/

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SmartSpinner")(type "KiCad")(uri "${KIPRJMOD}/smartspinner_v0_5.kicad_sym")(options "")(descr "SmartSpinner v0.5 review symbols"))
+)

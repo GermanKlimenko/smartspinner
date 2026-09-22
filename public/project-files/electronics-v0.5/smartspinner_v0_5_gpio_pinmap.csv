@@ -1,0 +1,17 @@
+nRF52840 pin,net,function
+P0.03,TOP_A,U2 gate 1 -> arm A top LED chain
+P0.04,TOP_B,U2 gate 2 -> arm B top LED chain
+P0.05,TOP_C,U2 gate 3 -> arm C top LED chain
+P0.06,TOP_D,U2 gate 4 -> arm D top LED chain
+P0.07,TIP_A,U9 gate 1 -> arm A tip board
+P0.08,TIP_B,U9 gate 2 -> arm B tip board
+P0.09,TIP_C,U9 gate 3 -> arm C tip board
+P0.10,TIP_D,U9 gate 4 -> arm D tip board
+P0.11,HALL_INT,Hall revolution index
+P0.12,LED_EN,5 V LED rail enable
+P0.13,IMU_INT,BMI270 INT1
+P0.14,CHG_STAT,MCP73831 charge status
+P0.18,RESET_N,Debug/reset
+P0.26,SDA,BMI270 I2C data
+P0.27,SCL,BMI270 I2C clock
+P0.02,VBAT_SENSE,Battery divider ADC
