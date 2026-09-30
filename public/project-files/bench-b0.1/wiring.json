@@ -1,0 +1,1337 @@
+{
+  "revision": "B0.1",
+  "status": "UNTESTED HARDWARE / STATIONARY ONLY",
+  "optional": "PD1/R12 optical measurement; R13 replaces R12; R14 is not fitted in main assembly",
+  "components": {
+    "A1": "Arduino UNO R3 5V 16MHz ATmega328P",
+    "PS1": "Isolated bench PSU 5.00V, current limit up to 0.60A",
+    "U1": "SM16306SJ QSOP24",
+    "R1": "3.74k 1% 0.25W",
+    "C1": "100nF X7R 16V",
+    "U2": "SM16306SJ QSOP24",
+    "R2": "3.74k 1% 0.25W",
+    "C2": "100nF X7R 16V",
+    "U3": "SM16306SJ QSOP24",
+    "R3": "3.74k 1% 0.25W",
+    "C3": "100nF X7R 16V",
+    "U4": "SM16306SJ QSOP24",
+    "R4": "3.74k 1% 0.25W",
+    "C4": "100nF X7R 16V",
+    "U5": "SM16306SJ QSOP24",
+    "R5": "3.74k 1% 0.25W",
+    "C5": "100nF X7R 16V",
+    "U6": "SM16306SJ QSOP24",
+    "R6": "3.74k 1% 0.25W",
+    "C6": "100nF X7R 16V",
+    "R7": "47R",
+    "R8": "47R",
+    "R9": "47R",
+    "R10": "100R",
+    "R11": "10k",
+    "R12": "10k",
+    "C7": "10uF >=10V polarized",
+    "C8": "100uF >=10V polarized",
+    "C9": "100nF X7R 16V",
+    "S1": "SPDT BBM OFF/RUN",
+    "S2": "SPST power",
+    "F1": "0.75A DC-rated fuse",
+    "PD1": "Vishay BPW34 optional",
+    "D1": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D2": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D3": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D4": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D5": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D6": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D7": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D8": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D9": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D10": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D11": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D12": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D13": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D14": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D15": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D16": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D17": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D18": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D19": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D20": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D21": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D22": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D23": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D24": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D25": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D26": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D27": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D28": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D29": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D30": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D31": "Kingbright WP154A4SEJ3VBDZGW/CA",
+    "D32": "Kingbright WP154A4SEJ3VBDZGW/CA"
+  },
+  "nets": {
+    "GND": [
+      "U1.1",
+      "R1.2",
+      "C1.2",
+      "U2.1",
+      "R2.2",
+      "C2.2",
+      "U3.1",
+      "R3.2",
+      "C3.2",
+      "U4.1",
+      "R4.2",
+      "C4.2",
+      "U5.1",
+      "R5.2",
+      "C5.2",
+      "U6.1",
+      "R6.2",
+      "C6.2",
+      "A1.GND",
+      "PS1.-",
+      "C7.-",
+      "C8.-",
+      "C9.2",
+      "R12.2",
+      "TP_GND.1"
+    ],
+    "+5V_LOGIC": [
+      "U1.24",
+      "C1.1",
+      "U2.24",
+      "C2.1",
+      "U3.24",
+      "C3.1",
+      "U4.24",
+      "C4.1",
+      "U5.24",
+      "C5.1",
+      "U6.24",
+      "C6.1",
+      "A1.5V",
+      "S1.OFF",
+      "R11.1",
+      "C7.+",
+      "PD1.K",
+      "TP_LOGIC.1"
+    ],
+    "REXT_1": [
+      "U1.23",
+      "R1.1"
+    ],
+    "CLK_BUS": [
+      "U1.3",
+      "U2.3",
+      "U3.3",
+      "U4.3",
+      "U5.3",
+      "U6.3",
+      "R8.2",
+      "TP_CLK.1"
+    ],
+    "LE_BUS": [
+      "U1.4",
+      "U2.4",
+      "U3.4",
+      "U4.4",
+      "U5.4",
+      "U6.4",
+      "R9.2",
+      "TP_LE.1"
+    ],
+    "OE_BUS": [
+      "U1.21",
+      "U2.21",
+      "U3.21",
+      "U4.21",
+      "U5.21",
+      "U6.21",
+      "S1.COM",
+      "R11.2",
+      "TP_OE.1"
+    ],
+    "DATA_0": [
+      "U1.2",
+      "R7.2"
+    ],
+    "REXT_2": [
+      "U2.23",
+      "R2.1"
+    ],
+    "DATA_1": [
+      "U1.22",
+      "U2.2"
+    ],
+    "REXT_3": [
+      "U3.23",
+      "R3.1"
+    ],
+    "DATA_2": [
+      "U2.22",
+      "U3.2"
+    ],
+    "REXT_4": [
+      "U4.23",
+      "R4.1"
+    ],
+    "DATA_3": [
+      "U3.22",
+      "U4.2"
+    ],
+    "REXT_5": [
+      "U5.23",
+      "R5.1"
+    ],
+    "DATA_4": [
+      "U4.22",
+      "U5.2"
+    ],
+    "REXT_6": [
+      "U6.23",
+      "R6.1"
+    ],
+    "DATA_5": [
+      "U5.22",
+      "U6.2"
+    ],
+    "DATA_6": [
+      "U6.22",
+      "TP_SDO.1"
+    ],
+    "MOSI_RAW": [
+      "A1.D11",
+      "R7.1"
+    ],
+    "CLK_RAW": [
+      "A1.D13",
+      "R8.1"
+    ],
+    "LE_RAW": [
+      "A1.D10",
+      "R9.1"
+    ],
+    "OE_RAW": [
+      "A1.D9",
+      "R10.1"
+    ],
+    "OE_RUN": [
+      "R10.2",
+      "S1.RUN"
+    ],
+    "PSU_PLUS": [
+      "PS1.+",
+      "F1.1"
+    ],
+    "FUSED_PLUS": [
+      "F1.2",
+      "S2.1"
+    ],
+    "+5V_LED": [
+      "S2.2",
+      "C8.+",
+      "C9.1",
+      "TP_LED.1",
+      "D1.2",
+      "D2.2",
+      "D3.2",
+      "D4.2",
+      "D5.2",
+      "D6.2",
+      "D7.2",
+      "D8.2",
+      "D9.2",
+      "D10.2",
+      "D11.2",
+      "D12.2",
+      "D13.2",
+      "D14.2",
+      "D15.2",
+      "D16.2",
+      "D17.2",
+      "D18.2",
+      "D19.2",
+      "D20.2",
+      "D21.2",
+      "D22.2",
+      "D23.2",
+      "D24.2",
+      "D25.2",
+      "D26.2",
+      "D27.2",
+      "D28.2",
+      "D29.2",
+      "D30.2",
+      "D31.2",
+      "D32.2"
+    ],
+    "MARK": [
+      "A1.D8",
+      "TP_MARK.1"
+    ],
+    "LIGHT": [
+      "PD1.A",
+      "R12.1",
+      "TP_LIGHT.1"
+    ],
+    "CH_00_R": [
+      "U1.5",
+      "D1.1"
+    ],
+    "CH_01_G": [
+      "U1.6",
+      "D1.4"
+    ],
+    "CH_02_B": [
+      "U1.7",
+      "D1.3"
+    ],
+    "CH_03_R": [
+      "U1.8",
+      "D2.1"
+    ],
+    "CH_04_G": [
+      "U1.9",
+      "D2.4"
+    ],
+    "CH_05_B": [
+      "U1.10",
+      "D2.3"
+    ],
+    "CH_06_R": [
+      "U1.11",
+      "D3.1"
+    ],
+    "CH_07_G": [
+      "U1.12",
+      "D3.4"
+    ],
+    "CH_08_B": [
+      "U1.13",
+      "D3.3"
+    ],
+    "CH_09_R": [
+      "U1.14",
+      "D4.1"
+    ],
+    "CH_10_G": [
+      "U1.15",
+      "D4.4"
+    ],
+    "CH_11_B": [
+      "U1.16",
+      "D4.3"
+    ],
+    "CH_12_R": [
+      "U1.17",
+      "D5.1"
+    ],
+    "CH_13_G": [
+      "U1.18",
+      "D5.4"
+    ],
+    "CH_14_B": [
+      "U1.19",
+      "D5.3"
+    ],
+    "CH_15_R": [
+      "U1.20",
+      "D6.1"
+    ],
+    "CH_16_G": [
+      "U2.5",
+      "D6.4"
+    ],
+    "CH_17_B": [
+      "U2.6",
+      "D6.3"
+    ],
+    "CH_18_R": [
+      "U2.7",
+      "D7.1"
+    ],
+    "CH_19_G": [
+      "U2.8",
+      "D7.4"
+    ],
+    "CH_20_B": [
+      "U2.9",
+      "D7.3"
+    ],
+    "CH_21_R": [
+      "U2.10",
+      "D8.1"
+    ],
+    "CH_22_G": [
+      "U2.11",
+      "D8.4"
+    ],
+    "CH_23_B": [
+      "U2.12",
+      "D8.3"
+    ],
+    "CH_24_R": [
+      "U2.13",
+      "D9.1"
+    ],
+    "CH_25_G": [
+      "U2.14",
+      "D9.4"
+    ],
+    "CH_26_B": [
+      "U2.15",
+      "D9.3"
+    ],
+    "CH_27_R": [
+      "U2.16",
+      "D10.1"
+    ],
+    "CH_28_G": [
+      "U2.17",
+      "D10.4"
+    ],
+    "CH_29_B": [
+      "U2.18",
+      "D10.3"
+    ],
+    "CH_30_R": [
+      "U2.19",
+      "D11.1"
+    ],
+    "CH_31_G": [
+      "U2.20",
+      "D11.4"
+    ],
+    "CH_32_B": [
+      "U3.5",
+      "D11.3"
+    ],
+    "CH_33_R": [
+      "U3.6",
+      "D12.1"
+    ],
+    "CH_34_G": [
+      "U3.7",
+      "D12.4"
+    ],
+    "CH_35_B": [
+      "U3.8",
+      "D12.3"
+    ],
+    "CH_36_R": [
+      "U3.9",
+      "D13.1"
+    ],
+    "CH_37_G": [
+      "U3.10",
+      "D13.4"
+    ],
+    "CH_38_B": [
+      "U3.11",
+      "D13.3"
+    ],
+    "CH_39_R": [
+      "U3.12",
+      "D14.1"
+    ],
+    "CH_40_G": [
+      "U3.13",
+      "D14.4"
+    ],
+    "CH_41_B": [
+      "U3.14",
+      "D14.3"
+    ],
+    "CH_42_R": [
+      "U3.15",
+      "D15.1"
+    ],
+    "CH_43_G": [
+      "U3.16",
+      "D15.4"
+    ],
+    "CH_44_B": [
+      "U3.17",
+      "D15.3"
+    ],
+    "CH_45_R": [
+      "U3.18",
+      "D16.1"
+    ],
+    "CH_46_G": [
+      "U3.19",
+      "D16.4"
+    ],
+    "CH_47_B": [
+      "U3.20",
+      "D16.3"
+    ],
+    "CH_48_R": [
+      "U4.5",
+      "D17.1"
+    ],
+    "CH_49_G": [
+      "U4.6",
+      "D17.4"
+    ],
+    "CH_50_B": [
+      "U4.7",
+      "D17.3"
+    ],
+    "CH_51_R": [
+      "U4.8",
+      "D18.1"
+    ],
+    "CH_52_G": [
+      "U4.9",
+      "D18.4"
+    ],
+    "CH_53_B": [
+      "U4.10",
+      "D18.3"
+    ],
+    "CH_54_R": [
+      "U4.11",
+      "D19.1"
+    ],
+    "CH_55_G": [
+      "U4.12",
+      "D19.4"
+    ],
+    "CH_56_B": [
+      "U4.13",
+      "D19.3"
+    ],
+    "CH_57_R": [
+      "U4.14",
+      "D20.1"
+    ],
+    "CH_58_G": [
+      "U4.15",
+      "D20.4"
+    ],
+    "CH_59_B": [
+      "U4.16",
+      "D20.3"
+    ],
+    "CH_60_R": [
+      "U4.17",
+      "D21.1"
+    ],
+    "CH_61_G": [
+      "U4.18",
+      "D21.4"
+    ],
+    "CH_62_B": [
+      "U4.19",
+      "D21.3"
+    ],
+    "CH_63_R": [
+      "U4.20",
+      "D22.1"
+    ],
+    "CH_64_G": [
+      "U5.5",
+      "D22.4"
+    ],
+    "CH_65_B": [
+      "U5.6",
+      "D22.3"
+    ],
+    "CH_66_R": [
+      "U5.7",
+      "D23.1"
+    ],
+    "CH_67_G": [
+      "U5.8",
+      "D23.4"
+    ],
+    "CH_68_B": [
+      "U5.9",
+      "D23.3"
+    ],
+    "CH_69_R": [
+      "U5.10",
+      "D24.1"
+    ],
+    "CH_70_G": [
+      "U5.11",
+      "D24.4"
+    ],
+    "CH_71_B": [
+      "U5.12",
+      "D24.3"
+    ],
+    "CH_72_R": [
+      "U5.13",
+      "D25.1"
+    ],
+    "CH_73_G": [
+      "U5.14",
+      "D25.4"
+    ],
+    "CH_74_B": [
+      "U5.15",
+      "D25.3"
+    ],
+    "CH_75_R": [
+      "U5.16",
+      "D26.1"
+    ],
+    "CH_76_G": [
+      "U5.17",
+      "D26.4"
+    ],
+    "CH_77_B": [
+      "U5.18",
+      "D26.3"
+    ],
+    "CH_78_R": [
+      "U5.19",
+      "D27.1"
+    ],
+    "CH_79_G": [
+      "U5.20",
+      "D27.4"
+    ],
+    "CH_80_B": [
+      "U6.5",
+      "D27.3"
+    ],
+    "CH_81_R": [
+      "U6.6",
+      "D28.1"
+    ],
+    "CH_82_G": [
+      "U6.7",
+      "D28.4"
+    ],
+    "CH_83_B": [
+      "U6.8",
+      "D28.3"
+    ],
+    "CH_84_R": [
+      "U6.9",
+      "D29.1"
+    ],
+    "CH_85_G": [
+      "U6.10",
+      "D29.4"
+    ],
+    "CH_86_B": [
+      "U6.11",
+      "D29.3"
+    ],
+    "CH_87_R": [
+      "U6.12",
+      "D30.1"
+    ],
+    "CH_88_G": [
+      "U6.13",
+      "D30.4"
+    ],
+    "CH_89_B": [
+      "U6.14",
+      "D30.3"
+    ],
+    "CH_90_R": [
+      "U6.15",
+      "D31.1"
+    ],
+    "CH_91_G": [
+      "U6.16",
+      "D31.4"
+    ],
+    "CH_92_B": [
+      "U6.17",
+      "D31.3"
+    ],
+    "CH_93_R": [
+      "U6.18",
+      "D32.1"
+    ],
+    "CH_94_G": [
+      "U6.19",
+      "D32.4"
+    ],
+    "CH_95_B": [
+      "U6.20",
+      "D32.3"
+    ]
+  },
+  "pixels": [
+    {
+      "pixel": 0,
+      "led": "D1",
+      "bank": "TOP",
+      "anode": "D1.2",
+      "R": {
+        "channel": 0,
+        "driver": "U1.5",
+        "cathode": "D1.1"
+      },
+      "G": {
+        "channel": 1,
+        "driver": "U1.6",
+        "cathode": "D1.4"
+      },
+      "B": {
+        "channel": 2,
+        "driver": "U1.7",
+        "cathode": "D1.3"
+      }
+    },
+    {
+      "pixel": 1,
+      "led": "D2",
+      "bank": "TOP",
+      "anode": "D2.2",
+      "R": {
+        "channel": 3,
+        "driver": "U1.8",
+        "cathode": "D2.1"
+      },
+      "G": {
+        "channel": 4,
+        "driver": "U1.9",
+        "cathode": "D2.4"
+      },
+      "B": {
+        "channel": 5,
+        "driver": "U1.10",
+        "cathode": "D2.3"
+      }
+    },
+    {
+      "pixel": 2,
+      "led": "D3",
+      "bank": "TOP",
+      "anode": "D3.2",
+      "R": {
+        "channel": 6,
+        "driver": "U1.11",
+        "cathode": "D3.1"
+      },
+      "G": {
+        "channel": 7,
+        "driver": "U1.12",
+        "cathode": "D3.4"
+      },
+      "B": {
+        "channel": 8,
+        "driver": "U1.13",
+        "cathode": "D3.3"
+      }
+    },
+    {
+      "pixel": 3,
+      "led": "D4",
+      "bank": "TOP",
+      "anode": "D4.2",
+      "R": {
+        "channel": 9,
+        "driver": "U1.14",
+        "cathode": "D4.1"
+      },
+      "G": {
+        "channel": 10,
+        "driver": "U1.15",
+        "cathode": "D4.4"
+      },
+      "B": {
+        "channel": 11,
+        "driver": "U1.16",
+        "cathode": "D4.3"
+      }
+    },
+    {
+      "pixel": 4,
+      "led": "D5",
+      "bank": "TOP",
+      "anode": "D5.2",
+      "R": {
+        "channel": 12,
+        "driver": "U1.17",
+        "cathode": "D5.1"
+      },
+      "G": {
+        "channel": 13,
+        "driver": "U1.18",
+        "cathode": "D5.4"
+      },
+      "B": {
+        "channel": 14,
+        "driver": "U1.19",
+        "cathode": "D5.3"
+      }
+    },
+    {
+      "pixel": 5,
+      "led": "D6",
+      "bank": "TOP",
+      "anode": "D6.2",
+      "R": {
+        "channel": 15,
+        "driver": "U1.20",
+        "cathode": "D6.1"
+      },
+      "G": {
+        "channel": 16,
+        "driver": "U2.5",
+        "cathode": "D6.4"
+      },
+      "B": {
+        "channel": 17,
+        "driver": "U2.6",
+        "cathode": "D6.3"
+      }
+    },
+    {
+      "pixel": 6,
+      "led": "D7",
+      "bank": "TOP",
+      "anode": "D7.2",
+      "R": {
+        "channel": 18,
+        "driver": "U2.7",
+        "cathode": "D7.1"
+      },
+      "G": {
+        "channel": 19,
+        "driver": "U2.8",
+        "cathode": "D7.4"
+      },
+      "B": {
+        "channel": 20,
+        "driver": "U2.9",
+        "cathode": "D7.3"
+      }
+    },
+    {
+      "pixel": 7,
+      "led": "D8",
+      "bank": "TOP",
+      "anode": "D8.2",
+      "R": {
+        "channel": 21,
+        "driver": "U2.10",
+        "cathode": "D8.1"
+      },
+      "G": {
+        "channel": 22,
+        "driver": "U2.11",
+        "cathode": "D8.4"
+      },
+      "B": {
+        "channel": 23,
+        "driver": "U2.12",
+        "cathode": "D8.3"
+      }
+    },
+    {
+      "pixel": 8,
+      "led": "D9",
+      "bank": "TOP",
+      "anode": "D9.2",
+      "R": {
+        "channel": 24,
+        "driver": "U2.13",
+        "cathode": "D9.1"
+      },
+      "G": {
+        "channel": 25,
+        "driver": "U2.14",
+        "cathode": "D9.4"
+      },
+      "B": {
+        "channel": 26,
+        "driver": "U2.15",
+        "cathode": "D9.3"
+      }
+    },
+    {
+      "pixel": 9,
+      "led": "D10",
+      "bank": "TOP",
+      "anode": "D10.2",
+      "R": {
+        "channel": 27,
+        "driver": "U2.16",
+        "cathode": "D10.1"
+      },
+      "G": {
+        "channel": 28,
+        "driver": "U2.17",
+        "cathode": "D10.4"
+      },
+      "B": {
+        "channel": 29,
+        "driver": "U2.18",
+        "cathode": "D10.3"
+      }
+    },
+    {
+      "pixel": 10,
+      "led": "D11",
+      "bank": "TOP",
+      "anode": "D11.2",
+      "R": {
+        "channel": 30,
+        "driver": "U2.19",
+        "cathode": "D11.1"
+      },
+      "G": {
+        "channel": 31,
+        "driver": "U2.20",
+        "cathode": "D11.4"
+      },
+      "B": {
+        "channel": 32,
+        "driver": "U3.5",
+        "cathode": "D11.3"
+      }
+    },
+    {
+      "pixel": 11,
+      "led": "D12",
+      "bank": "TOP",
+      "anode": "D12.2",
+      "R": {
+        "channel": 33,
+        "driver": "U3.6",
+        "cathode": "D12.1"
+      },
+      "G": {
+        "channel": 34,
+        "driver": "U3.7",
+        "cathode": "D12.4"
+      },
+      "B": {
+        "channel": 35,
+        "driver": "U3.8",
+        "cathode": "D12.3"
+      }
+    },
+    {
+      "pixel": 12,
+      "led": "D13",
+      "bank": "TOP",
+      "anode": "D13.2",
+      "R": {
+        "channel": 36,
+        "driver": "U3.9",
+        "cathode": "D13.1"
+      },
+      "G": {
+        "channel": 37,
+        "driver": "U3.10",
+        "cathode": "D13.4"
+      },
+      "B": {
+        "channel": 38,
+        "driver": "U3.11",
+        "cathode": "D13.3"
+      }
+    },
+    {
+      "pixel": 13,
+      "led": "D14",
+      "bank": "TOP",
+      "anode": "D14.2",
+      "R": {
+        "channel": 39,
+        "driver": "U3.12",
+        "cathode": "D14.1"
+      },
+      "G": {
+        "channel": 40,
+        "driver": "U3.13",
+        "cathode": "D14.4"
+      },
+      "B": {
+        "channel": 41,
+        "driver": "U3.14",
+        "cathode": "D14.3"
+      }
+    },
+    {
+      "pixel": 14,
+      "led": "D15",
+      "bank": "TOP",
+      "anode": "D15.2",
+      "R": {
+        "channel": 42,
+        "driver": "U3.15",
+        "cathode": "D15.1"
+      },
+      "G": {
+        "channel": 43,
+        "driver": "U3.16",
+        "cathode": "D15.4"
+      },
+      "B": {
+        "channel": 44,
+        "driver": "U3.17",
+        "cathode": "D15.3"
+      }
+    },
+    {
+      "pixel": 15,
+      "led": "D16",
+      "bank": "TOP",
+      "anode": "D16.2",
+      "R": {
+        "channel": 45,
+        "driver": "U3.18",
+        "cathode": "D16.1"
+      },
+      "G": {
+        "channel": 46,
+        "driver": "U3.19",
+        "cathode": "D16.4"
+      },
+      "B": {
+        "channel": 47,
+        "driver": "U3.20",
+        "cathode": "D16.3"
+      }
+    },
+    {
+      "pixel": 16,
+      "led": "D17",
+      "bank": "TOP",
+      "anode": "D17.2",
+      "R": {
+        "channel": 48,
+        "driver": "U4.5",
+        "cathode": "D17.1"
+      },
+      "G": {
+        "channel": 49,
+        "driver": "U4.6",
+        "cathode": "D17.4"
+      },
+      "B": {
+        "channel": 50,
+        "driver": "U4.7",
+        "cathode": "D17.3"
+      }
+    },
+    {
+      "pixel": 17,
+      "led": "D18",
+      "bank": "TOP",
+      "anode": "D18.2",
+      "R": {
+        "channel": 51,
+        "driver": "U4.8",
+        "cathode": "D18.1"
+      },
+      "G": {
+        "channel": 52,
+        "driver": "U4.9",
+        "cathode": "D18.4"
+      },
+      "B": {
+        "channel": 53,
+        "driver": "U4.10",
+        "cathode": "D18.3"
+      }
+    },
+    {
+      "pixel": 18,
+      "led": "D19",
+      "bank": "TOP",
+      "anode": "D19.2",
+      "R": {
+        "channel": 54,
+        "driver": "U4.11",
+        "cathode": "D19.1"
+      },
+      "G": {
+        "channel": 55,
+        "driver": "U4.12",
+        "cathode": "D19.4"
+      },
+      "B": {
+        "channel": 56,
+        "driver": "U4.13",
+        "cathode": "D19.3"
+      }
+    },
+    {
+      "pixel": 19,
+      "led": "D20",
+      "bank": "TOP",
+      "anode": "D20.2",
+      "R": {
+        "channel": 57,
+        "driver": "U4.14",
+        "cathode": "D20.1"
+      },
+      "G": {
+        "channel": 58,
+        "driver": "U4.15",
+        "cathode": "D20.4"
+      },
+      "B": {
+        "channel": 59,
+        "driver": "U4.16",
+        "cathode": "D20.3"
+      }
+    },
+    {
+      "pixel": 20,
+      "led": "D21",
+      "bank": "TIP",
+      "anode": "D21.2",
+      "R": {
+        "channel": 60,
+        "driver": "U4.17",
+        "cathode": "D21.1"
+      },
+      "G": {
+        "channel": 61,
+        "driver": "U4.18",
+        "cathode": "D21.4"
+      },
+      "B": {
+        "channel": 62,
+        "driver": "U4.19",
+        "cathode": "D21.3"
+      }
+    },
+    {
+      "pixel": 21,
+      "led": "D22",
+      "bank": "TIP",
+      "anode": "D22.2",
+      "R": {
+        "channel": 63,
+        "driver": "U4.20",
+        "cathode": "D22.1"
+      },
+      "G": {
+        "channel": 64,
+        "driver": "U5.5",
+        "cathode": "D22.4"
+      },
+      "B": {
+        "channel": 65,
+        "driver": "U5.6",
+        "cathode": "D22.3"
+      }
+    },
+    {
+      "pixel": 22,
+      "led": "D23",
+      "bank": "TIP",
+      "anode": "D23.2",
+      "R": {
+        "channel": 66,
+        "driver": "U5.7",
+        "cathode": "D23.1"
+      },
+      "G": {
+        "channel": 67,
+        "driver": "U5.8",
+        "cathode": "D23.4"
+      },
+      "B": {
+        "channel": 68,
+        "driver": "U5.9",
+        "cathode": "D23.3"
+      }
+    },
+    {
+      "pixel": 23,
+      "led": "D24",
+      "bank": "TIP",
+      "anode": "D24.2",
+      "R": {
+        "channel": 69,
+        "driver": "U5.10",
+        "cathode": "D24.1"
+      },
+      "G": {
+        "channel": 70,
+        "driver": "U5.11",
+        "cathode": "D24.4"
+      },
+      "B": {
+        "channel": 71,
+        "driver": "U5.12",
+        "cathode": "D24.3"
+      }
+    },
+    {
+      "pixel": 24,
+      "led": "D25",
+      "bank": "TIP",
+      "anode": "D25.2",
+      "R": {
+        "channel": 72,
+        "driver": "U5.13",
+        "cathode": "D25.1"
+      },
+      "G": {
+        "channel": 73,
+        "driver": "U5.14",
+        "cathode": "D25.4"
+      },
+      "B": {
+        "channel": 74,
+        "driver": "U5.15",
+        "cathode": "D25.3"
+      }
+    },
+    {
+      "pixel": 25,
+      "led": "D26",
+      "bank": "TIP",
+      "anode": "D26.2",
+      "R": {
+        "channel": 75,
+        "driver": "U5.16",
+        "cathode": "D26.1"
+      },
+      "G": {
+        "channel": 76,
+        "driver": "U5.17",
+        "cathode": "D26.4"
+      },
+      "B": {
+        "channel": 77,
+        "driver": "U5.18",
+        "cathode": "D26.3"
+      }
+    },
+    {
+      "pixel": 26,
+      "led": "D27",
+      "bank": "TIP",
+      "anode": "D27.2",
+      "R": {
+        "channel": 78,
+        "driver": "U5.19",
+        "cathode": "D27.1"
+      },
+      "G": {
+        "channel": 79,
+        "driver": "U5.20",
+        "cathode": "D27.4"
+      },
+      "B": {
+        "channel": 80,
+        "driver": "U6.5",
+        "cathode": "D27.3"
+      }
+    },
+    {
+      "pixel": 27,
+      "led": "D28",
+      "bank": "TIP",
+      "anode": "D28.2",
+      "R": {
+        "channel": 81,
+        "driver": "U6.6",
+        "cathode": "D28.1"
+      },
+      "G": {
+        "channel": 82,
+        "driver": "U6.7",
+        "cathode": "D28.4"
+      },
+      "B": {
+        "channel": 83,
+        "driver": "U6.8",
+        "cathode": "D28.3"
+      }
+    },
+    {
+      "pixel": 28,
+      "led": "D29",
+      "bank": "TIP",
+      "anode": "D29.2",
+      "R": {
+        "channel": 84,
+        "driver": "U6.9",
+        "cathode": "D29.1"
+      },
+      "G": {
+        "channel": 85,
+        "driver": "U6.10",
+        "cathode": "D29.4"
+      },
+      "B": {
+        "channel": 86,
+        "driver": "U6.11",
+        "cathode": "D29.3"
+      }
+    },
+    {
+      "pixel": 29,
+      "led": "D30",
+      "bank": "TIP",
+      "anode": "D30.2",
+      "R": {
+        "channel": 87,
+        "driver": "U6.12",
+        "cathode": "D30.1"
+      },
+      "G": {
+        "channel": 88,
+        "driver": "U6.13",
+        "cathode": "D30.4"
+      },
+      "B": {
+        "channel": 89,
+        "driver": "U6.14",
+        "cathode": "D30.3"
+      }
+    },
+    {
+      "pixel": 30,
+      "led": "D31",
+      "bank": "TIP",
+      "anode": "D31.2",
+      "R": {
+        "channel": 90,
+        "driver": "U6.15",
+        "cathode": "D31.1"
+      },
+      "G": {
+        "channel": 91,
+        "driver": "U6.16",
+        "cathode": "D31.4"
+      },
+      "B": {
+        "channel": 92,
+        "driver": "U6.17",
+        "cathode": "D31.3"
+      }
+    },
+    {
+      "pixel": 31,
+      "led": "D32",
+      "bank": "TIP",
+      "anode": "D32.2",
+      "R": {
+        "channel": 93,
+        "driver": "U6.18",
+        "cathode": "D32.1"
+      },
+      "G": {
+        "channel": 94,
+        "driver": "U6.19",
+        "cathode": "D32.4"
+      },
+      "B": {
+        "channel": 95,
+        "driver": "U6.20",
+        "cathode": "D32.3"
+      }
+    }
+  ]
+}

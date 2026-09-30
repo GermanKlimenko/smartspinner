@@ -1,0 +1,276 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-29T22:49:01",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "smartspinner_tip_v0_4.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 1.1000 mm",
+                    "pos": {
+                        "x": 100.82,
+                        "y": 100.86
+                    },
+                    "uuid": "6f4091e3-e6ae-425b-a16d-2b0114e3b517"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от J1 на B.Cu",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 100.7
+                    },
+                    "uuid": "0c556b9b-4645-47de-8d4b-1917740d389d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 0.5100 mm",
+                    "pos": {
+                        "x": 99.69,
+                        "y": 102.44
+                    },
+                    "uuid": "86ed1f58-61f4-4ec2-b6bd-134b46c46eb9"
+                },
+                {
+                    "description": "Конт. пл. 1 [+5V_LED] от J1 на B.Cu",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 102.1
+                    },
+                    "uuid": "1f0d209a-bdcb-4348-9729-1ab5cffc1648"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 4 [DIN] от TD1 на F.Cu",
+                    "pos": {
+                        "x": 99.69,
+                        "y": 94.26
+                    },
+                    "uuid": "574c51cc-eeed-476a-8b16-e2da532c5289"
+                },
+                {
+                    "description": "Конт. пл. 3 [DIN] от J1 на B.Cu",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 99.3
+                    },
+                    "uuid": "77eac0f7-dabe-46cf-bbf0-f67e8def91ab"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [DOUT] от TD12 на F.Cu",
+                    "pos": {
+                        "x": 100.31,
+                        "y": 105.74
+                    },
+                    "uuid": "37d0894b-d129-47bf-aae6-79d695bdd185"
+                },
+                {
+                    "description": "Конт. пл. 4 [DOUT] от J1 на B.Cu",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 97.9
+                    },
+                    "uuid": "9e5b8701-5b6e-4054-a1db-0c03e55f38b7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Высота текста вне допустимого диапазона (высота текста шелкографии из настроек ограничений платы мин. высота 0.8000 mm; текущая 0.5500 mm)",
+            "items": [
+                {
+                    "description": "Надпись на плате 'TIP v0.4 12PX' на b.silkscreen",
+                    "pos": {
+                        "x": 102.6,
+                        "y": 100.0
+                    },
+                    "uuid": "b6d876c0-bf4a-4844-8a26-479a0fd1bf46"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Надпись на плате 'TIP v0.4 12PX' на b.silkscreen",
+                    "pos": {
+                        "x": 102.6,
+                        "y": 100.0
+                    },
+                    "uuid": "b6d876c0-bf4a-4844-8a26-479a0fd1bf46"
+                },
+                {
+                    "description": "Прямоугольник от J1 на b.silkscreen",
+                    "pos": {
+                        "x": 101.8,
+                        "y": 102.8
+                    },
+                    "uuid": "f1201b72-5e93-4bc3-aec0-a15ed6ee2773"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Надпись на плате 'TIP v0.4 12PX' на b.silkscreen",
+                    "pos": {
+                        "x": 102.6,
+                        "y": 100.0
+                    },
+                    "uuid": "b6d876c0-bf4a-4844-8a26-479a0fd1bf46"
+                },
+                {
+                    "description": "Конт. пл. 4 [DOUT] от J1 на B.Cu",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 97.9
+                    },
+                    "uuid": "9e5b8701-5b6e-4054-a1db-0c03e55f38b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Надпись на плате 'TIP v0.4 12PX' на b.silkscreen",
+                    "pos": {
+                        "x": 102.6,
+                        "y": 100.0
+                    },
+                    "uuid": "b6d876c0-bf4a-4844-8a26-479a0fd1bf46"
+                },
+                {
+                    "description": "Конт. пл. 3 [DIN] от J1 на B.Cu",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 99.3
+                    },
+                    "uuid": "77eac0f7-dabe-46cf-bbf0-f67e8def91ab"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Надпись на плате 'TIP v0.4 12PX' на b.silkscreen",
+                    "pos": {
+                        "x": 102.6,
+                        "y": 100.0
+                    },
+                    "uuid": "b6d876c0-bf4a-4844-8a26-479a0fd1bf46"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от J1 на B.Cu",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 100.7
+                    },
+                    "uuid": "0c556b9b-4645-47de-8d4b-1917740d389d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Надпись на плате 'TIP v0.4 12PX' на b.silkscreen",
+                    "pos": {
+                        "x": 102.6,
+                        "y": 100.0
+                    },
+                    "uuid": "b6d876c0-bf4a-4844-8a26-479a0fd1bf46"
+                },
+                {
+                    "description": "Конт. пл. 1 [+5V_LED] от J1 на B.Cu",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 102.1
+                    },
+                    "uuid": "1f0d209a-bdcb-4348-9729-1ab5cffc1648"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения J1",
+                    "pos": {
+                        "x": 100.9,
+                        "y": 100.0
+                    },
+                    "uuid": "98ff2e7e-b867-4168-bfa5-98a6b5a54ac7"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        }
+    ]
+}

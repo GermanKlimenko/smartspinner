@@ -1,0 +1,120 @@
+{
+  "assumptions": {
+    "baud": 800000,
+    "reset_us_lower_bound": 80,
+    "led_channel_current_A": 0.005,
+    "led_idle_current_A": 0.0005,
+    "logic_battery_current_A": 0.015,
+    "boost_efficiency": 0.85,
+    "battery_capacity_Ah": 0.5,
+    "usable_capacity_fraction": 0.85,
+    "power_warning": "Illustrative sensitivity calculation, NOT verified purchased LED currents or battery specification. Duty includes spatial occupancy, brightness and active color channels. Full-white scenario exceeds the proposed supply design; runtime is mathematical, not a supported operating mode."
+  },
+  "boost_intended_divider": {
+    "upper_ohm": 910000,
+    "lower_ohm": 100000,
+    "actual_typical_reference_pwm_V": 0.595,
+    "nominal_target_pwm_V": 6.009499999999999,
+    "nominal_target_pfm_V": 6.070099999999999,
+    "allowed_output_setting_max_V": 5.5,
+    "warning": "Target calculation, not prediction of actual regulated output: overvoltage protection will interfere."
+  },
+  "timing": [
+    {
+      "rpm": 300,
+      "four_arm_refresh_hz": 20.0,
+      "gyro_dps": 1800,
+      "20_led_chain": {
+        "update_us": 679.9999999999999,
+        "max_updates_per_revolution": 294,
+        "travel_mm_at_r50": 1.0681415022205296
+      },
+      "12_led_chain": {
+        "update_us": 440.0,
+        "max_updates_per_revolution": 454,
+        "travel_mm_at_r50": 0.6911503837897546
+      },
+      "g_at_14mm": 1.4089873872856788
+    },
+    {
+      "rpm": 600,
+      "four_arm_refresh_hz": 40.0,
+      "gyro_dps": 3600,
+      "20_led_chain": {
+        "update_us": 679.9999999999999,
+        "max_updates_per_revolution": 147,
+        "travel_mm_at_r50": 2.1362830044410592
+      },
+      "12_led_chain": {
+        "update_us": 440.0,
+        "max_updates_per_revolution": 227,
+        "travel_mm_at_r50": 1.3823007675795091
+      },
+      "g_at_14mm": 5.635949549142715
+    },
+    {
+      "rpm": 900,
+      "four_arm_refresh_hz": 60.0,
+      "gyro_dps": 5400,
+      "20_led_chain": {
+        "update_us": 679.9999999999999,
+        "max_updates_per_revolution": 98,
+        "travel_mm_at_r50": 3.2044245066615886
+      },
+      "12_led_chain": {
+        "update_us": 440.0,
+        "max_updates_per_revolution": 151,
+        "travel_mm_at_r50": 2.0734511513692633
+      },
+      "g_at_14mm": 12.680886485571106
+    },
+    {
+      "rpm": 1200,
+      "four_arm_refresh_hz": 80.0,
+      "gyro_dps": 7200,
+      "20_led_chain": {
+        "update_us": 679.9999999999999,
+        "max_updates_per_revolution": 73,
+        "travel_mm_at_r50": 4.2725660088821185
+      },
+      "12_led_chain": {
+        "update_us": 440.0,
+        "max_updates_per_revolution": 113,
+        "travel_mm_at_r50": 2.7646015351590183
+      },
+      "g_at_14mm": 22.54379819657086
+    }
+  ],
+  "power_scenarios": [
+    {
+      "mean_RGB_channel_duty": 0,
+      "led_5V_current_A": 0.064,
+      "battery_3V7_current_A": 0.11674880763116058,
+      "runtime_500mAh_85pct_usable_min": 218.41764826036632
+    },
+    {
+      "mean_RGB_channel_duty": 0.1,
+      "led_5V_current_A": 0.256,
+      "battery_3V7_current_A": 0.42199523052464233,
+      "runtime_500mAh_85pct_usable_min": 60.4272232373274
+    },
+    {
+      "mean_RGB_channel_duty": 0.25,
+      "led_5V_current_A": 0.544,
+      "battery_3V7_current_A": 0.8798648648648649,
+      "runtime_500mAh_85pct_usable_min": 28.981723237597908
+    },
+    {
+      "mean_RGB_channel_duty": 0.35,
+      "led_5V_current_A": 0.736,
+      "battery_3V7_current_A": 1.1851112877583463,
+      "runtime_500mAh_85pct_usable_min": 21.516966603392657
+    },
+    {
+      "mean_RGB_channel_duty": 1,
+      "led_5V_current_A": 1.984,
+      "battery_3V7_current_A": 3.169213036565978,
+      "runtime_500mAh_85pct_usable_min": 8.04616152520649
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch": "3e2dfab49ac94e13bf2cb0bbd5c2af77cd43fba67ad49bf4e7bfa0e572e61735",
+  "public/project-files/electronics-v0.4/smartspinner_main_v0_4.kicad_pcb": "542d19b62f5c5d9fd3935c651a4241a74f5ed53831891bf79add9f37a2831d5d",
+  "public/project-files/electronics-v0.4/smartspinner_tip_v0_4.kicad_pcb": "ad988bcb8ecbcfd90930ba5b68c53b88e7ca02093a0339c483c9cfea026c020c",
+  "tools/generate_schematic_v0_5.py": "0e9dd92fea59b082848cd2322f60185670166fc499aed835c3a3d0a807418ed0",
+  "tools/generate_electronics_v0_4.py": "dbb6e8a339be60a625590faf483de3f11b76ecb9720523a1ea8bcb36abc4f62c",
+  "public/project-files/generate_ticker_spinner_v0_3.py": "c7a3ceaef01be534031427c569086fc71a23ad7127568f4163d9a154bd7bb2e1"
+}

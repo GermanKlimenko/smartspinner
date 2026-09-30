@@ -1,0 +1,2 @@
+# Preserve the exact compiled artifact checked by SHA256.json.
+*.hex -text -diff

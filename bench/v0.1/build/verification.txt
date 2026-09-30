@@ -1,0 +1,38 @@
+SmartSpinner B0.1 software verification
+Timestamp: 2026-09-29T20:41:52.415518+00:00
+HARDWARE TESTS: NOT PERFORMED. No motor, battery or PCB production qualification.
+$ arduino-cli version
+arduino-cli  Version: 1.5.1 Commit: Homebrew Date: 2026-06-05T09:39:33Z
+
+
+Exit: 0
+$ arduino-cli core list
+ID          Installed Latest Name
+arduino:avr 1.8.8     1.8.8  Arduino AVR Boards
+esp32:esp32 3.3.11    3.3.11 esp32
+
+
+
+Exit: 0
+$ arduino-cli compile --fqbn arduino:avr:uno --output-dir build/uno firmware/spinner_bench
+Sketch uses 4712 bytes (14%) of program storage space. Maximum is 32256 bytes.
+Global variables use 334 bytes (16%) of dynamic memory, leaving 1714 bytes for local variables. Maximum is 2048 bytes.
+
+
+Exit: 0
+$ c++ -std=c++11 -Wall -Wextra -Werror tests/test_core.cpp -o /var/folders/p2/l0jzx4cs1jz6z1tv69qvvfjh0000gn/T/spinner-bench-test-kvj2ngw1/test_core
+
+
+Exit: 0
+$ /var/folders/p2/l0jzx4cs1jz6z1tv69qvvfjh0000gn/T/spinner-bench-test-kvj2ngw1/test_core
+PASS: 96 independent shift-chain cases; 256 RGB masks; bounds and parser cases
+
+
+Exit: 0
+$ /Users/germanklimenko/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tools/verify_wiring.py
+PASS: 341 nodes; all 144 driver pins accounted for; 96 unique LED channels
+PASS: separate positive rails, shared ground, OE switch, R_EXT and decoupling, LED polarity
+LIMIT: static connection checks only; no analog simulation, hardware measurements or KiCad ERC
+
+
+Exit: 0

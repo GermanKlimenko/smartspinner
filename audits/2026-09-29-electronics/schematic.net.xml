@@ -1,0 +1,1981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch</source>
+    <date>2026-09-29T22:49:00</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SMARTSPINNER v0.5 - PRINCIPLE SCHEMATIC FOR ENGINEERING REVIEW</title>
+        <company>German Klimenko / SmartSpinner</company>
+        <rev>v0.5-review</rev>
+        <date>2026-09-22</date>
+        <source>smartspinner_main_v0_5.kicad_sch</source>
+        <comment number="1" value="NOT FOR FABRICATION. Validate footprints, current limits, thermal design and antenna keep-out."/>
+        <comment number="2" value="4 arms x 20 top LEDs + 4 replaceable tip boards x 12 LEDs."/>
+        <comment number="3" value="All named labels are electrical nets. Repeated LED strings are equivalent chain blocks."/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF CHG IN</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="C1_4.7uF_CHG_IN" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5bf886e-6de6-4a28-8cd6-057e619ecc65</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF BAT</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="C2_4.7uF_BAT" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fc74068-0283-47e3-97d6-d5d2cecb6125</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>1uF LDO IN</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="C3_1uF_LDO_IN" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30760a17-5d06-4929-9ed7-02e07a9ca27c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>1uF LDO OUT</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="C4_1uF_LDO_OUT" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8279041f-7ef2-48e3-9364-79a2fbf9dbc1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>10uF BOOST IN</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="C5_10uF_BOOST_IN" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7b3f560-ab64-4dfc-a8ae-17f37294d6f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>22uF BOOST OUT</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="C6_22uF_BOOST_OUT" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47a9154a-765e-4230-8490-d36b3d7b66fa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>22uF BOOST OUT</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="C7_22uF_BOOST_OUT" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf26107a-aecc-4afb-b949-3da1e36c721c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>1nF SOFT START</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="C8_1nF_SOFT_START" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c23f659-7773-439a-9f98-7d6ee1646155</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF VDDIO</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="C9_100nF_VDDIO" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f98dae5-2f61-43b4-9d8a-ead207afddfe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100nF VDD</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="C10_100nF_VDD" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f34a4d23-c8f7-4107-95c2-3d3b7bc47bd5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1-D20">
+      <value>20x SK6805-EC15 TOP A</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="D1-D20_20x_SK6805-EC15_TOP_A" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef593753-9143-4202-8e23-1ba23725e194</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D21-D40">
+      <value>20x SK6805-EC15 TOP B</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="D21-D40_20x_SK6805-EC15_TOP_B" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5392be2-cb17-49e3-accc-7cce15b1ff5d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D41-D60">
+      <value>20x SK6805-EC15 TOP C</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="D41-D60_20x_SK6805-EC15_TOP_C" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75904c43-1c6e-4516-9836-e2047b25d6d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D61-D80">
+      <value>20x SK6805-EC15 TOP D</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="D61-D80_20x_SK6805-EC15_TOP_D" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8319d88-87db-4119-9cad-d229ee2bbed5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>CHARGE_PADS</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="J1_CHARGE_PADS" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ced3135-509e-4502-8fa1-bd3bf8891260</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>PROTECTED_LIPO</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="J2_PROTECTED_LIPO" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bca5afa7-bdb5-4c9b-976c-414a216c14f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>SWD_TAG_CONNECT</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="J3_SWD_TAG_CONNECT" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>facec283-a3c9-47e3-89d9-62b9cb6c8429</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="L1_2.2uH" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e488365-d657-4b5e-ab3c-2e337587f572</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>10uH DCCH</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="L2_10uH_DCCH" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9fe0e44-f13f-42ce-9e26-62142fb76160</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k PROG</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="R1_10k_PROG" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51b7b30c-74f6-4ab4-b4ff-cdc4bf4a8b4d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>910k 1%</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="R2_910k_1%" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c6abbe7-dc8f-45dc-a607-679871b77531</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100k 1%</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="R3_100k_1%" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa7af3e3-f393-473c-bb35-3915b13b457d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>1M 1%</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="R4_1M_1%" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ec09b72-59fa-457e-a8c0-130d1b6e25e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>330k 1%</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="R5_330k_1%" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1936403-ed70-4bc2-a197-c387f890f127</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10k HALL PULLUP</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="R6_10k_HALL_PULLUP" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d088f06-5679-417f-87e7-81914fa7ca79</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k I2C</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="R7_4.7k_I2C" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8905d3be-f377-4007-ab73-c43bf3ff37c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k I2C</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="R8_4.7k_I2C" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1565f10f-bfb8-4067-8216-a2043857e748</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TD1-TD12">
+      <value>12x SK6805-EC10 TIP A</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="TD1-TD12_12x_SK6805-EC10_TIP_A" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73a3b6d3-ccb9-4f9e-a84d-3bdd19c98744</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TD13-TD24">
+      <value>12x SK6805-EC10 TIP B</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="TD13-TD24_12x_SK6805-EC10_TIP_B" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0c69462-edda-4f47-98a3-05d6affc0258</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TD25-TD36">
+      <value>12x SK6805-EC10 TIP C</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="TD25-TD36_12x_SK6805-EC10_TIP_C" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7935c91-ffab-48df-bce9-e4d4df222f74</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TD37-TD48">
+      <value>12x SK6805-EC10 TIP D</value>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="TD37-TD48_12x_SK6805-EC10_TIP_D" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cc65ec5-c581-43c3-8f71-a6decf9cfc73</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>MDBT50Q-1MV2 nRF52840</value>
+      <footprint>RF_Module:Raytac_MDBT50Q-1MV2</footprint>
+      <datasheet>https://www.raytac.com/download/index.php?index_id=24</datasheet>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint">RF_Module:Raytac_MDBT50Q-1MV2</field>
+        <field name="Datasheet">https://www.raytac.com/download/index.php?index_id=24</field>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="U1_MDBT50Q-1MV2_nRF52840" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e5b7b45-6509-4c92-8637-388290e5e9ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="28"/>
+            <pin num="30"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="15"/>
+            <pin num="33"/>
+            <pin num="55"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="51"/>
+            <pin num="53"/>
+            <pin num="9"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="52"/>
+            <pin num="54"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="37"/>
+            <pin num="36"/>
+            <pin num="40"/>
+            <pin num="19"/>
+            <pin num="16"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>74AHCT125PW TOP</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf</datasheet>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf</field>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="U2_74AHCT125PW_TOP" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93f7ea1c-7aa4-4dcd-aef6-61fb833be266</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="14"/>
+            <pin num="7"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TPS61023DRLR</value>
+      <footprint>Package_SON:Texas_DRL0006A_SOT-5X3-6_1.6x1.6mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps61023.pdf</datasheet>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint">Package_SON:Texas_DRL0006A_SOT-5X3-6_1.6x1.6mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps61023.pdf</field>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="U3_TPS61023DRLR" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e576fc58-025a-4b8d-9a94-204190ab2182</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>TPS7A2033PDBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps7a20.pdf</datasheet>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps7a20.pdf</field>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="U4_TPS7A2033PDBVR" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d7a673f-f9c0-482f-af3e-0849752175f8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>MCP73831-2ACI/OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="U5_MCP73831-2ACI_OT" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23fe5acd-7a75-4b99-abb5-35ab6b249457</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>DRV5033AJQLPGM</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/drv5033.pdf</datasheet>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/drv5033.pdf</field>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="U6_DRV5033AJQLPGM" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c80e302e-5ae1-4a77-a9d2-d4b2feb9f938</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>BMI270</value>
+      <footprint>Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm</footprint>
+      <datasheet>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf</datasheet>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint">Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm</field>
+        <field name="Datasheet">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf</field>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="U7_BMI270" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>307410b6-db7c-470a-b7cc-fd5d022f8a35</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="8"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="12"/>
+            <pin num="1"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="4"/>
+            <pin num="9"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="10"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>TPS22918DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps22918.pdf</datasheet>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps22918.pdf</field>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="U8_TPS22918DBVR" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44a696a3-b16a-42d8-8687-ae544f2296b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U9">
+      <value>74AHCT125PW TIP</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf</datasheet>
+      <description>SmartSpinner v0.5 engineering-review schematic</description>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf</field>
+        <field name="Description">SmartSpinner v0.5 engineering-review schematic</field>
+      </fields>
+      <libsource lib="SmartSpinner" part="U9_74AHCT125PW_TIP" description="SmartSpinner v0.5 review symbol"/>
+      <property name="Sheetname" value="Корневой лист"/>
+      <property name="Sheetfile" value="public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>951e8da5-c328-440a-b480-93671a9b8a83</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="14"/>
+            <pin num="7"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SmartSpinner" part="C10_100nF_VDD">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF VDD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="C1_4.7uF_CHG_IN">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7uF CHG IN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="C2_4.7uF_BAT">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7uF BAT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="C3_1uF_LDO_IN">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF LDO IN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="C4_1uF_LDO_OUT">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF LDO OUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="C5_10uF_BOOST_IN">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF BOOST IN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="C6_22uF_BOOST_OUT">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF BOOST OUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="C7_22uF_BOOST_OUT">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF BOOST OUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="C8_1nF_SOFT_START">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1nF SOFT START</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="C9_100nF_VDDIO">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF VDDIO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="D1-D20_20x_SK6805-EC15_TOP_A">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">D1-D</field>
+        <field name="Value">20x SK6805-EC15 TOP A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="DOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="D21-D40_20x_SK6805-EC15_TOP_B">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">D21-D</field>
+        <field name="Value">20x SK6805-EC15 TOP B</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="DOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="D41-D60_20x_SK6805-EC15_TOP_C">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">D41-D</field>
+        <field name="Value">20x SK6805-EC15 TOP C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="DOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="D61-D80_20x_SK6805-EC15_TOP_D">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">D61-D</field>
+        <field name="Value">20x SK6805-EC15 TOP D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="DOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="J1_CHARGE_PADS">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CHARGE_PADS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CHG_5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="J2_PROTECTED_LIPO">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PROTECTED_LIPO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT+" type="passive"/>
+        <pin num="2" name="BAT-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="J3_SWD_TAG_CONNECT">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SWD_TAG_CONNECT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="passive"/>
+        <pin num="2" name="SWDIO" type="passive"/>
+        <pin num="3" name="SWDCLK" type="passive"/>
+        <pin num="4" name="RESET" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="L1_2.2uH">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">2.2uH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="L2_10uH_DCCH">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">10uH DCCH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="R1_10k_PROG">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k PROG</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="R2_910k_1%">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">910k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="R3_100k_1%">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="R4_1M_1%">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1M 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="R5_330k_1%">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="R6_10k_HALL_PULLUP">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k HALL PULLUP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="R7_4.7k_I2C">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4.7k I2C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="R8_4.7k_I2C">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4.7k I2C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="TD1-TD12_12x_SK6805-EC10_TIP_A">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">TD1-TD</field>
+        <field name="Value">12x SK6805-EC10 TIP A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="DOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="TD13-TD24_12x_SK6805-EC10_TIP_B">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">TD13-TD</field>
+        <field name="Value">12x SK6805-EC10 TIP B</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="DOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="TD25-TD36_12x_SK6805-EC10_TIP_C">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">TD25-TD</field>
+        <field name="Value">12x SK6805-EC10 TIP C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="DOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="TD37-TD48_12x_SK6805-EC10_TIP_D">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <fields>
+        <field name="Reference">TD37-TD</field>
+        <field name="Value">12x SK6805-EC10 TIP D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="DOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="U1_MDBT50Q-1MV2_nRF52840">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <docs>https://www.raytac.com/download/index.php?index_id=24</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MDBT50Q-1MV2 nRF52840</field>
+        <field name="Footprint">RF_Module:Raytac_MDBT50Q-1MV2</field>
+        <field name="Datasheet">https://www.raytac.com/download/index.php?index_id=24</field>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="9" name="P0.03" type="passive"/>
+        <pin num="11" name="P0.02" type="passive"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="P0.27" type="passive"/>
+        <pin num="19" name="P0.26" type="passive"/>
+        <pin num="20" name="P0.04" type="passive"/>
+        <pin num="21" name="P0.05" type="passive"/>
+        <pin num="22" name="P0.06" type="passive"/>
+        <pin num="23" name="P0.07" type="passive"/>
+        <pin num="24" name="P0.08" type="passive"/>
+        <pin num="27" name="P0.11" type="passive"/>
+        <pin num="28" name="VDD" type="passive"/>
+        <pin num="29" name="P0.12" type="passive"/>
+        <pin num="30" name="VDDH" type="passive"/>
+        <pin num="31" name="DCCH" type="passive"/>
+        <pin num="32" name="VBUS" type="passive"/>
+        <pin num="33" name="GND" type="passive"/>
+        <pin num="34" name="D-" type="passive"/>
+        <pin num="35" name="D+" type="passive"/>
+        <pin num="36" name="P0.14" type="passive"/>
+        <pin num="37" name="P0.13" type="passive"/>
+        <pin num="40" name="P0.18" type="passive"/>
+        <pin num="51" name="SWDIO" type="passive"/>
+        <pin num="52" name="P0.09" type="passive"/>
+        <pin num="53" name="SWDCLK" type="passive"/>
+        <pin num="54" name="P0.10" type="passive"/>
+        <pin num="55" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="U2_74AHCT125PW_TOP">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AHCT125PW TOP</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf</field>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1OE" type="passive"/>
+        <pin num="2" name="1A" type="passive"/>
+        <pin num="3" name="1Y" type="passive"/>
+        <pin num="4" name="2OE" type="passive"/>
+        <pin num="5" name="2A" type="passive"/>
+        <pin num="6" name="2Y" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="3Y" type="passive"/>
+        <pin num="9" name="3A" type="passive"/>
+        <pin num="10" name="3OE" type="passive"/>
+        <pin num="11" name="4Y" type="passive"/>
+        <pin num="12" name="4A" type="passive"/>
+        <pin num="13" name="4OE" type="passive"/>
+        <pin num="14" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="U3_TPS61023DRLR">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps61023.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS61023DRLR</field>
+        <field name="Footprint">Package_SON:Texas_DRL0006A_SOT-5X3-6_1.6x1.6mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps61023.pdf</field>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="passive"/>
+        <pin num="2" name="EN" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="SW" type="passive"/>
+        <pin num="6" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="U4_TPS7A2033PDBVR">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps7a20.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS7A2033PDBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps7a20.pdf</field>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="U5_MCP73831-2ACI_OT">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831-2ACI/OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="passive"/>
+        <pin num="2" name="VSS" type="passive"/>
+        <pin num="3" name="VBAT" type="passive"/>
+        <pin num="4" name="VDD" type="passive"/>
+        <pin num="5" name="PROG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="U6_DRV5033AJQLPGM">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <docs>https://www.ti.com/lit/ds/symlink/drv5033.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV5033AJQLPGM</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/drv5033.pdf</field>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="U7_BMI270">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <docs>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMI270</field>
+        <field name="Footprint">Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm</field>
+        <field name="Datasheet">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf</field>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO/SA0" type="passive"/>
+        <pin num="2" name="ASDx" type="passive"/>
+        <pin num="3" name="ASCx" type="passive"/>
+        <pin num="4" name="INT1" type="passive"/>
+        <pin num="5" name="VDDIO" type="passive"/>
+        <pin num="6" name="GNDIO" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+        <pin num="9" name="INT2" type="passive"/>
+        <pin num="10" name="OCSB" type="passive"/>
+        <pin num="11" name="OSDO" type="passive"/>
+        <pin num="12" name="CSB" type="passive"/>
+        <pin num="13" name="SCX/SCL" type="passive"/>
+        <pin num="14" name="SDX/SDA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="U8_TPS22918DBVR">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps22918.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS22918DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps22918.pdf</field>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="ON" type="passive"/>
+        <pin num="4" name="CT" type="passive"/>
+        <pin num="5" name="QOD" type="passive"/>
+        <pin num="6" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartSpinner" part="U9_74AHCT125PW_TIP">
+      <description>SmartSpinner v0.5 review symbol</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AHCT125PW TIP</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT125.pdf</field>
+        <field name="Description">SmartSpinner v0.5 review symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1OE" type="passive"/>
+        <pin num="2" name="1A" type="passive"/>
+        <pin num="3" name="1Y" type="passive"/>
+        <pin num="4" name="2OE" type="passive"/>
+        <pin num="5" name="2A" type="passive"/>
+        <pin num="6" name="2Y" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="3Y" type="passive"/>
+        <pin num="9" name="3A" type="passive"/>
+        <pin num="10" name="3OE" type="passive"/>
+        <pin num="11" name="4Y" type="passive"/>
+        <pin num="12" name="4A" type="passive"/>
+        <pin num="13" name="4OE" type="passive"/>
+        <pin num="14" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/+5V_LED" class="Default">
+      <node ref="D1-D20" pin="2" pinfunction="VDD_2" pintype="passive"/>
+      <node ref="D21-D40" pin="2" pinfunction="VDD_2" pintype="passive"/>
+      <node ref="D41-D60" pin="2" pinfunction="VDD_2" pintype="passive"/>
+      <node ref="D61-D80" pin="2" pinfunction="VDD_2" pintype="passive"/>
+      <node ref="TD1-TD12" pin="2" pinfunction="VDD_2" pintype="passive"/>
+      <node ref="TD13-TD24" pin="2" pinfunction="VDD_2" pintype="passive"/>
+      <node ref="TD25-TD36" pin="2" pinfunction="VDD_2" pintype="passive"/>
+      <node ref="TD37-TD48" pin="2" pinfunction="VDD_2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="4A_12" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="QOD_5" pintype="passive"/>
+      <node ref="U9" pin="12" pinfunction="4A_12" pintype="passive"/>
+    </net>
+    <net code="2" name="/3V3" class="Default">
+      <node ref="C10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="51" pinfunction="SWDIO_51" pintype="passive"/>
+      <node ref="U1" pin="53" pinfunction="SWDCLK_53" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="NC_4" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="SDO/SA0_1" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="CSB_12" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="VDD_8" pintype="passive"/>
+    </net>
+    <net code="3" name="/5V_RAW" class="Default">
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="SW_5" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="GND_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/BOOST_FB" class="Default">
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="EN_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/BOOST_SW" class="Default">
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="VOUT_6" pintype="passive"/>
+    </net>
+    <net code="6" name="/CHG_5V" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="VSS_2" pintype="passive"/>
+    </net>
+    <net code="7" name="/CHG_STAT" class="Default">
+      <node ref="U1" pin="23" pinfunction="P0.07_23" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="VBAT_3" pintype="passive"/>
+    </net>
+    <net code="8" name="/DCCH" class="Default">
+      <node ref="L2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="GND_33" pintype="passive"/>
+    </net>
+    <net code="9" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D1-D20" pin="1" pinfunction="DIN_1" pintype="passive"/>
+      <node ref="D21-D40" pin="1" pinfunction="DIN_1" pintype="passive"/>
+      <node ref="D41-D60" pin="1" pinfunction="DIN_1" pintype="passive"/>
+      <node ref="D61-D80" pin="1" pinfunction="DIN_1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="CHG_5V_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="BAT+_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="3V3_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TD1-TD12" pin="1" pinfunction="DIN_1" pintype="passive"/>
+      <node ref="TD13-TD24" pin="1" pinfunction="DIN_1" pintype="passive"/>
+      <node ref="TD25-TD36" pin="1" pinfunction="DIN_1" pintype="passive"/>
+      <node ref="TD37-TD48" pin="1" pinfunction="DIN_1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="DCCH_31" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="VBUS_32" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="D-_34" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="D+_35" pintype="passive"/>
+      <node ref="U1" pin="55" pinfunction="GND_55" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="4OE_13" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="1A_2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="2A_5" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GND_7" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="3A_9" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VIN_3" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="IN_1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="VDD_4" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="VDDIO_5" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="GNDIO_6" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="GND_7" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="VIN_1" pintype="passive"/>
+      <node ref="U9" pin="13" pinfunction="4OE_13" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="1A_2" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="2A_5" pintype="passive"/>
+      <node ref="U9" pin="7" pinfunction="GND_7" pintype="passive"/>
+      <node ref="U9" pin="9" pinfunction="3A_9" pintype="passive"/>
+    </net>
+    <net code="10" name="/HALL_INT" class="Default">
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="54" pinfunction="P0.10_54" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="OUT_3" pintype="passive"/>
+    </net>
+    <net code="11" name="/IMU_INT" class="Default">
+      <node ref="U1" pin="24" pinfunction="P0.08_24" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="ASCx_3" pintype="passive"/>
+    </net>
+    <net code="12" name="/LED_CT" class="Default">
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="CT_4" pintype="passive"/>
+    </net>
+    <net code="13" name="/LED_EN" class="Default">
+      <node ref="U1" pin="52" pinfunction="P0.09_52" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="FB_1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="ON_3" pintype="passive"/>
+    </net>
+    <net code="14" name="/MCP_PROG" class="Default">
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="PROG_5" pintype="passive"/>
+    </net>
+    <net code="15" name="/RESET_N" class="Default">
+      <node ref="J3" pin="2" pinfunction="SWDIO_2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="P0.06_22" pintype="passive"/>
+    </net>
+    <net code="16" name="/SCL" class="Default">
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="P0.04_20" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="OCSB_10" pintype="passive"/>
+    </net>
+    <net code="17" name="/SDA" class="Default">
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="P0.05_21" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="OSDO_11" pintype="passive"/>
+    </net>
+    <net code="18" name="/SWDCLK" class="Default">
+      <node ref="J3" pin="3" pinfunction="SWDCLK_3" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="VDD_28" pintype="passive"/>
+    </net>
+    <net code="19" name="/SWDIO" class="Default">
+      <node ref="J3" pin="4" pinfunction="RESET_4" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="VDDH_30" pintype="passive"/>
+    </net>
+    <net code="20" name="/TIP_A" class="Default">
+      <node ref="U1" pin="36" pinfunction="P0.14_36" pintype="passive"/>
+      <node ref="U9" pin="10" pinfunction="3OE_10" pintype="passive"/>
+    </net>
+    <net code="21" name="/TIP_A_5V" class="Default">
+      <node ref="TD1-TD12" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U9" pin="11" pinfunction="4Y_11" pintype="passive"/>
+    </net>
+    <net code="22" name="/TIP_B" class="Default">
+      <node ref="U1" pin="37" pinfunction="P0.13_37" pintype="passive"/>
+      <node ref="U9" pin="4" pinfunction="2OE_4" pintype="passive"/>
+    </net>
+    <net code="23" name="/TIP_B_5V" class="Default">
+      <node ref="TD13-TD24" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U9" pin="8" pinfunction="3Y_8" pintype="passive"/>
+    </net>
+    <net code="24" name="/TIP_C" class="Default">
+      <node ref="U1" pin="29" pinfunction="P0.12_29" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="1OE_1" pintype="passive"/>
+    </net>
+    <net code="25" name="/TIP_C_5V" class="Default">
+      <node ref="TD25-TD36" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="2Y_6" pintype="passive"/>
+    </net>
+    <net code="26" name="/TIP_D" class="Default">
+      <node ref="U1" pin="27" pinfunction="P0.11_27" pintype="passive"/>
+      <node ref="U9" pin="14" pinfunction="VCC_14" pintype="passive"/>
+    </net>
+    <net code="27" name="/TIP_D_5V" class="Default">
+      <node ref="TD37-TD48" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="1Y_3" pintype="passive"/>
+    </net>
+    <net code="28" name="/TOP_A" class="Default">
+      <node ref="U1" pin="11" pinfunction="P0.02_11" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="3OE_10" pintype="passive"/>
+    </net>
+    <net code="29" name="/TOP_A_5V" class="Default">
+      <node ref="D1-D20" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="4Y_11" pintype="passive"/>
+    </net>
+    <net code="30" name="/TOP_B" class="Default">
+      <node ref="U1" pin="16" pinfunction="P0.27_16" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="2OE_4" pintype="passive"/>
+    </net>
+    <net code="31" name="/TOP_B_5V" class="Default">
+      <node ref="D21-D40" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="3Y_8" pintype="passive"/>
+    </net>
+    <net code="32" name="/TOP_C" class="Default">
+      <node ref="U1" pin="19" pinfunction="P0.26_19" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="1OE_1" pintype="passive"/>
+    </net>
+    <net code="33" name="/TOP_C_5V" class="Default">
+      <node ref="D41-D60" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="2Y_6" pintype="passive"/>
+    </net>
+    <net code="34" name="/TOP_D" class="Default">
+      <node ref="U1" pin="40" pinfunction="P0.18_40" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="VCC_14" pintype="passive"/>
+    </net>
+    <net code="35" name="/TOP_D_5V" class="Default">
+      <node ref="D61-D80" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="1Y_3" pintype="passive"/>
+    </net>
+    <net code="36" name="/VBAT" class="Default">
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="BAT-_2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="EN_3" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="STAT_1" pintype="passive"/>
+    </net>
+    <net code="37" name="/VBAT_SENSE" class="Default">
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="P0.03_9" pintype="passive"/>
+    </net>
+    <net code="38" name="unconnected-(D1-D20-DOUT-Pad4)" class="Default">
+      <node ref="D1-D20" pin="4" pinfunction="DOUT_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(D21-D40-DOUT-Pad4)" class="Default">
+      <node ref="D21-D40" pin="4" pinfunction="DOUT_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(D41-D60-DOUT-Pad4)" class="Default">
+      <node ref="D41-D60" pin="4" pinfunction="DOUT_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(D61-D80-DOUT-Pad4)" class="Default">
+      <node ref="D61-D80" pin="4" pinfunction="DOUT_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(TD1-TD12-DOUT-Pad4)" class="Default">
+      <node ref="TD1-TD12" pin="4" pinfunction="DOUT_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(TD13-TD24-DOUT-Pad4)" class="Default">
+      <node ref="TD13-TD24" pin="4" pinfunction="DOUT_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(TD25-TD36-DOUT-Pad4)" class="Default">
+      <node ref="TD25-TD36" pin="4" pinfunction="DOUT_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(TD37-TD48-DOUT-Pad4)" class="Default">
+      <node ref="TD37-TD48" pin="4" pinfunction="DOUT_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-GND-Pad1)" class="Default">
+      <node ref="U1" pin="1" pinfunction="GND_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-GND-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="GND_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-GND-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="GND_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U4-OUT-Pad5)" class="Default">
+      <node ref="U4" pin="5" pinfunction="OUT_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U7-ASDx-Pad2)" class="Default">
+      <node ref="U7" pin="2" pinfunction="ASDx_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U7-INT1-Pad4)" class="Default">
+      <node ref="U7" pin="4" pinfunction="INT1_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U7-INT2-Pad9)" class="Default">
+      <node ref="U7" pin="9" pinfunction="INT2_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U7-SCX/SCL-Pad13)" class="Default">
+      <node ref="U7" pin="13" pinfunction="SCX/SCL_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U7-SDX/SDA-Pad14)" class="Default">
+      <node ref="U7" pin="14" pinfunction="SDX/SDA_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U8-VOUT-Pad6)" class="Default">
+      <node ref="U8" pin="6" pinfunction="VOUT_6" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

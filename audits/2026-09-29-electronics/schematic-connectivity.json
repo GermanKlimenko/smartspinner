@@ -1,0 +1,1171 @@
+{
+  "components": [
+    {
+      "ref": "C1",
+      "value": "4.7uF CHG IN",
+      "footprint": null
+    },
+    {
+      "ref": "C2",
+      "value": "4.7uF BAT",
+      "footprint": null
+    },
+    {
+      "ref": "C3",
+      "value": "1uF LDO IN",
+      "footprint": null
+    },
+    {
+      "ref": "C4",
+      "value": "1uF LDO OUT",
+      "footprint": null
+    },
+    {
+      "ref": "C5",
+      "value": "10uF BOOST IN",
+      "footprint": null
+    },
+    {
+      "ref": "C6",
+      "value": "22uF BOOST OUT",
+      "footprint": null
+    },
+    {
+      "ref": "C7",
+      "value": "22uF BOOST OUT",
+      "footprint": null
+    },
+    {
+      "ref": "C8",
+      "value": "1nF SOFT START",
+      "footprint": null
+    },
+    {
+      "ref": "C9",
+      "value": "100nF VDDIO",
+      "footprint": null
+    },
+    {
+      "ref": "C10",
+      "value": "100nF VDD",
+      "footprint": null
+    },
+    {
+      "ref": "D1-D20",
+      "value": "20x SK6805-EC15 TOP A",
+      "footprint": null
+    },
+    {
+      "ref": "D21-D40",
+      "value": "20x SK6805-EC15 TOP B",
+      "footprint": null
+    },
+    {
+      "ref": "D41-D60",
+      "value": "20x SK6805-EC15 TOP C",
+      "footprint": null
+    },
+    {
+      "ref": "D61-D80",
+      "value": "20x SK6805-EC15 TOP D",
+      "footprint": null
+    },
+    {
+      "ref": "J1",
+      "value": "CHARGE_PADS",
+      "footprint": null
+    },
+    {
+      "ref": "J2",
+      "value": "PROTECTED_LIPO",
+      "footprint": null
+    },
+    {
+      "ref": "J3",
+      "value": "SWD_TAG_CONNECT",
+      "footprint": null
+    },
+    {
+      "ref": "L1",
+      "value": "2.2uH",
+      "footprint": null
+    },
+    {
+      "ref": "L2",
+      "value": "10uH DCCH",
+      "footprint": null
+    },
+    {
+      "ref": "R1",
+      "value": "10k PROG",
+      "footprint": null
+    },
+    {
+      "ref": "R2",
+      "value": "910k 1%",
+      "footprint": null
+    },
+    {
+      "ref": "R3",
+      "value": "100k 1%",
+      "footprint": null
+    },
+    {
+      "ref": "R4",
+      "value": "1M 1%",
+      "footprint": null
+    },
+    {
+      "ref": "R5",
+      "value": "330k 1%",
+      "footprint": null
+    },
+    {
+      "ref": "R6",
+      "value": "10k HALL PULLUP",
+      "footprint": null
+    },
+    {
+      "ref": "R7",
+      "value": "4.7k I2C",
+      "footprint": null
+    },
+    {
+      "ref": "R8",
+      "value": "4.7k I2C",
+      "footprint": null
+    },
+    {
+      "ref": "TD1-TD12",
+      "value": "12x SK6805-EC10 TIP A",
+      "footprint": null
+    },
+    {
+      "ref": "TD13-TD24",
+      "value": "12x SK6805-EC10 TIP B",
+      "footprint": null
+    },
+    {
+      "ref": "TD25-TD36",
+      "value": "12x SK6805-EC10 TIP C",
+      "footprint": null
+    },
+    {
+      "ref": "TD37-TD48",
+      "value": "12x SK6805-EC10 TIP D",
+      "footprint": null
+    },
+    {
+      "ref": "U1",
+      "value": "MDBT50Q-1MV2 nRF52840",
+      "footprint": "RF_Module:Raytac_MDBT50Q-1MV2"
+    },
+    {
+      "ref": "U2",
+      "value": "74AHCT125PW TOP",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+    },
+    {
+      "ref": "U3",
+      "value": "TPS61023DRLR",
+      "footprint": "Package_SON:Texas_DRL0006A_SOT-5X3-6_1.6x1.6mm_P0.5mm"
+    },
+    {
+      "ref": "U4",
+      "value": "TPS7A2033PDBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5"
+    },
+    {
+      "ref": "U5",
+      "value": "MCP73831-2ACI/OT",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5"
+    },
+    {
+      "ref": "U6",
+      "value": "DRV5033AJQLPGM",
+      "footprint": "Package_TO_SOT_SMD:SOT-23"
+    },
+    {
+      "ref": "U7",
+      "value": "BMI270",
+      "footprint": "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm"
+    },
+    {
+      "ref": "U8",
+      "value": "TPS22918DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6"
+    },
+    {
+      "ref": "U9",
+      "value": "74AHCT125PW TIP",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+    }
+  ],
+  "pins": {
+    "D1-D20": {
+      "2": {
+        "net": "/+5V_LED",
+        "pinfunction": "VDD_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "DIN_1",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/TOP_A_5V",
+        "pinfunction": "GND_3",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "unconnected-(D1-D20-DOUT-Pad4)",
+        "pinfunction": "DOUT_4",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "D21-D40": {
+      "2": {
+        "net": "/+5V_LED",
+        "pinfunction": "VDD_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "DIN_1",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/TOP_B_5V",
+        "pinfunction": "GND_3",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "unconnected-(D21-D40-DOUT-Pad4)",
+        "pinfunction": "DOUT_4",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "D41-D60": {
+      "2": {
+        "net": "/+5V_LED",
+        "pinfunction": "VDD_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "DIN_1",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/TOP_C_5V",
+        "pinfunction": "GND_3",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "unconnected-(D41-D60-DOUT-Pad4)",
+        "pinfunction": "DOUT_4",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "D61-D80": {
+      "2": {
+        "net": "/+5V_LED",
+        "pinfunction": "VDD_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "DIN_1",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/TOP_D_5V",
+        "pinfunction": "GND_3",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "unconnected-(D61-D80-DOUT-Pad4)",
+        "pinfunction": "DOUT_4",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "TD1-TD12": {
+      "2": {
+        "net": "/+5V_LED",
+        "pinfunction": "VDD_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "DIN_1",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/TIP_A_5V",
+        "pinfunction": "GND_3",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "unconnected-(TD1-TD12-DOUT-Pad4)",
+        "pinfunction": "DOUT_4",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "TD13-TD24": {
+      "2": {
+        "net": "/+5V_LED",
+        "pinfunction": "VDD_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "DIN_1",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/TIP_B_5V",
+        "pinfunction": "GND_3",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "unconnected-(TD13-TD24-DOUT-Pad4)",
+        "pinfunction": "DOUT_4",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "TD25-TD36": {
+      "2": {
+        "net": "/+5V_LED",
+        "pinfunction": "VDD_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "DIN_1",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/TIP_C_5V",
+        "pinfunction": "GND_3",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "unconnected-(TD25-TD36-DOUT-Pad4)",
+        "pinfunction": "DOUT_4",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "TD37-TD48": {
+      "2": {
+        "net": "/+5V_LED",
+        "pinfunction": "VDD_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "DIN_1",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/TIP_D_5V",
+        "pinfunction": "GND_3",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "unconnected-(TD37-TD48-DOUT-Pad4)",
+        "pinfunction": "DOUT_4",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "U2": {
+      "12": {
+        "net": "/+5V_LED",
+        "pinfunction": "4A_12",
+        "pintype": "passive"
+      },
+      "13": {
+        "net": "/GND",
+        "pinfunction": "4OE_13",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/GND",
+        "pinfunction": "1A_2",
+        "pintype": "passive"
+      },
+      "5": {
+        "net": "/GND",
+        "pinfunction": "2A_5",
+        "pintype": "passive"
+      },
+      "7": {
+        "net": "/GND",
+        "pinfunction": "GND_7",
+        "pintype": "passive"
+      },
+      "9": {
+        "net": "/GND",
+        "pinfunction": "3A_9",
+        "pintype": "passive"
+      },
+      "10": {
+        "net": "/TOP_A",
+        "pinfunction": "3OE_10",
+        "pintype": "passive"
+      },
+      "11": {
+        "net": "/TOP_A_5V",
+        "pinfunction": "4Y_11",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "/TOP_B",
+        "pinfunction": "2OE_4",
+        "pintype": "passive"
+      },
+      "8": {
+        "net": "/TOP_B_5V",
+        "pinfunction": "3Y_8",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/TOP_C",
+        "pinfunction": "1OE_1",
+        "pintype": "passive"
+      },
+      "6": {
+        "net": "/TOP_C_5V",
+        "pinfunction": "2Y_6",
+        "pintype": "passive"
+      },
+      "14": {
+        "net": "/TOP_D",
+        "pinfunction": "VCC_14",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/TOP_D_5V",
+        "pinfunction": "1Y_3",
+        "pintype": "passive"
+      }
+    },
+    "U8": {
+      "5": {
+        "net": "/+5V_LED",
+        "pinfunction": "QOD_5",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/5V_RAW",
+        "pinfunction": "GND_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "VIN_1",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "/LED_CT",
+        "pinfunction": "CT_4",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/LED_EN",
+        "pinfunction": "ON_3",
+        "pintype": "passive"
+      },
+      "6": {
+        "net": "unconnected-(U8-VOUT-Pad6)",
+        "pinfunction": "VOUT_6",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "U9": {
+      "12": {
+        "net": "/+5V_LED",
+        "pinfunction": "4A_12",
+        "pintype": "passive"
+      },
+      "13": {
+        "net": "/GND",
+        "pinfunction": "4OE_13",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/GND",
+        "pinfunction": "1A_2",
+        "pintype": "passive"
+      },
+      "5": {
+        "net": "/GND",
+        "pinfunction": "2A_5",
+        "pintype": "passive"
+      },
+      "7": {
+        "net": "/GND",
+        "pinfunction": "GND_7",
+        "pintype": "passive"
+      },
+      "9": {
+        "net": "/GND",
+        "pinfunction": "3A_9",
+        "pintype": "passive"
+      },
+      "10": {
+        "net": "/TIP_A",
+        "pinfunction": "3OE_10",
+        "pintype": "passive"
+      },
+      "11": {
+        "net": "/TIP_A_5V",
+        "pinfunction": "4Y_11",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "/TIP_B",
+        "pinfunction": "2OE_4",
+        "pintype": "passive"
+      },
+      "8": {
+        "net": "/TIP_B_5V",
+        "pinfunction": "3Y_8",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/TIP_C",
+        "pinfunction": "1OE_1",
+        "pintype": "passive"
+      },
+      "6": {
+        "net": "/TIP_C_5V",
+        "pinfunction": "2Y_6",
+        "pintype": "passive"
+      },
+      "14": {
+        "net": "/TIP_D",
+        "pinfunction": "VCC_14",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/TIP_D_5V",
+        "pinfunction": "1Y_3",
+        "pintype": "passive"
+      }
+    },
+    "C10": {
+      "1": {
+        "net": "/3V3",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      }
+    },
+    "C4": {
+      "1": {
+        "net": "/3V3",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      }
+    },
+    "C9": {
+      "1": {
+        "net": "/3V3",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      }
+    },
+    "J3": {
+      "5": {
+        "net": "/3V3",
+        "pinfunction": "GND_5",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "3V3_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/RESET_N",
+        "pinfunction": "SWDIO_2",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/SWDCLK",
+        "pinfunction": "SWDCLK_3",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "/SWDIO",
+        "pinfunction": "RESET_4",
+        "pintype": "passive"
+      }
+    },
+    "L2": {
+      "2": {
+        "net": "/3V3",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/DCCH",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      }
+    },
+    "R6": {
+      "2": {
+        "net": "/3V3",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/HALL_INT",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      }
+    },
+    "R7": {
+      "2": {
+        "net": "/3V3",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/SDA",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      }
+    },
+    "R8": {
+      "2": {
+        "net": "/3V3",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/SCL",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      }
+    },
+    "U1": {
+      "51": {
+        "net": "/3V3",
+        "pinfunction": "SWDIO_51",
+        "pintype": "passive"
+      },
+      "53": {
+        "net": "/3V3",
+        "pinfunction": "SWDCLK_53",
+        "pintype": "passive"
+      },
+      "23": {
+        "net": "/CHG_STAT",
+        "pinfunction": "P0.07_23",
+        "pintype": "passive"
+      },
+      "33": {
+        "net": "/DCCH",
+        "pinfunction": "GND_33",
+        "pintype": "passive"
+      },
+      "31": {
+        "net": "/GND",
+        "pinfunction": "DCCH_31",
+        "pintype": "passive"
+      },
+      "32": {
+        "net": "/GND",
+        "pinfunction": "VBUS_32",
+        "pintype": "passive"
+      },
+      "34": {
+        "net": "/GND",
+        "pinfunction": "D-_34",
+        "pintype": "passive"
+      },
+      "35": {
+        "net": "/GND",
+        "pinfunction": "D+_35",
+        "pintype": "passive"
+      },
+      "55": {
+        "net": "/GND",
+        "pinfunction": "GND_55",
+        "pintype": "passive"
+      },
+      "54": {
+        "net": "/HALL_INT",
+        "pinfunction": "P0.10_54",
+        "pintype": "passive"
+      },
+      "24": {
+        "net": "/IMU_INT",
+        "pinfunction": "P0.08_24",
+        "pintype": "passive"
+      },
+      "52": {
+        "net": "/LED_EN",
+        "pinfunction": "P0.09_52",
+        "pintype": "passive"
+      },
+      "22": {
+        "net": "/RESET_N",
+        "pinfunction": "P0.06_22",
+        "pintype": "passive"
+      },
+      "20": {
+        "net": "/SCL",
+        "pinfunction": "P0.04_20",
+        "pintype": "passive"
+      },
+      "21": {
+        "net": "/SDA",
+        "pinfunction": "P0.05_21",
+        "pintype": "passive"
+      },
+      "28": {
+        "net": "/SWDCLK",
+        "pinfunction": "VDD_28",
+        "pintype": "passive"
+      },
+      "30": {
+        "net": "/SWDIO",
+        "pinfunction": "VDDH_30",
+        "pintype": "passive"
+      },
+      "36": {
+        "net": "/TIP_A",
+        "pinfunction": "P0.14_36",
+        "pintype": "passive"
+      },
+      "37": {
+        "net": "/TIP_B",
+        "pinfunction": "P0.13_37",
+        "pintype": "passive"
+      },
+      "29": {
+        "net": "/TIP_C",
+        "pinfunction": "P0.12_29",
+        "pintype": "passive"
+      },
+      "27": {
+        "net": "/TIP_D",
+        "pinfunction": "P0.11_27",
+        "pintype": "passive"
+      },
+      "11": {
+        "net": "/TOP_A",
+        "pinfunction": "P0.02_11",
+        "pintype": "passive"
+      },
+      "16": {
+        "net": "/TOP_B",
+        "pinfunction": "P0.27_16",
+        "pintype": "passive"
+      },
+      "19": {
+        "net": "/TOP_C",
+        "pinfunction": "P0.26_19",
+        "pintype": "passive"
+      },
+      "40": {
+        "net": "/TOP_D",
+        "pinfunction": "P0.18_40",
+        "pintype": "passive"
+      },
+      "9": {
+        "net": "/VBAT_SENSE",
+        "pinfunction": "P0.03_9",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "unconnected-(U1-GND-Pad1)",
+        "pinfunction": "GND_1",
+        "pintype": "passive+no_connect"
+      },
+      "2": {
+        "net": "unconnected-(U1-GND-Pad2)",
+        "pinfunction": "GND_2",
+        "pintype": "passive+no_connect"
+      },
+      "15": {
+        "net": "unconnected-(U1-GND-Pad15)",
+        "pinfunction": "GND_15",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "U4": {
+      "4": {
+        "net": "/3V3",
+        "pinfunction": "NC_4",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "IN_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/VBAT",
+        "pinfunction": "GND_2",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/VBAT",
+        "pinfunction": "EN_3",
+        "pintype": "passive"
+      },
+      "5": {
+        "net": "unconnected-(U4-OUT-Pad5)",
+        "pinfunction": "OUT_5",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "U6": {
+      "2": {
+        "net": "/3V3",
+        "pinfunction": "GND_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "VCC_1",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/HALL_INT",
+        "pinfunction": "OUT_3",
+        "pintype": "passive"
+      }
+    },
+    "U7": {
+      "1": {
+        "net": "/3V3",
+        "pinfunction": "SDO/SA0_1",
+        "pintype": "passive"
+      },
+      "12": {
+        "net": "/3V3",
+        "pinfunction": "CSB_12",
+        "pintype": "passive"
+      },
+      "8": {
+        "net": "/3V3",
+        "pinfunction": "VDD_8",
+        "pintype": "passive"
+      },
+      "5": {
+        "net": "/GND",
+        "pinfunction": "VDDIO_5",
+        "pintype": "passive"
+      },
+      "6": {
+        "net": "/GND",
+        "pinfunction": "GNDIO_6",
+        "pintype": "passive"
+      },
+      "7": {
+        "net": "/GND",
+        "pinfunction": "GND_7",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/IMU_INT",
+        "pinfunction": "ASCx_3",
+        "pintype": "passive"
+      },
+      "10": {
+        "net": "/SCL",
+        "pinfunction": "OCSB_10",
+        "pintype": "passive"
+      },
+      "11": {
+        "net": "/SDA",
+        "pinfunction": "OSDO_11",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "unconnected-(U7-ASDx-Pad2)",
+        "pinfunction": "ASDx_2",
+        "pintype": "passive+no_connect"
+      },
+      "4": {
+        "net": "unconnected-(U7-INT1-Pad4)",
+        "pinfunction": "INT1_4",
+        "pintype": "passive+no_connect"
+      },
+      "9": {
+        "net": "unconnected-(U7-INT2-Pad9)",
+        "pinfunction": "INT2_9",
+        "pintype": "passive+no_connect"
+      },
+      "13": {
+        "net": "unconnected-(U7-SCX/SCL-Pad13)",
+        "pinfunction": "SCX/SCL_13",
+        "pintype": "passive+no_connect"
+      },
+      "14": {
+        "net": "unconnected-(U7-SDX/SDA-Pad14)",
+        "pinfunction": "SDX/SDA_14",
+        "pintype": "passive+no_connect"
+      }
+    },
+    "C6": {
+      "1": {
+        "net": "/5V_RAW",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      }
+    },
+    "C7": {
+      "1": {
+        "net": "/5V_RAW",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      }
+    },
+    "R2": {
+      "1": {
+        "net": "/5V_RAW",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/BOOST_FB",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      }
+    },
+    "U3": {
+      "5": {
+        "net": "/5V_RAW",
+        "pinfunction": "SW_5",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/BOOST_FB",
+        "pinfunction": "EN_2",
+        "pintype": "passive"
+      },
+      "6": {
+        "net": "/BOOST_SW",
+        "pinfunction": "VOUT_6",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/GND",
+        "pinfunction": "VIN_3",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/LED_EN",
+        "pinfunction": "FB_1",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "/VBAT",
+        "pinfunction": "GND_4",
+        "pintype": "passive"
+      }
+    },
+    "R3": {
+      "1": {
+        "net": "/BOOST_FB",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      }
+    },
+    "L1": {
+      "2": {
+        "net": "/BOOST_SW",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/VBAT",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      }
+    },
+    "C1": {
+      "1": {
+        "net": "/CHG_5V",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      }
+    },
+    "J1": {
+      "2": {
+        "net": "/CHG_5V",
+        "pinfunction": "GND_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/GND",
+        "pinfunction": "CHG_5V_1",
+        "pintype": "passive"
+      }
+    },
+    "U5": {
+      "2": {
+        "net": "/CHG_5V",
+        "pinfunction": "VSS_2",
+        "pintype": "passive"
+      },
+      "3": {
+        "net": "/CHG_STAT",
+        "pinfunction": "VBAT_3",
+        "pintype": "passive"
+      },
+      "4": {
+        "net": "/GND",
+        "pinfunction": "VDD_4",
+        "pintype": "passive"
+      },
+      "5": {
+        "net": "/MCP_PROG",
+        "pinfunction": "PROG_5",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/VBAT",
+        "pinfunction": "STAT_1",
+        "pintype": "passive"
+      }
+    },
+    "C2": {
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/VBAT",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      }
+    },
+    "C3": {
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/VBAT",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      }
+    },
+    "C5": {
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/VBAT",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      }
+    },
+    "C8": {
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/LED_CT",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      }
+    },
+    "J2": {
+      "1": {
+        "net": "/GND",
+        "pinfunction": "BAT+_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/VBAT",
+        "pinfunction": "BAT-_2",
+        "pintype": "passive"
+      }
+    },
+    "R1": {
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/MCP_PROG",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      }
+    },
+    "R5": {
+      "2": {
+        "net": "/GND",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      },
+      "1": {
+        "net": "/VBAT_SENSE",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      }
+    },
+    "R4": {
+      "1": {
+        "net": "/VBAT",
+        "pinfunction": "1_1",
+        "pintype": "passive"
+      },
+      "2": {
+        "net": "/VBAT_SENSE",
+        "pinfunction": "2_2",
+        "pintype": "passive"
+      }
+    }
+  }
+}

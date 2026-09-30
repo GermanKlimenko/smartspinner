@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="503" height="120" preserveAspectRatio="xMinYMin meet" viewBox="0 0 503 120" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="503" height="120"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-120)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="15" y="100" style="font-family: DV; font-size: 9px;fill: rgb(9%,19%,29%); stroke:none;" transform="translate(0,200) scale(1,-1)">+5V_LOGIC</text>
+			<path d="M 80,90 L 80,70 Z" style="stroke: rgb(9%,19%,29%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="94" y="78" style="font-family: DV; font-size: 9px;fill: rgb(9%,19%,29%); stroke:none;" transform="translate(0,156) scale(1,-1)">K</text>
+			<path d="M 69,70 L 91,70 Z" style="stroke: rgb(9%,19%,29%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="69 48, 91 48, 80 70" style="stroke: rgb(9%,19%,29%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 80,48 L 80,32 Z" style="stroke: rgb(9%,19%,29%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 80,32 L 245,32 Z" style="stroke: rgb(9%,19%,29%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="94" y="42" style="font-family: DV; font-size: 9px;fill: rgb(9%,19%,29%); stroke:none;" transform="translate(0,84) scale(1,-1)">A</text>
+			<text x="130" y="47" style="font-family: DV; font-size: 9px;fill: rgb(9%,19%,29%); stroke:none;" transform="translate(0,94) scale(1,-1)">TP_LIGHT → CH2 ×10</text>
+			<path d="M 245,32 L 245,20 Z" style="stroke: rgb(9%,19%,29%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="260" y="24" style="font-family: DV; font-size: 9px;fill: rgb(9%,19%,29%); stroke:none;" transform="translate(0,48) scale(1,-1)">R12 10k → GND</text>
+			<text x="330" y="95" style="font-family: DV; font-size: 9px;fill: rgb(9%,19%,29%); stroke:none;" transform="translate(0,190) scale(1,-1)">UNO D8 → CH1 ×10</text>
+			<text x="330" y="77" style="font-family: DV; font-size: 9px;fill: rgb(9%,19%,29%); stroke:none;" transform="translate(0,154) scale(1,-1)">Земли щупов → GND</text>
+			<text x="15" y="7" style="font-family: DV; font-size: 9px;fill: rgb(9%,19%,29%); stroke:none;" transform="translate(0,14) scale(1,-1)">PD1 BPW34. R13 1k заменяет R12 только при насыщении. Не измеритель люкс.</text>
+		</g>
+	</g>
+</svg>

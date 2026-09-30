@@ -1,0 +1,19 @@
+{
+  "README.md": "f2d0cfee3c606a05a34f29e35359c31cb9c7513e2b042c463e0523959780366f",
+  "build/uno/spinner_bench.ino.hex": "478a7375f25236e7583d376f6b66ac201a6a5eaf350c6a93b999c05faea3a5fd",
+  "build/verification.txt": "3c7707f09fb758a3e87a5a1266cf7808281009c0c70663541b577d733c33d659",
+  "firmware/spinner_bench/bench_core.h": "d93b58ca60e8a29553849d678a1be2b1a73334f5859167355d068c578bfba628",
+  "firmware/spinner_bench/spinner_bench.ino": "9120e2de49ae8172fe4759f2f14e36624703608637c1ad820d9e8ce2368cf2e4",
+  "manual.md": "b208869c0705ac3c21778d9ba5ecaa3dd14236798d0416f069678812be29ba0f",
+  "output/pdf/SmartSpinner_B01_Bench.pdf": "60f28d9759e1ce2bc8836307820c0d615f02d96866cc64fc34fa6ad07bcf44ba",
+  "photodiode.svg": "776d1538e2ff2a829528e9e503a04660d58e9b39c50a33c72469d67556558889",
+  "schematic.svg": "dcf69993370b512ce853ccdf290aaef80855f43005909e24005ceffd3d4c5d33",
+  "shopping.md": "c99ba33a14dd67d2183da0fbc783d6651ba2b7b6f3602d5db918be4a7882dcc3",
+  "test_record.md": "1dd8805383695db937f1b6b421e594896a3edb60dffe8607ef22ecda105f16aa",
+  "tests/test_core.cpp": "085da0ac446af4c79cf5f1e1e51f7061c4b1d97eb93a388a39d5c42c6b6bfec9",
+  "tools/build_docs.py": "0cb0efe5311e6e87b8ffeafff8bb2b40a5826a38ba1536e0f1d152d4d8dc91c8",
+  "tools/package.py": "a6ca892b7cd5b88c4204a49c3e5eaf6794934f964095f9e9b5aa17a2fe1771f1",
+  "tools/verify_wiring.py": "4ada8af33a9a3b24c3b01ba7d0e6959fb4e5cf5413efb5b909ddffc5ec8221ec",
+  "wiring.html": "5b0b4f093d37dcaa148af20a196ddb48ce0ed71da5063e2cde442f685a8c7c7f",
+  "wiring.json": "ea090110d3095b5bf62d6b254759e8b7ef5cffd82c2443e03225626d7052c133"
+}

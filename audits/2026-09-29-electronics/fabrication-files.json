@@ -1,0 +1,32 @@
+{
+  "files": [
+    "smartspinner_main_v0_4-B_Cu.gbl",
+    "smartspinner_main_v0_4-B_Fab.gbr",
+    "smartspinner_main_v0_4-Edge_Cuts.gm1",
+    "smartspinner_main_v0_4-F_Cu.gtl",
+    "smartspinner_main_v0_4-F_Fab.gbr",
+    "smartspinner_main_v0_4-In1_Cu.g1",
+    "smartspinner_main_v0_4-In2_Cu.g2",
+    "smartspinner_main_v0_4-Margin.gbr",
+    "smartspinner_main_v0_4-b_courtyard.gbr",
+    "smartspinner_main_v0_4-b_silkscreen.gbo",
+    "smartspinner_main_v0_4-f_courtyard.gbr",
+    "smartspinner_main_v0_4-f_silkscreen.gto",
+    "smartspinner_main_v0_4-job.gbrjob",
+    "smartspinner_main_v0_4.drl",
+    "smartspinner_tip_v0_4-B_Cu.gbl",
+    "smartspinner_tip_v0_4-B_Fab.gbr",
+    "smartspinner_tip_v0_4-Edge_Cuts.gm1",
+    "smartspinner_tip_v0_4-F_Cu.gtl",
+    "smartspinner_tip_v0_4-F_Fab.gbr",
+    "smartspinner_tip_v0_4-Margin.gbr",
+    "smartspinner_tip_v0_4-b_courtyard.gbr",
+    "smartspinner_tip_v0_4-b_silkscreen.gbo",
+    "smartspinner_tip_v0_4-f_courtyard.gbr",
+    "smartspinner_tip_v0_4-f_silkscreen.gto",
+    "smartspinner_tip_v0_4-job.gbrjob",
+    "smartspinner_tip_v0_4.drl"
+  ],
+  "mask_or_paste_files": [],
+  "warning": "File inventory only; does not validate copper/drill/placement manufacturing readiness."
+}

@@ -41,3 +41,7 @@ next-env.d.ts
 /public/outputs/
 /tmp/
 __pycache__/
+/bench/v0.1/build/uno/*.elf
+/bench/v0.1/build/uno/*.eep
+/bench/v0.1/build/uno/*.bin
+/bench/v0.1/build/uno/*.with_bootloader.hex

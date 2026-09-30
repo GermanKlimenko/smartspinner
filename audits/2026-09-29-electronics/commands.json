@@ -1,0 +1,76 @@
+[
+  {
+    "argv": [
+      "/opt/homebrew/Caskroom/kicad/10.0.6/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "--version"
+    ],
+    "returncode": 0,
+    "stdout": "10.0.6\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "/opt/homebrew/Caskroom/kicad/10.0.6/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/audits/2026-09-29-electronics/schematic.net.xml",
+      "/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "/opt/homebrew/Caskroom/kicad/10.0.6/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "sch",
+      "erc",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/audits/2026-09-29-electronics/erc.txt",
+      "/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.5/smartspinner_main_v0_5.kicad_sch"
+    ],
+    "returncode": 5,
+    "stdout": "Найдено 89 нарушений\nОтчёт ERC сохранен в /Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/audits/2026-09-29-electronics/erc.txt\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "/opt/homebrew/Caskroom/kicad/10.0.6/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "pcb",
+      "drc",
+      "--severity-all",
+      "--exit-code-violations",
+      "--format",
+      "json",
+      "-o",
+      "/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/audits/2026-09-29-electronics/main-drc.json",
+      "/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/smartspinner_main_v0_4.kicad_pcb"
+    ],
+    "returncode": 5,
+    "stdout": "Найдено 50 нарушений\nНайдено 68 неподключенных элементов\nОтчет DRC сохранен в /Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/audits/2026-09-29-electronics/main-drc.json\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "/opt/homebrew/Caskroom/kicad/10.0.6/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "pcb",
+      "drc",
+      "--severity-all",
+      "--exit-code-violations",
+      "--format",
+      "json",
+      "-o",
+      "/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/audits/2026-09-29-electronics/tip-drc.json",
+      "/Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/public/project-files/electronics-v0.4/smartspinner_tip_v0_4.kicad_pcb"
+    ],
+    "returncode": 5,
+    "stdout": "Найдено 7 нарушений\nНайдено 4 неподключенных элементов\nОтчет DRC сохранен в /Users/germanklimenko/Documents/Codex/2026-09-08/referenced-chatgpt-conversation-this-is-an/smartspinner/audits/2026-09-29-electronics/tip-drc.json\n",
+    "stderr": ""
+  }
+]

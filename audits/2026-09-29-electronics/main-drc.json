@@ -1,0 +1,2609 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-29T22:49:01",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "smartspinner_main_v0_4.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от JTIPC на F.Cu",
+                    "pos": {
+                        "x": 54.5,
+                        "y": 99.3
+                    },
+                    "uuid": "409814be-1d59-4006-a01e-6af596f3181c"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 55.92,
+                        "y": 96.52
+                    },
+                    "uuid": "53dbf1fb-10ab-4c25-9a41-472def1cc430"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 63.92,
+                        "y": 96.52
+                    },
+                    "uuid": "2faa0c9c-504b-47be-a8c1-951ca9efcbe4"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от C3 на B.Cu",
+                    "pos": {
+                        "x": 63.2,
+                        "y": 106.0
+                    },
+                    "uuid": "3d639e9b-ff96-40ca-b828-632b65017777"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от U3 на B.Cu",
+                    "pos": {
+                        "x": 84.65,
+                        "y": 105.55
+                    },
+                    "uuid": "10e7f5cd-12e9-4db1-8668-e7f2b19d3940"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от JBAT1 на B.Cu",
+                    "pos": {
+                        "x": 82.625,
+                        "y": 104.0
+                    },
+                    "uuid": "aa87ebcb-ae85-4993-be7f-617d8edfaa36"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от U3 на B.Cu",
+                    "pos": {
+                        "x": 84.65,
+                        "y": 105.55
+                    },
+                    "uuid": "10e7f5cd-12e9-4db1-8668-e7f2b19d3940"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от U9 на B.Cu",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 114.35
+                    },
+                    "uuid": "77637572-37cf-43b6-874a-0398a5332c07"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от U2 на B.Cu",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 90.35
+                    },
+                    "uuid": "40cba826-7726-4ea4-96ca-e1aa949d0716"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 86.32,
+                        "y": 95.9
+                    },
+                    "uuid": "46eaf5c3-13e7-42cd-a5b3-2417fb692f92"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от U8 на B.Cu",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 102.05
+                    },
+                    "uuid": "acc3e15e-78bd-4442-8bb7-a193f4d9f59b"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от U3 на B.Cu",
+                    "pos": {
+                        "x": 84.65,
+                        "y": 105.55
+                    },
+                    "uuid": "10e7f5cd-12e9-4db1-8668-e7f2b19d3940"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от U8 на B.Cu",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 102.05
+                    },
+                    "uuid": "acc3e15e-78bd-4442-8bb7-a193f4d9f59b"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 86.32,
+                        "y": 96.52
+                    },
+                    "uuid": "a05041c7-f2d2-404f-9031-648998c1b8e2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от U9 на B.Cu",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 114.35
+                    },
+                    "uuid": "77637572-37cf-43b6-874a-0398a5332c07"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 97.48,
+                        "y": 114.32
+                    },
+                    "uuid": "f5763854-da21-4bb4-8aa8-87f256ef2f55"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от U7 на B.Cu",
+                    "pos": {
+                        "x": 96.15,
+                        "y": 86.1
+                    },
+                    "uuid": "0b49eafd-b464-4f2a-8fbf-8f9289e381b6"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 102.52,
+                        "y": 85.68
+                    },
+                    "uuid": "4ce14e28-07b1-4e63-a90d-853d5fc1cb26"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от U7 на B.Cu",
+                    "pos": {
+                        "x": 96.15,
+                        "y": 86.1
+                    },
+                    "uuid": "0b49eafd-b464-4f2a-8fbf-8f9289e381b6"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от U2 на B.Cu",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 90.35
+                    },
+                    "uuid": "40cba826-7726-4ea4-96ca-e1aa949d0716"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 98.1,
+                        "y": 133.52
+                    },
+                    "uuid": "6be496a7-7a35-412d-8167-b198c547a2c1"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от C4 на B.Cu",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 135.2
+                    },
+                    "uuid": "4897e863-dd7b-435e-a165-a1da22630b51"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от JTIPB на F.Cu",
+                    "pos": {
+                        "x": 99.3,
+                        "y": 54.5
+                    },
+                    "uuid": "7e7f3bef-82b0-4985-8567-7d2d0bba517e"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 101.9,
+                        "y": 58.48
+                    },
+                    "uuid": "a438c163-b9b2-4042-9d63-d47c078111d7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от JTIPD на F.Cu",
+                    "pos": {
+                        "x": 100.7,
+                        "y": 145.5
+                    },
+                    "uuid": "ed8e9ef5-02f9-4f3b-9feb-97cb0f483fe9"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 98.1,
+                        "y": 141.52
+                    },
+                    "uuid": "0a296718-b7cf-4465-9067-e4fa8499b71f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 101.9,
+                        "y": 66.48
+                    },
+                    "uuid": "eeb2901d-9c7c-4992-baf7-74e69321b77b"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от C2 на B.Cu",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 64.8
+                    },
+                    "uuid": "7c84ab8f-2ae0-4e3c-87e2-1064ad20f5e7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от JDBG1 на B.Cu",
+                    "pos": {
+                        "x": 103.375,
+                        "y": 118.0
+                    },
+                    "uuid": "95e7f1aa-1e4b-43cc-b38d-cb190a7f51db"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от U6 на B.Cu",
+                    "pos": {
+                        "x": 103.65,
+                        "y": 115.55
+                    },
+                    "uuid": "48c8e8b1-ee9e-4e2a-9b61-419d38fcee97"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от JDBG1 на B.Cu",
+                    "pos": {
+                        "x": 103.375,
+                        "y": 118.0
+                    },
+                    "uuid": "95e7f1aa-1e4b-43cc-b38d-cb190a7f51db"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 98.1,
+                        "y": 117.52
+                    },
+                    "uuid": "1042833b-67be-48be-94f2-c910c96adfab"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от U4 на B.Cu",
+                    "pos": {
+                        "x": 109.15,
+                        "y": 113.05
+                    },
+                    "uuid": "76502276-4967-4cc7-bd8e-f13f6d9612f0"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от U6 на B.Cu",
+                    "pos": {
+                        "x": 103.65,
+                        "y": 115.55
+                    },
+                    "uuid": "48c8e8b1-ee9e-4e2a-9b61-419d38fcee97"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от U4 на B.Cu",
+                    "pos": {
+                        "x": 109.15,
+                        "y": 113.05
+                    },
+                    "uuid": "76502276-4967-4cc7-bd8e-f13f6d9612f0"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 113.68,
+                        "y": 104.1
+                    },
+                    "uuid": "d15b06bc-51a2-4df0-878e-691538ca93d6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [GND] от U1 на B.Cu",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 100.4
+                    },
+                    "uuid": "9af711c8-efce-4fcc-a1d0-a6b4e1baa593"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 115.28,
+                        "y": 103.48
+                    },
+                    "uuid": "33e6bb37-4f6f-4baf-a05e-72031ec50111"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от U5 на B.Cu",
+                    "pos": {
+                        "x": 117.15,
+                        "y": 105.05
+                    },
+                    "uuid": "03f6f7ac-8c8e-486a-a7fd-c904f8834016"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 115.28,
+                        "y": 104.1
+                    },
+                    "uuid": "7ee91fc1-88a8-4a4d-8158-1e5889e16a7d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 2 [GND] от JUSB1 на B.Cu",
+                    "pos": {
+                        "x": 123.625,
+                        "y": 107.0
+                    },
+                    "uuid": "13ffe5c4-f9ac-4260-a730-0102c373fb39"
+                },
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 121.68,
+                        "y": 104.1
+                    },
+                    "uuid": "679f9cd0-713b-4de6-ae66-d59f87109f8f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 136.08,
+                        "y": 103.48
+                    },
+                    "uuid": "011fd491-3057-4ac8-8f6f-8011f31a4993"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от C1 на B.Cu",
+                    "pos": {
+                        "x": 136.8,
+                        "y": 94.0
+                    },
+                    "uuid": "1bb8e78d-f787-4daa-b7bd-996ba1e9f37b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [GND] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 144.08,
+                        "y": 103.48
+                    },
+                    "uuid": "0f4e009c-3545-4689-9dae-c9eca4db832a"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от JTIPA на F.Cu",
+                    "pos": {
+                        "x": 145.5,
+                        "y": 100.7
+                    },
+                    "uuid": "65167237-1b70-4096-8b69-418048d9e11c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 58.48,
+                        "y": 98.1
+                    },
+                    "uuid": "1e4fd1a0-4a60-4f85-84a0-eee8f704c158"
+                },
+                {
+                    "description": "Конт. пл. 1 [+5V_LED] от JTIPC на F.Cu",
+                    "pos": {
+                        "x": 54.5,
+                        "y": 97.9
+                    },
+                    "uuid": "de48f2f7-a7f0-4d1a-90e5-c92456ff0bbd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 64.88,
+                        "y": 98.1
+                    },
+                    "uuid": "343a4d09-6b64-4eec-a49c-3776d4aaed6e"
+                },
+                {
+                    "description": "Конт. пл. 1 [+5V_LED] от C3 на B.Cu",
+                    "pos": {
+                        "x": 64.8,
+                        "y": 106.0
+                    },
+                    "uuid": "8a5208ac-f1f3-4c2f-bd61-1a81b63fcdbe"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [+5V_LED] от U8 на B.Cu",
+                    "pos": {
+                        "x": 83.85,
+                        "y": 102.85
+                    },
+                    "uuid": "e28942d9-81b5-4fef-9913-f44776d15f1c"
+                },
+                {
+                    "description": "Конт. пл. 3 [+5V_LED] от U3 на B.Cu",
+                    "pos": {
+                        "x": 83.35,
+                        "y": 106.35
+                    },
+                    "uuid": "8515feef-58dd-442a-98a7-b054c8bd28ff"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 84.08,
+                        "y": 98.1
+                    },
+                    "uuid": "502a1a8e-9989-46d4-a67b-e865a4e66a2d"
+                },
+                {
+                    "description": "Конт. пл. 3 [+5V_LED] от U8 на B.Cu",
+                    "pos": {
+                        "x": 83.85,
+                        "y": 102.85
+                    },
+                    "uuid": "e28942d9-81b5-4fef-9913-f44776d15f1c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 95.9,
+                        "y": 113.68
+                    },
+                    "uuid": "cf4a0251-a29c-45a4-8d58-5937547735c9"
+                },
+                {
+                    "description": "Конт. пл. 3 [+5V_LED] от U3 на B.Cu",
+                    "pos": {
+                        "x": 83.35,
+                        "y": 106.35
+                    },
+                    "uuid": "8515feef-58dd-442a-98a7-b054c8bd28ff"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 96.52,
+                        "y": 144.08
+                    },
+                    "uuid": "b63079a6-c32a-4b82-98d0-d39cfab37422"
+                },
+                {
+                    "description": "Конт. пл. 1 [+5V_LED] от JTIPD на F.Cu",
+                    "pos": {
+                        "x": 102.1,
+                        "y": 145.5
+                    },
+                    "uuid": "6237d921-070c-414f-a788-bb27e78bc67f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [+5V_LED] от JTIPB на F.Cu",
+                    "pos": {
+                        "x": 97.9,
+                        "y": 54.5
+                    },
+                    "uuid": "c8eec893-d2c1-4563-9ded-7ff33c1f8912"
+                },
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 103.48,
+                        "y": 55.92
+                    },
+                    "uuid": "c6037996-4929-4305-bdba-5bd0890df517"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 103.48,
+                        "y": 63.92
+                    },
+                    "uuid": "f3837a8c-be8d-4684-ae95-c0a5ab36599a"
+                },
+                {
+                    "description": "Конт. пл. 1 [+5V_LED] от C2 на B.Cu",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 63.2
+                    },
+                    "uuid": "b87fbec1-dd0b-449f-ab2c-6db8744ad9b5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 103.48,
+                        "y": 86.32
+                    },
+                    "uuid": "347e587b-c31a-4698-bd5a-cb2fe1626d0f"
+                },
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 87.28,
+                        "y": 97.48
+                    },
+                    "uuid": "d1a07733-230b-407c-9454-6d0d6dd7f8e4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [+5V_LED] от C4 на B.Cu",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 136.8
+                    },
+                    "uuid": "f67fa348-c4a8-4452-9f59-fbbfa71d2906"
+                },
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 0.6200 mm",
+                    "pos": {
+                        "x": 96.52,
+                        "y": 136.08
+                    },
+                    "uuid": "d067249a-859c-4443-9684-cea059965163"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 112.72,
+                        "y": 101.9
+                    },
+                    "uuid": "f0883d01-7ec5-4c89-8d19-23d4b8f126d3"
+                },
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 104.1,
+                        "y": 86.32
+                    },
+                    "uuid": "6f7ba1bd-97c2-4253-9591-d8f60097ce98"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [+5V_LED] от C1 на B.Cu",
+                    "pos": {
+                        "x": 135.2,
+                        "y": 94.0
+                    },
+                    "uuid": "28b9a7c3-554d-4caa-ab7d-f5ee51141d0e"
+                },
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 133.52,
+                        "y": 101.9
+                    },
+                    "uuid": "44014248-c424-446f-902c-203010196369"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [+5V_LED] от JTIPA на F.Cu",
+                    "pos": {
+                        "x": 145.5,
+                        "y": 102.1
+                    },
+                    "uuid": "08157948-84f9-4c75-a743-d40b07b449d2"
+                },
+                {
+                    "description": "Дорожка [+5V_LED] на F.Cu, длина 1.6000 mm",
+                    "pos": {
+                        "x": 141.52,
+                        "y": 101.9
+                    },
+                    "uuid": "37cc5a04-a940-48a3-9528-37833cef2629"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [+3V3] от U2 на B.Cu",
+                    "pos": {
+                        "x": 81.85,
+                        "y": 90.35
+                    },
+                    "uuid": "a5145b29-0ee5-4dc0-896d-c27b796e6c48"
+                },
+                {
+                    "description": "Конт. пл. 1 [+3V3] от U9 на B.Cu",
+                    "pos": {
+                        "x": 81.85,
+                        "y": 114.35
+                    },
+                    "uuid": "843eafac-6656-4f10-97fb-ff1ae268691a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [+3V3] от U7 на B.Cu",
+                    "pos": {
+                        "x": 93.85,
+                        "y": 86.1
+                    },
+                    "uuid": "ed4577d9-249b-476b-9877-13854f991161"
+                },
+                {
+                    "description": "Конт. пл. 1 [+3V3] от U2 на B.Cu",
+                    "pos": {
+                        "x": 81.85,
+                        "y": 90.35
+                    },
+                    "uuid": "a5145b29-0ee5-4dc0-896d-c27b796e6c48"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [+3V3] от JDBG1 на B.Cu",
+                    "pos": {
+                        "x": 102.125,
+                        "y": 118.0
+                    },
+                    "uuid": "0ccf7abb-883b-416d-bf2f-c529aeffc766"
+                },
+                {
+                    "description": "Конт. пл. 1 [+3V3] от U6 на B.Cu",
+                    "pos": {
+                        "x": 102.35,
+                        "y": 115.55
+                    },
+                    "uuid": "d0bad596-5a1b-405b-ade5-78276355232e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [+3V3] от U6 на B.Cu",
+                    "pos": {
+                        "x": 102.35,
+                        "y": 115.55
+                    },
+                    "uuid": "d0bad596-5a1b-405b-ade5-78276355232e"
+                },
+                {
+                    "description": "Конт. пл. 1 [+3V3] от U9 на B.Cu",
+                    "pos": {
+                        "x": 81.85,
+                        "y": 114.35
+                    },
+                    "uuid": "843eafac-6656-4f10-97fb-ff1ae268691a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [+3V3] от U4 на B.Cu",
+                    "pos": {
+                        "x": 106.85,
+                        "y": 113.85
+                    },
+                    "uuid": "5dbb0ae5-f3c3-4fb1-a847-99cd10edeee8"
+                },
+                {
+                    "description": "Конт. пл. 1 [+3V3] от U6 на B.Cu",
+                    "pos": {
+                        "x": 102.35,
+                        "y": 115.55
+                    },
+                    "uuid": "d0bad596-5a1b-405b-ade5-78276355232e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [+3V3] от U4 на B.Cu",
+                    "pos": {
+                        "x": 106.85,
+                        "y": 113.85
+                    },
+                    "uuid": "5dbb0ae5-f3c3-4fb1-a847-99cd10edeee8"
+                },
+                {
+                    "description": "Конт. пл. 2 [+3V3] от U1 на B.Cu",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 100.4
+                    },
+                    "uuid": "4395797e-be78-4b45-bc14-a5360f545817"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [VBAT] от JBAT1 на B.Cu",
+                    "pos": {
+                        "x": 81.375,
+                        "y": 104.0
+                    },
+                    "uuid": "00a5edcb-3b72-4fc3-8c75-79e11dc47635"
+                },
+                {
+                    "description": "Конт. пл. 1 [VBAT] от U3 на B.Cu",
+                    "pos": {
+                        "x": 83.35,
+                        "y": 105.55
+                    },
+                    "uuid": "63ecbe9e-7d2a-4bf2-8daf-936c3fbfdf3e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [VBAT] от U3 на B.Cu",
+                    "pos": {
+                        "x": 83.35,
+                        "y": 105.55
+                    },
+                    "uuid": "63ecbe9e-7d2a-4bf2-8daf-936c3fbfdf3e"
+                },
+                {
+                    "description": "Конт. пл. 1 [VBAT] от U4 на B.Cu",
+                    "pos": {
+                        "x": 106.85,
+                        "y": 113.05
+                    },
+                    "uuid": "f4b7924b-d2a0-4396-b121-f3a6af438a75"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [VBAT] от U8 на B.Cu",
+                    "pos": {
+                        "x": 83.85,
+                        "y": 102.05
+                    },
+                    "uuid": "e8bceb6b-2f20-488f-bf51-58f92d72e880"
+                },
+                {
+                    "description": "Конт. пл. 1 [VBAT] от JBAT1 на B.Cu",
+                    "pos": {
+                        "x": 81.375,
+                        "y": 104.0
+                    },
+                    "uuid": "00a5edcb-3b72-4fc3-8c75-79e11dc47635"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [VBAT] от U4 на B.Cu",
+                    "pos": {
+                        "x": 106.85,
+                        "y": 113.05
+                    },
+                    "uuid": "f4b7924b-d2a0-4396-b121-f3a6af438a75"
+                },
+                {
+                    "description": "Конт. пл. 3 [VBAT] от U5 на B.Cu",
+                    "pos": {
+                        "x": 114.85,
+                        "y": 105.85
+                    },
+                    "uuid": "f408dcf6-61ec-44b6-9957-c21800f33367"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 1 [USB_5V] от U5 на B.Cu",
+                    "pos": {
+                        "x": 114.85,
+                        "y": 105.05
+                    },
+                    "uuid": "9d5ef80a-2bea-4b55-aaab-759aff3b5c9e"
+                },
+                {
+                    "description": "Конт. пл. 1 [USB_5V] от JUSB1 на B.Cu",
+                    "pos": {
+                        "x": 122.375,
+                        "y": 107.0
+                    },
+                    "uuid": "d39ca46a-3db1-4215-afe2-e519f71c2990"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [HALL] от U6 на B.Cu",
+                    "pos": {
+                        "x": 102.35,
+                        "y": 116.35
+                    },
+                    "uuid": "76e86ef0-0e18-4816-8730-cee6c799b6db"
+                },
+                {
+                    "description": "Конт. пл. 11 [HALL] от U1 на B.Cu",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 90.6
+                    },
+                    "uuid": "6940f033-29b8-4a9c-987b-c7b9a963642e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [SDA] от U7 на B.Cu",
+                    "pos": {
+                        "x": 93.85,
+                        "y": 86.9
+                    },
+                    "uuid": "e49d5cb7-9408-4aec-b525-7d27a0b831d9"
+                },
+                {
+                    "description": "Конт. пл. 12 [SDA] от U1 на B.Cu",
+                    "pos": {
+                        "x": 121.0,
+                        "y": 90.6
+                    },
+                    "uuid": "5c73f25d-667e-4760-9029-3542fa92a3c9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 4 [SCL] от U7 на B.Cu",
+                    "pos": {
+                        "x": 96.15,
+                        "y": 86.9
+                    },
+                    "uuid": "e09db158-064a-4a27-9bc1-bbf3310d374b"
+                },
+                {
+                    "description": "Конт. пл. 13 [SCL] от U1 на B.Cu",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 90.6
+                    },
+                    "uuid": "1bd3db58-e2ea-49c9-b124-11de354cd44e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [SWDIO] от JDBG1 на B.Cu",
+                    "pos": {
+                        "x": 104.625,
+                        "y": 118.0
+                    },
+                    "uuid": "d3b95359-522b-4ecd-bb17-941dea1232f2"
+                },
+                {
+                    "description": "Конт. пл. 14 [SWDIO] от U1 на B.Cu",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 90.6
+                    },
+                    "uuid": "049b91bd-494b-4f6f-870d-47c8d0f9d6a1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 4 [SWCLK] от JDBG1 на B.Cu",
+                    "pos": {
+                        "x": 105.875,
+                        "y": 118.0
+                    },
+                    "uuid": "a5cefa38-b5c9-41f8-9be1-0d0db9d7935d"
+                },
+                {
+                    "description": "Конт. пл. 15 [SWCLK] от U1 на B.Cu",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 90.6
+                    },
+                    "uuid": "a979e538-eac4-4eb8-90f6-19819ad0be23"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [TOP_A_DIN] от U2 на B.Cu",
+                    "pos": {
+                        "x": 81.85,
+                        "y": 91.15
+                    },
+                    "uuid": "dead1bb5-8880-4107-9e55-0f07a654e970"
+                },
+                {
+                    "description": "Конт. пл. 4 [TOP_A_DIN] от D1 на F.Cu",
+                    "pos": {
+                        "x": 112.72,
+                        "y": 103.48
+                    },
+                    "uuid": "a30a5432-bf58-4d40-b1eb-d811213fc9df"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 4 [TOP_A_DIN] от D1 на F.Cu",
+                    "pos": {
+                        "x": 112.72,
+                        "y": 103.48
+                    },
+                    "uuid": "a30a5432-bf58-4d40-b1eb-d811213fc9df"
+                },
+                {
+                    "description": "Конт. пл. 3 [TOP_A_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 100.4
+                    },
+                    "uuid": "fb701e36-4f50-4bba-bd2a-ef98b3d3a873"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 7 [TIP_A_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 100.4
+                    },
+                    "uuid": "66719608-580c-4d88-b335-830218a8b7a0"
+                },
+                {
+                    "description": "Конт. пл. 3 [TIP_A_DIN] от U9 на B.Cu",
+                    "pos": {
+                        "x": 81.85,
+                        "y": 115.15
+                    },
+                    "uuid": "1e3afb65-9ba2-47cd-9010-730f713877d8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [TIP_A_DIN] от JTIPA на F.Cu",
+                    "pos": {
+                        "x": 145.5,
+                        "y": 99.3
+                    },
+                    "uuid": "0f1b7b49-3c6e-4450-b2e2-faafbc86a146"
+                },
+                {
+                    "description": "Конт. пл. 7 [TIP_A_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 100.4
+                    },
+                    "uuid": "66719608-580c-4d88-b335-830218a8b7a0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 4 [TOP_B_DIN] от D21 на F.Cu",
+                    "pos": {
+                        "x": 102.52,
+                        "y": 86.32
+                    },
+                    "uuid": "69de8e27-d2c8-453b-82c6-d2508674a57c"
+                },
+                {
+                    "description": "Конт. пл. 4 [TOP_B_DIN] от U2 на B.Cu",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 91.15
+                    },
+                    "uuid": "09cf40ba-a78d-4508-a527-61f109c31990"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 4 [TOP_B_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 121.0,
+                        "y": 100.4
+                    },
+                    "uuid": "ab736a26-e056-4bf6-b2d7-aa41aacee573"
+                },
+                {
+                    "description": "Конт. пл. 4 [TOP_B_DIN] от D21 на F.Cu",
+                    "pos": {
+                        "x": 102.52,
+                        "y": 86.32
+                    },
+                    "uuid": "69de8e27-d2c8-453b-82c6-d2508674a57c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 4 [TIP_B_DIN] от U9 на B.Cu",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 115.15
+                    },
+                    "uuid": "a86e47df-cda9-4e9b-8477-00e83a3ce400"
+                },
+                {
+                    "description": "Конт. пл. 8 [TIP_B_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 100.4
+                    },
+                    "uuid": "2768303b-7832-4157-a6c0-61aac9e48f5a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 8 [TIP_B_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 100.4
+                    },
+                    "uuid": "2768303b-7832-4157-a6c0-61aac9e48f5a"
+                },
+                {
+                    "description": "Конт. пл. 3 [TIP_B_DIN] от JTIPB на F.Cu",
+                    "pos": {
+                        "x": 100.7,
+                        "y": 54.5
+                    },
+                    "uuid": "68f18e57-17b4-43f7-96e1-aaf3c7b9bfec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 5 [TOP_C_DIN] от U2 на B.Cu",
+                    "pos": {
+                        "x": 81.85,
+                        "y": 91.95
+                    },
+                    "uuid": "1ec15bcc-f419-4f2e-9817-0f365915a14e"
+                },
+                {
+                    "description": "Конт. пл. 4 [TOP_C_DIN] от D41 на F.Cu",
+                    "pos": {
+                        "x": 87.28,
+                        "y": 96.52
+                    },
+                    "uuid": "1fce1e07-ee96-4265-ab62-415efffb5116"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 4 [TOP_C_DIN] от D41 на F.Cu",
+                    "pos": {
+                        "x": 87.28,
+                        "y": 96.52
+                    },
+                    "uuid": "1fce1e07-ee96-4265-ab62-415efffb5116"
+                },
+                {
+                    "description": "Конт. пл. 5 [TOP_C_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 100.4
+                    },
+                    "uuid": "bf19e2da-9e43-48a4-b06a-29fa2ad2f849"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 3 [TIP_C_DIN] от JTIPC на F.Cu",
+                    "pos": {
+                        "x": 54.5,
+                        "y": 100.7
+                    },
+                    "uuid": "4f45e295-6f98-4156-8b3a-5e962b318d40"
+                },
+                {
+                    "description": "Конт. пл. 5 [TIP_C_DIN] от U9 на B.Cu",
+                    "pos": {
+                        "x": 81.85,
+                        "y": 115.95
+                    },
+                    "uuid": "57e97398-11c5-43e5-a0ec-fc609ee17a02"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 5 [TIP_C_DIN] от U9 на B.Cu",
+                    "pos": {
+                        "x": 81.85,
+                        "y": 115.95
+                    },
+                    "uuid": "57e97398-11c5-43e5-a0ec-fc609ee17a02"
+                },
+                {
+                    "description": "Конт. пл. 9 [TIP_C_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 90.6
+                    },
+                    "uuid": "94a52d5c-82a3-4277-ab76-699b0a56c1f0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 6 [TOP_D_DIN] от U2 на B.Cu",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 91.95
+                    },
+                    "uuid": "ad1e55c4-435b-42a0-b7c6-ec822885d4e2"
+                },
+                {
+                    "description": "Конт. пл. 4 [TOP_D_DIN] от D61 на F.Cu",
+                    "pos": {
+                        "x": 97.48,
+                        "y": 113.68
+                    },
+                    "uuid": "29bbfbb2-1f1c-400c-848f-28bdc6a6f8ea"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 4 [TOP_D_DIN] от D61 на F.Cu",
+                    "pos": {
+                        "x": 97.48,
+                        "y": 113.68
+                    },
+                    "uuid": "29bbfbb2-1f1c-400c-848f-28bdc6a6f8ea"
+                },
+                {
+                    "description": "Конт. пл. 6 [TOP_D_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 100.4
+                    },
+                    "uuid": "c09b84c2-2b07-4071-b985-e28c78a6726f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 6 [TIP_D_DIN] от U9 на B.Cu",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 115.95
+                    },
+                    "uuid": "888aefae-c586-4abc-9444-b3ccf009a59f"
+                },
+                {
+                    "description": "Конт. пл. 3 [TIP_D_DIN] от JTIPD на F.Cu",
+                    "pos": {
+                        "x": 99.3,
+                        "y": 145.5
+                    },
+                    "uuid": "88d83a96-ab19-459d-84db-bcf679a923e1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Конт. пл. 10 [TIP_D_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 90.6
+                    },
+                    "uuid": "56f9a524-3a8e-445a-9eaf-110068587443"
+                },
+                {
+                    "description": "Конт. пл. 6 [TIP_D_DIN] от U9 на B.Cu",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 115.95
+                    },
+                    "uuid": "888aefae-c586-4abc-9444-b3ccf009a59f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Сегмент на Edge.Cuts",
+                    "pos": {
+                        "x": 131.236,
+                        "y": 89.397
+                    },
+                    "uuid": "acc6087e-e86a-4474-9fc9-25e741316e6d"
+                },
+                {
+                    "description": "Надпись на плате 'RF KEEP-OUT ALL LAYERS' на b.silkscreen",
+                    "pos": {
+                        "x": 131.0,
+                        "y": 95.5
+                    },
+                    "uuid": "726cfaa3-7223-4c3f-8c71-302a3a5443ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Сегмент на Edge.Cuts",
+                    "pos": {
+                        "x": 117.049,
+                        "y": 77.781
+                    },
+                    "uuid": "58d620d4-bdca-4e3f-bb67-ebeb04708cf1"
+                },
+                {
+                    "description": "Надпись на плате 'SMARTSPINNER v0.4 ERC - 4x20 TOP + 4x12 TIP' на b.silkscreen",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 77.0
+                    },
+                    "uuid": "9cc3f8d9-8c4f-4243-ac0c-4fa9afdd88da"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Высота текста вне допустимого диапазона (высота текста шелкографии из настроек ограничений платы мин. высота 0.8000 mm; текущая 0.6500 mm)",
+            "items": [
+                {
+                    "description": "Надпись на плате 'RF KEEP-OUT ALL LAYERS' на b.silkscreen",
+                    "pos": {
+                        "x": 131.0,
+                        "y": 95.5
+                    },
+                    "uuid": "726cfaa3-7223-4c3f-8c71-302a3a5443ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Высота текста вне допустимого диапазона (высота текста шелкографии из настроек ограничений платы мин. высота 0.8000 mm; текущая 0.7500 mm)",
+            "items": [
+                {
+                    "description": "Надпись на плате 'DFM + FIRST ARTICLE REQUIRED' на b.silkscreen",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 123.0
+                    },
+                    "uuid": "65151ef1-0fbd-45af-9528-711f76fccaf0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от H45 на f.silkscreen",
+                    "pos": {
+                        "x": 110.821,
+                        "y": 86.779
+                    },
+                    "uuid": "8d86925e-3a59-4aca-a9cd-610681b0e0aa"
+                },
+                {
+                    "description": "NPTH конт. пл. у H45",
+                    "pos": {
+                        "x": 112.021,
+                        "y": 87.979
+                    },
+                    "uuid": "6f811ef0-583a-4a4c-a073-a2615f19dc0f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от H135 на f.silkscreen",
+                    "pos": {
+                        "x": 86.779,
+                        "y": 86.779
+                    },
+                    "uuid": "f2e56154-03f3-42b4-ae02-e5c13ab6db8f"
+                },
+                {
+                    "description": "NPTH конт. пл. у H135",
+                    "pos": {
+                        "x": 87.979,
+                        "y": 87.979
+                    },
+                    "uuid": "5778ad1f-ef69-40a0-892f-6d7b328920e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от H225 на f.silkscreen",
+                    "pos": {
+                        "x": 86.779,
+                        "y": 110.821
+                    },
+                    "uuid": "e59dbe46-8e2f-4171-8938-de3d3a52e519"
+                },
+                {
+                    "description": "NPTH конт. пл. у H225",
+                    "pos": {
+                        "x": 87.979,
+                        "y": 112.021
+                    },
+                    "uuid": "b9e09fdf-7c25-4cc5-916e-5562f7dc7537"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от H315 на f.silkscreen",
+                    "pos": {
+                        "x": 110.821,
+                        "y": 110.821
+                    },
+                    "uuid": "40ed3566-5e42-45a3-8674-57847be15796"
+                },
+                {
+                    "description": "NPTH конт. пл. у H315",
+                    "pos": {
+                        "x": 112.021,
+                        "y": 112.021
+                    },
+                    "uuid": "40a3def7-2b9f-431b-b01c-a7d716d40a94"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Поле обозначения U3",
+                    "pos": {
+                        "x": 84.0,
+                        "y": 104.1
+                    },
+                    "uuid": "50fb44e4-092c-431f-9719-f1a3b830b54c"
+                },
+                {
+                    "description": "Прямоугольник от U8 на b.silkscreen",
+                    "pos": {
+                        "x": 83.5,
+                        "y": 101.5
+                    },
+                    "uuid": "a9852dc2-2745-42c6-9072-5582e2b00cd8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Поле обозначения U3",
+                    "pos": {
+                        "x": 84.0,
+                        "y": 104.1
+                    },
+                    "uuid": "50fb44e4-092c-431f-9719-f1a3b830b54c"
+                },
+                {
+                    "description": "Прямоугольник от JBAT1 на b.silkscreen",
+                    "pos": {
+                        "x": 80.5,
+                        "y": 103.1
+                    },
+                    "uuid": "5d98893f-4025-4afc-b963-e9d3ea130876"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Прямоугольник от JBAT1 на b.silkscreen",
+                    "pos": {
+                        "x": 80.5,
+                        "y": 103.1
+                    },
+                    "uuid": "5d98893f-4025-4afc-b963-e9d3ea130876"
+                },
+                {
+                    "description": "Прямоугольник от U3 на b.silkscreen",
+                    "pos": {
+                        "x": 83.0,
+                        "y": 105.0
+                    },
+                    "uuid": "fc946d44-bb6c-4458-a25a-6acc9c6e2f45"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Прямоугольник от JBAT1 на b.silkscreen",
+                    "pos": {
+                        "x": 80.5,
+                        "y": 103.1
+                    },
+                    "uuid": "5d98893f-4025-4afc-b963-e9d3ea130876"
+                },
+                {
+                    "description": "Прямоугольник от U8 на b.silkscreen",
+                    "pos": {
+                        "x": 83.5,
+                        "y": 101.5
+                    },
+                    "uuid": "a9852dc2-2745-42c6-9072-5582e2b00cd8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Поле обозначения JBAT1",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 102.2
+                    },
+                    "uuid": "2db2798f-832a-4886-9ac4-071f4519d9d0"
+                },
+                {
+                    "description": "Прямоугольник от U8 на b.silkscreen",
+                    "pos": {
+                        "x": 83.5,
+                        "y": 101.5
+                    },
+                    "uuid": "a9852dc2-2745-42c6-9072-5582e2b00cd8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Прямоугольник от JDBG1 на b.silkscreen",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 117.1
+                    },
+                    "uuid": "0835fe1c-64e4-4c6c-9426-9cf58a205abc"
+                },
+                {
+                    "description": "Прямоугольник от U6 на b.silkscreen",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 115.0
+                    },
+                    "uuid": "63652614-16a4-4c32-9276-48be125fc290"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Прямоугольник от U6 на b.silkscreen",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 115.0
+                    },
+                    "uuid": "63652614-16a4-4c32-9276-48be125fc290"
+                },
+                {
+                    "description": "Поле обозначения JDBG1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 116.2
+                    },
+                    "uuid": "826a8157-0c6d-4114-be33-8803bc22e81f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 4 [TOP_B_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 121.0,
+                        "y": 100.4
+                    },
+                    "uuid": "ab736a26-e056-4bf6-b2d7-aa41aacee573"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 5 [TOP_C_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 100.4
+                    },
+                    "uuid": "bf19e2da-9e43-48a4-b06a-29fa2ad2f849"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 6 [TOP_D_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 100.4
+                    },
+                    "uuid": "c09b84c2-2b07-4071-b985-e28c78a6726f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 7 [TIP_A_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 100.4
+                    },
+                    "uuid": "66719608-580c-4d88-b335-830218a8b7a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 8 [TIP_B_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 100.4
+                    },
+                    "uuid": "2768303b-7832-4157-a6c0-61aac9e48f5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 1 [GND] от U1 на B.Cu",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 100.4
+                    },
+                    "uuid": "9af711c8-efce-4fcc-a1d0-a6b4e1baa593"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 2 [+3V3] от U1 на B.Cu",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 100.4
+                    },
+                    "uuid": "4395797e-be78-4b45-bc14-a5360f545817"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 3 [TOP_A_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 100.4
+                    },
+                    "uuid": "fb701e36-4f50-4bba-bd2a-ef98b3d3a873"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 9 [TIP_C_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 90.6
+                    },
+                    "uuid": "94a52d5c-82a3-4277-ab76-699b0a56c1f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 10 [TIP_D_DIN] от U1 на B.Cu",
+                    "pos": {
+                        "x": 117.0,
+                        "y": 90.6
+                    },
+                    "uuid": "56f9a524-3a8e-445a-9eaf-110068587443"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 11 [HALL] от U1 на B.Cu",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 90.6
+                    },
+                    "uuid": "6940f033-29b8-4a9c-987b-c7b9a963642e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 12 [SDA] от U1 на B.Cu",
+                    "pos": {
+                        "x": 121.0,
+                        "y": 90.6
+                    },
+                    "uuid": "5c73f25d-667e-4760-9029-3542fa92a3c9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 13 [SCL] от U1 на B.Cu",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 90.6
+                    },
+                    "uuid": "1bd3db58-e2ea-49c9-b124-11de354cd44e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 14 [SWDIO] от U1 на B.Cu",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 90.6
+                    },
+                    "uuid": "049b91bd-494b-4f6f-870d-47c8d0f9d6a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Прямоугольник от U1 на b.silkscreen",
+                    "pos": {
+                        "x": 114.25,
+                        "y": 100.75
+                    },
+                    "uuid": "cfe404e7-7935-4dbf-b27d-4a1122a1bd94"
+                },
+                {
+                    "description": "Конт. пл. 15 [SWCLK] от U1 на B.Cu",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 90.6
+                    },
+                    "uuid": "a979e538-eac4-4eb8-90f6-19819ad0be23"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Поле обозначения JBAT1",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 102.2
+                    },
+                    "uuid": "2db2798f-832a-4886-9ac4-071f4519d9d0"
+                },
+                {
+                    "description": "Конт. пл. 3 [+5V_LED] от U8 на B.Cu",
+                    "pos": {
+                        "x": 83.85,
+                        "y": 102.85
+                    },
+                    "uuid": "e28942d9-81b5-4fef-9913-f44776d15f1c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Поле обозначения JDBG1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 116.2
+                    },
+                    "uuid": "826a8157-0c6d-4114-be33-8803bc22e81f"
+                },
+                {
+                    "description": "Конт. пл. 1 [+3V3] от U6 на B.Cu",
+                    "pos": {
+                        "x": 102.35,
+                        "y": 115.55
+                    },
+                    "uuid": "d0bad596-5a1b-405b-ade5-78276355232e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Поле обозначения JDBG1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 116.2
+                    },
+                    "uuid": "826a8157-0c6d-4114-be33-8803bc22e81f"
+                },
+                {
+                    "description": "Конт. пл. 3 [HALL] от U6 на B.Cu",
+                    "pos": {
+                        "x": 102.35,
+                        "y": 116.35
+                    },
+                    "uuid": "76e86ef0-0e18-4816-8730-cee6c799b6db"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Поле обозначения JDBG1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 116.2
+                    },
+                    "uuid": "826a8157-0c6d-4114-be33-8803bc22e81f"
+                },
+                {
+                    "description": "Конт. пл. 2 [GND] от U6 на B.Cu",
+                    "pos": {
+                        "x": 103.65,
+                        "y": 115.55
+                    },
+                    "uuid": "48c8e8b1-ee9e-4e2a-9b61-419d38fcee97"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения U1",
+                    "pos": {
+                        "x": 113.35,
+                        "y": 95.5
+                    },
+                    "uuid": "d95f5cbf-52ed-4251-a4ad-5642d3eeb572"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения U2",
+                    "pos": {
+                        "x": 84.0,
+                        "y": 88.9
+                    },
+                    "uuid": "8aee13fc-ad1d-4e2e-9670-d8855027bee2"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения U9",
+                    "pos": {
+                        "x": 84.0,
+                        "y": 112.9
+                    },
+                    "uuid": "23cb228f-21b7-4038-81f6-fefbdb05955b"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения U3",
+                    "pos": {
+                        "x": 84.0,
+                        "y": 104.1
+                    },
+                    "uuid": "50fb44e4-092c-431f-9719-f1a3b830b54c"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения U4",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 111.6
+                    },
+                    "uuid": "3fe53571-472f-45c5-bf9d-88fcb8cf6d54"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения U5",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 103.6
+                    },
+                    "uuid": "c3de33d3-0db3-4c05-8e40-49afd6ba8125"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения U6",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 114.1
+                    },
+                    "uuid": "1dda7125-f402-4114-a7e2-f7546f68a5f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения U7",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 84.65
+                    },
+                    "uuid": "39313371-b2ef-43f1-b4ea-0596e7e8b59d"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения U8",
+                    "pos": {
+                        "x": 85.0,
+                        "y": 100.6
+                    },
+                    "uuid": "308066be-0dbc-4c27-bec5-82d87d7a0f19"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения JBAT1",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 102.2
+                    },
+                    "uuid": "2db2798f-832a-4886-9ac4-071f4519d9d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения JUSB1",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 105.2
+                    },
+                    "uuid": "daba6fbc-2404-45eb-8146-4c7f88f7c838"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения JDBG1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 116.2
+                    },
+                    "uuid": "826a8157-0c6d-4114-be33-8803bc22e81f"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения C1",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 91.85
+                    },
+                    "uuid": "664c795b-7a91-4dd2-85c3-18ec7f605498"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения C2",
+                    "pos": {
+                        "x": 96.15,
+                        "y": 64.0
+                    },
+                    "uuid": "4cb621ca-4ca1-4ba6-acff-805916103063"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения C3",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 108.15
+                    },
+                    "uuid": "cfb68444-20bc-41c8-b334-10fd06462e28"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Поле обозначения C4",
+                    "pos": {
+                        "x": 103.85,
+                        "y": 136.0
+                    },
+                    "uuid": "9baca990-743c-407d-a73d-8141422d6582"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        }
+    ]
+}

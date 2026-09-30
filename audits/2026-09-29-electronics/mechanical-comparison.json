@@ -1,0 +1,50 @@
+{
+  "pcb_v04_volume_mm3": 3402.538806848283,
+  "pcb_v04_intersection_bottom_v03_mm3": 625.420295983969,
+  "pcb_v03_envelope_intersection_bottom_v03_mm3": 215.91091115795012,
+  "pcb_v04_outside_v03_envelope_mm3": 1401.6008147928428,
+  "pcb_v04_holes_xy_mm": [
+    [
+      12.021,
+      12.021
+    ],
+    [
+      -12.021,
+      12.021
+    ],
+    [
+      -12.021,
+      -12.021
+    ],
+    [
+      12.021,
+      -12.021
+    ]
+  ],
+  "case_v03_screws_xy_mm": [
+    [
+      30.0,
+      5.3
+    ],
+    [
+      -5.299999999999998,
+      30.0
+    ],
+    [
+      -30.0,
+      -5.299999999999996
+    ],
+    [
+      5.2999999999999945,
+      -30.0
+    ]
+  ],
+  "top_led_lateral_offset_mm": 3,
+  "top_window_half_width_mm": 1.2,
+  "top_led_first_radius_v04_mm": 13.2,
+  "top_led_first_radius_v03_mm": 14.8,
+  "tip_led_pitch_v04_mm": 1.1,
+  "tip_window_pitch_v03_mm": 1.05,
+  "tip_row_span_difference_mm": 0.5500000000000005,
+  "assumptions": "KiCad center (100,100) mapped to CAD (0,0), y flipped. PCB z=6.5..7.5 per v0.3; use existing STEP solids."
+}
