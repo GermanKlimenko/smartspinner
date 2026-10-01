@@ -10,7 +10,7 @@ import {
 import { useState } from 'react';
 
 const nav = [
-  ['Стенд', 'bench'], ['Фото LED', 'reference-fan'], ['Механика', 'mechanics'],
+  ['Смартлаб', 'smartlab'], ['Стенд', 'bench'], ['Фото LED', 'reference-fan'], ['Механика', 'mechanics'],
   ['План', 'production'], ['Файлы', 'downloads'],
 ];
 
@@ -90,20 +90,30 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-glow" />
         <div className="hero-copy">
-          <div className="eyebrow"><span /> Исследовательский стенд B0.1 · 30.09.2026</div>
+          <div className="eyebrow"><span /> Проект Смартлаба · исследовательский стенд B0.1</div>
           <h1>Умный спиннер<br /><em>для трейдера</em></h1>
-          <p className="hero-lead">Идея карманного POV-дисплея: котировки на плоскости вращения и цветной тикер по кругу. Сейчас проверяем электронику на неподвижном стенде.</p>
+          <p className="hero-lead">Проект Смартлаба: карманный POV-дисплей с графиком на плоскости вращения и цветным тикером по кругу. Следующий этап — сборка и испытания неподвижного стенда.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="./project-files/SmartSpinner_B01_DIY_Package.zip" download><Download size={18} /> Скачать стенд B0.1</a>
-            <a className="button button-ghost" href="#concept">Изучить конструкцию <ArrowDown size={18} /></a>
+            <a className="button button-ghost" href="#smartlab">Варианты Смартлаба <ArrowDown size={18} /></a>
           </div>
           <div className="hero-note"><span className="pulse" /> Документация готова. Физических испытаний ещё не было.</div>
         </div>
         <div className="hero-visual">
-          <div className="hero-image-frame"><img src="./project-files/ticker_spinner_v0_3_partner_handheld.png" alt="Концептуальный рендер четырёхлучевого спиннера в руке" /></div><p className="research-caption">Визуализация идеи — не фотография работающего образца.</p>
-          <div className="float-card float-card-top"><span>ЦЕЛЬ: RGB PIXELS</span><strong>128</strong><small>80 сверху + 48 на торцах</small></div>
-          <div className="float-card float-card-bottom"><span>FORM FACTOR</span><strong>Ø100</strong><small>миллиметров</small></div>
+          <div className="hero-image-frame smartlab-hero-frame"><img src="./assets/smartlab/market-detail.png" alt="Смартлаб — концепт спиннера с голубым линейным графиком и зелёно-красным торцевым тикером" fetchPriority="high" /></div><p className="research-caption">Проект Смартлаба. Концептуальная визуализация, данные демонстрационные — не фотография работающего образца.</p>
         </div>
+      </section>
+
+      <section className="section smartlab-section" id="smartlab">
+        <div className="section-heading"><div><span className="section-number">Смартлаб</span><p className="kicker">Визуальное направление</p></div><h2>Рынок —<br /><em>одним взглядом</em></h2><p>Два выбранных варианта: линейный график с котировками и биржевой сигнал со столбиками объёмов. Название «СМАРТЛАБ» — на центральной крышке и в световом изображении.</p></div>
+        <div className="smartlab-gallery">{[
+          { key: 'market', title: 'Пульс рынка', text: 'Голубая линия графика сверху, индекс и изменение цены. По торцу — зелёные и красные котировки.', badge: 'Основной вариант' },
+          { key: 'signals', title: 'Биржевой сигнал', text: 'Голубые показатели и янтарные столбики. По торцу — изменение индекса и объёма.', badge: 'Уведомления и объёмы' },
+        ].map((item) => <article className="smartlab-card" key={item.key}>
+          <a className="smartlab-image" href={`./assets/smartlab/${item.key}-full.png`} target="_blank" rel="noreferrer" aria-label={`Открыть оба ракурса: ${item.title}`}><img src={`./assets/smartlab/${item.key}-detail.png`} alt={`Проект Смартлаба — ${item.title}, спиннер в руке`} loading="lazy" /></a>
+          <div className="smartlab-card-copy"><p className="kicker">{item.badge}</p><h3>{item.title}</h3><p>{item.text}</p><a href={`./assets/smartlab/${item.key}-full.png`} download><Download size={17} /> Скачать оба ракурса · PNG</a></div>
+        </article>)}</div>
+        <p className="research-caption">Концептуальные изображения, созданные генератором. Котировки демонстрационные; яркость и читаемость не подтверждены испытаниями. Видимый «диск» изображает след вращения четырёх лучей, а не сплошную деталь корпуса.</p>
       </section>
 
       <aside className="release-warning"><ShieldAlert /><div><strong>Старые схемы сняты с публикации. Не изготавливать.</strong><p>Аудит обнаружил ошибки питания, посадочных мест и согласования PCB с корпусом. Пакеты электроники v0.4/v0.5 удалены из текущего каталога. История Git сохранена.</p><a href="https://github.com/GermanKlimenko/smartspinner/blob/main/audits/2026-09-29-electronics/README.md">Читать аудит от 29.09.2026 →</a></div></aside>
@@ -160,7 +170,7 @@ export default function Home() {
           <p>Планируем держать тяжёлые элементы ближе к оси и соблюдать симметрию 90°. Конечная схема, подбор компонентов и размещение требуют переработки после испытаний стенда.</p>
         </div>
         <div className="pcb-showcase">
-          <figure className="pcb-image"><img src="./project-files/ticker_spinner_v0_3_partner_dock.png" alt="Четырёхлучевой спиннер v0.3 в рабочем режиме на демонстрационной опоре" /><figcaption>Концептуальный рендер v0.3. Не доказательство достижимой чёткости.</figcaption></figure>
+          <figure className="pcb-image"><img src="./assets/smartlab/signals-detail.png" alt="Смартлаб — биржевой сигнал, график и объёмы на концептуальном изображении спиннера" loading="lazy" /><figcaption>Проект Смартлаба — концепт «Биржевой сигнал». Не доказательство достижимой чёткости.</figcaption></figure>
           <div className="component-list">
             <article><span>01</span><div><h3>Цель: 80 верхних RGB</h3><p>По 20 LED на луч. Тип LED и способ управления ещё выбираем.</p></div></article>
             <article><span>02</span><div><h3>Цель: 4 × 12 торцевых RGB</h3><p>Сменные вертикальные платы для кругового цветного тикера.</p></div></article>
@@ -202,7 +212,7 @@ export default function Home() {
             ['05', 'PCBA · 10 штук', 'DFM, изготовление и проверка прототипов. Вращение — только с защитой.', 'После проверки проекта'],
           ].map(([number, title, text, status]) => <article key={number}><span className="timeline-number">{number}</span><div><small>{status}</small><h3>{title}</h3><p>{text}</p></div></article>)}
         </div>
-        <figure className="partner-visual"><img src="./project-files/ticker_spinner_v0_3_partner_color.png" alt="Цветные изображения и котировки, формируемые четырёхлучевым POV-спиннером" /><figcaption>Концепт рабочего режима: верхние LED формируют изображение на плоскости вращения, торцевые — цветную строку по цилиндру.</figcaption></figure>
+        <figure className="partner-visual"><img src="./assets/smartlab/market-full.png" alt="Проект Смартлаба «Пульс рынка»: концептуальные виды сверху и под углом" loading="lazy" /><figcaption>Проект Смартлаба. Концепт «Пульс рынка»: изображение на плоскости вращения и строка по торцу. Демонстрационные данные, не результат испытаний.</figcaption></figure>
 
       </section>
 

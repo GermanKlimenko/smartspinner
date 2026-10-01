@@ -2,14 +2,15 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Умный спиннер для трейдера',
-  description: 'Исследовательский проект POV-спиннера: аудит, неподвижный стенд B0.1, инструкция и реальные фото LED. Физические испытания ещё не проведены.',
+  metadataBase: new URL('https://germanklimenko.github.io/smartspinner/'),
+  title: 'Смартлаб — умный спиннер для трейдера',
+  description: 'Проект Смартлаба: концепты «Пульс рынка» и «Биржевой сигнал», аудит и неподвижный стенд B0.1. Физические испытания ещё не проведены.',
   openGraph: {
-    title: 'Умный спиннер для трейдера',
+    title: 'Смартлаб — умный спиннер для трейдера',
     description: 'От концепции четырёхлучевого спиннера к неподвижному стенду B0.1. Документация и программные проверки, не готовый производственный релиз.',
-    images: [{ url: './project-files/ticker_spinner_v0_3_partner_handheld.png', width: 1536, height: 1024, alt: 'Четырёхлучевой умный спиннер v0.3' }],
+    images: [{ url: 'https://germanklimenko.github.io/smartspinner/assets/smartlab/market-full.png', width: 1536, height: 1024, alt: 'Проект Смартлаба — концепт «Пульс рынка»' }],
   },
-  twitter: { card: 'summary_large_image', title: 'Умный спиннер для трейдера', description: 'Исследовательский стенд B0.1: документация, аудит и реальные фотографии LED.', images: ['./project-files/ticker_spinner_v0_3_partner_handheld.png'] },
+  twitter: { card: 'summary_large_image', title: 'Смартлаб — умный спиннер для трейдера', description: 'Проект Смартлаба: концептуальные визуализации и исследовательский стенд B0.1.', images: ['https://germanklimenko.github.io/smartspinner/assets/smartlab/market-full.png'] },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

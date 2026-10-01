@@ -1,5 +1,9 @@
 # Умный спиннер для трейдера
 
+Проект **Смартлаба**. Выбранные визуальные направления: [«Пульс рынка»](public/assets/smartlab/market-full.png) и [«Биржевой сигнал»](public/assets/smartlab/signals-full.png). [Галерея на сайте](https://germanklimenko.github.io/smartspinner/#smartlab).
+
+Это концептуальные изображения с демонстрационными котировками, не фотографии работающего прототипа. Свечной вариант не выбран и на сайте не размещён.
+
 [Сайт проекта](https://germanklimenko.github.io/smartspinner/) · [Фото реального POV-вентилятора](public/assets/reference-fan/README.md)
 
 ## Текущий этап: неподвижный стенд B0.1
